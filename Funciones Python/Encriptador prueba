@@ -1,0 +1,72 @@
+
+
+class numero:
+
+    def __init__(self, fila, columna):
+        self.fila = fila
+        self.columna = columna
+        self.cuadricula = (fila // 3) * 3 + (columna // 3)
+        self.valor = 0
+        self.valorCorrecto = 0
+
+    def getValor(self):
+        return self.valor
+
+    def getValorCorrecto(self):
+        return self.valorCorrecto
+
+h = [str(i) for i in range(10)]+["a","b","c","d","e","f"]
+binaryBuffer = 0
+delta = 0
+crypt = ""
+
+code = [""] * 9
+key = [""] * 9
+hint = [""] * 9
+
+i, j = 0, 0
+
+
+
+def hexConvert(decimal):
+    s = ""
+    while decimal:
+        s += h[decimal % 16]
+        decimal //= 16
+    return s[::-1]
+
+celda = [[numero(fila, columna) for fila in range(9)] for columna in range(9)]
+
+
+while i < 9:
+    while j < 9:
+
+        if j == 0:
+            delta = celda[i][j].getValorCorrecto()
+            code[i] = chr(96 + delta)
+        else:
+            delta = celda[i][j].getValorCorrecto() - celda[i][j - 1].getValorCorrecto()
+            code[i] += chr(96 + abs(delta))
+
+        if delta >= 0:
+            binaryBuffer += 2 ** (8 - j)
+
+        hint[i] += str(celda[8 - i][8 - j].getValor())
+        j += 1
+
+    key[i] = str(hexConvert(binaryBuffer))
+    binaryBuffer = 0
+    crypt += ("%s\n" % code[i])
+    crypt += ("%s\n" % key[i])
+    crypt += ("%s\n" % hint[i])
+
+    j = 0
+    i += 1
+
+f = open("/Users/Jake/Desktop/savedGame", "w")
+f.write(crypt)
+
+print(crypt)
+
+
+
