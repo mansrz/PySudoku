@@ -1,93 +1,279 @@
-import sys
-from tokenize import String
-import PySide
-from PySide.QtCore import QSignalMapper, QTimer, QTime
-from PySide.QtGui import QVBoxLayout, QFrame, QPushButton
-import array
+# -*- coding: utf-8 -*-
 
+# Form implementation generated from reading ui file 'mainwindow.ui'
+#
+# Created: Fri Jul 19 18:46:14 2013
+#      by: PyQt4 UI code generator 4.10.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt4 import QtCore, QtGui
 
 try:
-    from PySide import QtUiTools, QtGui, QtCore
-    USE_PYSIDE = True
-except:
-    from PyQt4 import uic, QtGui, QtCore
-    USE_PYSIDE= False
+    _fromUtf8 = QtCore.QString.fromUtf8
+except AttributeError:
+    def _fromUtf8(s):
+        return s
 
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
 
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName(_fromUtf8("MainWindow"))
+        MainWindow.resize(789, 542)
+        MainWindow.setStyleSheet(_fromUtf8(""))
+        self.centralWidget = QtGui.QWidget(MainWindow)
+        self.centralWidget.setObjectName(_fromUtf8("centralWidget"))
+        self.gridLayoutWidget = QtGui.QWidget(self.centralWidget)
+        self.gridLayoutWidget.setGeometry(QtCore.QRect(40, 20, 461, 471))
+        self.gridLayoutWidget.setObjectName(_fromUtf8("gridLayoutWidget"))
+        self.gridTablero = QtGui.QGridLayout(self.gridLayoutWidget)
+        self.gridTablero.setSizeConstraint(QtGui.QLayout.SetDefaultConstraint)
+        self.gridTablero.setSpacing(0)
+        self.gridTablero.setMargin(0)
+        self.gridTablero.setObjectName(_fromUtf8("gridTablero"))
+        self.label = QtGui.QLabel(self.gridLayoutWidget)
+        self.label.setEnabled(True)
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Broadway"))
+        font.setPointSize(72)
+        self.label.setFont(font)
+        self.label.setStyleSheet(_fromUtf8("font: 72pt \"Broadway\";"))
+        self.label.setAlignment(QtCore.Qt.AlignCenter)
+        self.label.setObjectName(_fromUtf8("label"))
+        self.gridTablero.addWidget(self.label, 0, 0, 1, 1)
+        self.gbOpciones = QtGui.QGroupBox(self.centralWidget)
+        self.gbOpciones.setGeometry(QtCore.QRect(540, 350, 231, 111))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Broadway"))
+        font.setPointSize(12)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
+        self.gbOpciones.setFont(font)
+        self.gbOpciones.setStyleSheet(_fromUtf8("font: 12pt \"Broadway\";"))
+        self.gbOpciones.setObjectName(_fromUtf8("gbOpciones"))
+        self.chkAlerta1 = QtGui.QCheckBox(self.gbOpciones)
+        self.chkAlerta1.setGeometry(QtCore.QRect(10, 20, 201, 17))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Broadway"))
+        font.setPointSize(10)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
+        self.chkAlerta1.setFont(font)
+        self.chkAlerta1.setStyleSheet(_fromUtf8("font: 10pt \"Broadway\";"))
+        self.chkAlerta1.setObjectName(_fromUtf8("chkAlerta1"))
+        self.chkAlerta2 = QtGui.QCheckBox(self.gbOpciones)
+        self.chkAlerta2.setGeometry(QtCore.QRect(10, 40, 211, 17))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Broadway"))
+        font.setPointSize(10)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
+        self.chkAlerta2.setFont(font)
+        self.chkAlerta2.setStyleSheet(_fromUtf8("font: 10pt \"Broadway\";"))
+        self.chkAlerta2.setObjectName(_fromUtf8("chkAlerta2"))
+        self.chkAyuda = QtGui.QCheckBox(self.gbOpciones)
+        self.chkAyuda.setGeometry(QtCore.QRect(10, 60, 151, 17))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Broadway"))
+        font.setPointSize(10)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
+        self.chkAyuda.setFont(font)
+        self.chkAyuda.setStyleSheet(_fromUtf8("font: 10pt \"Broadway\";"))
+        self.chkAyuda.setObjectName(_fromUtf8("chkAyuda"))
+        self.chkPista = QtGui.QCheckBox(self.gbOpciones)
+        self.chkPista.setGeometry(QtCore.QRect(10, 80, 151, 17))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Broadway"))
+        font.setPointSize(10)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
+        self.chkPista.setFont(font)
+        self.chkPista.setStyleSheet(_fromUtf8("font: 10pt \"Broadway\";"))
+        self.chkPista.setObjectName(_fromUtf8("chkPista"))
+        self.btnLlenar = QtGui.QPushButton(self.centralWidget)
+        self.btnLlenar.setGeometry(QtCore.QRect(590, 110, 141, 51))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Broadway"))
+        font.setPointSize(16)
+        self.btnLlenar.setFont(font)
+        self.btnLlenar.setStyleSheet(_fromUtf8("border-color: none;\n"
+"font: 16pt \"Broadway\";"))
+        self.btnLlenar.setObjectName(_fromUtf8("btnLlenar"))
+        self.gbNumeros = QtGui.QGroupBox(self.centralWidget)
+        self.gbNumeros.setGeometry(QtCore.QRect(590, 170, 141, 121))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Broadway"))
+        font.setPointSize(12)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
+        self.gbNumeros.setFont(font)
+        self.gbNumeros.setStyleSheet(_fromUtf8("font: 12pt \"Broadway\";"))
+        self.gbNumeros.setObjectName(_fromUtf8("gbNumeros"))
+        self.gridLayoutWidget_2 = QtGui.QWidget(self.gbNumeros)
+        self.gridLayoutWidget_2.setGeometry(QtCore.QRect(10, 20, 121, 91))
+        self.gridLayoutWidget_2.setObjectName(_fromUtf8("gridLayoutWidget_2"))
+        self.gridNumeros = QtGui.QGridLayout(self.gridLayoutWidget_2)
+        self.gridNumeros.setMargin(0)
+        self.gridNumeros.setObjectName(_fromUtf8("gridNumeros"))
+        self.btnAyuda = QtGui.QPushButton(self.centralWidget)
+        self.btnAyuda.setEnabled(False)
+        self.btnAyuda.setGeometry(QtCore.QRect(550, 300, 101, 31))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Broadway"))
+        font.setPointSize(10)
+        self.btnAyuda.setFont(font)
+        self.btnAyuda.setAcceptDrops(False)
+        self.btnAyuda.setStyleSheet(_fromUtf8(""))
+        self.btnAyuda.setObjectName(_fromUtf8("btnAyuda"))
+        self.lcdNumber = QtGui.QLCDNumber(self.centralWidget)
+        self.lcdNumber.setGeometry(QtCore.QRect(550, 10, 221, 51))
+        self.lcdNumber.setStyleSheet(_fromUtf8("background-color: rgb(255, 255, 255);"))
+        self.lcdNumber.setDigitCount(9)
+        self.lcdNumber.setObjectName(_fromUtf8("lcdNumber"))
+        self.btnFinalizar = QtGui.QPushButton(self.centralWidget)
+        self.btnFinalizar.setEnabled(False)
+        self.btnFinalizar.setGeometry(QtCore.QRect(670, 300, 91, 31))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Broadway"))
+        font.setPointSize(10)
+        self.btnFinalizar.setFont(font)
+        self.btnFinalizar.setObjectName(_fromUtf8("btnFinalizar"))
+        self.layoutWidget = QtGui.QWidget(self.centralWidget)
+        self.layoutWidget.setGeometry(QtCore.QRect(550, 80, 221, 23))
+        self.layoutWidget.setObjectName(_fromUtf8("layoutWidget"))
+        self.horizontalLayout = QtGui.QHBoxLayout(self.layoutWidget)
+        self.horizontalLayout.setMargin(0)
+        self.horizontalLayout.setObjectName(_fromUtf8("horizontalLayout"))
+        self.lblDificultad = QtGui.QLabel(self.layoutWidget)
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Broadway"))
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        self.lblDificultad.setFont(font)
+        self.lblDificultad.setObjectName(_fromUtf8("lblDificultad"))
+        self.horizontalLayout.addWidget(self.lblDificultad)
+        self.cboDificultad = QtGui.QComboBox(self.layoutWidget)
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Broadway"))
+        font.setPointSize(9)
+        self.cboDificultad.setFont(font)
+        self.cboDificultad.setStyleSheet(_fromUtf8("color: qradialgradient(spread:repeat, cx:0.5, cy:0.5, radius:0.077, fx:0.5, fy:0.5, stop:0 rgba(0, 169, 255, 147), stop:0.497326 rgba(0, 0, 0, 147), stop:1 rgba(0, 169, 255, 147));"))
+        self.cboDificultad.setObjectName(_fromUtf8("cboDificultad"))
+        self.cboDificultad.addItem(_fromUtf8(""))
+        self.cboDificultad.addItem(_fromUtf8(""))
+        self.cboDificultad.addItem(_fromUtf8(""))
+        self.horizontalLayout.addWidget(self.cboDificultad)
+        MainWindow.setCentralWidget(self.centralWidget)
+        self.menuBar = QtGui.QMenuBar(MainWindow)
+        self.menuBar.setGeometry(QtCore.QRect(0, 0, 789, 25))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Broadway"))
+        font.setPointSize(12)
+        self.menuBar.setFont(font)
+        self.menuBar.setObjectName(_fromUtf8("menuBar"))
+        self.menuMenu = QtGui.QMenu(self.menuBar)
+        self.menuMenu.setObjectName(_fromUtf8("menuMenu"))
+        self.menuAyuda = QtGui.QMenu(self.menuBar)
+        self.menuAyuda.setObjectName(_fromUtf8("menuAyuda"))
+        MainWindow.setMenuBar(self.menuBar)
+        self.mainToolBar = QtGui.QToolBar(MainWindow)
+        self.mainToolBar.setObjectName(_fromUtf8("mainToolBar"))
+        MainWindow.addToolBar(QtCore.Qt.TopToolBarArea, self.mainToolBar)
+        self.actionNueva_partida = QtGui.QAction(MainWindow)
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Broadway"))
+        font.setPointSize(10)
+        self.actionNueva_partida.setFont(font)
+        self.actionNueva_partida.setObjectName(_fromUtf8("actionNueva_partida"))
+        self.actionGuardar_partida = QtGui.QAction(MainWindow)
+        self.actionGuardar_partida.setEnabled(False)
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Broadway"))
+        font.setPointSize(10)
+        self.actionGuardar_partida.setFont(font)
+        self.actionGuardar_partida.setObjectName(_fromUtf8("actionGuardar_partida"))
+        self.actionCargar_partida = QtGui.QAction(MainWindow)
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Broadway"))
+        font.setPointSize(10)
+        self.actionCargar_partida.setFont(font)
+        self.actionCargar_partida.setObjectName(_fromUtf8("actionCargar_partida"))
+        self.actionSalir = QtGui.QAction(MainWindow)
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Broadway"))
+        font.setPointSize(10)
+        self.actionSalir.setFont(font)
+        self.actionSalir.setObjectName(_fromUtf8("actionSalir"))
+        self.actionAyuda = QtGui.QAction(MainWindow)
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Broadway"))
+        font.setPointSize(10)
+        self.actionAyuda.setFont(font)
+        self.actionAyuda.setObjectName(_fromUtf8("actionAyuda"))
+        self.actionAcerca_de = QtGui.QAction(MainWindow)
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Broadway"))
+        font.setPointSize(10)
+        self.actionAcerca_de.setFont(font)
+        self.actionAcerca_de.setObjectName(_fromUtf8("actionAcerca_de"))
+        self.actionMejores_tiempos = QtGui.QAction(MainWindow)
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Broadway"))
+        font.setPointSize(10)
+        self.actionMejores_tiempos.setFont(font)
+        self.actionMejores_tiempos.setObjectName(_fromUtf8("actionMejores_tiempos"))
+        self.menuMenu.addAction(self.actionNueva_partida)
+        self.menuMenu.addAction(self.actionGuardar_partida)
+        self.menuMenu.addAction(self.actionCargar_partida)
+        self.menuMenu.addAction(self.actionMejores_tiempos)
+        self.menuMenu.addAction(self.actionSalir)
+        self.menuAyuda.addAction(self.actionAyuda)
+        self.menuAyuda.addSeparator()
+        self.menuAyuda.addAction(self.actionAcerca_de)
+        self.menuBar.addAction(self.menuMenu.menuAction())
+        self.menuBar.addAction(self.menuAyuda.menuAction())
 
-class MainWindow(PySide.QtGui.QMainWindow,PySide.QtGui.QWidget):
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
-    def __init__(self):
-        super(MainWindow,self).__init__()
-        self.setAttribute(PySide.QtCore.Qt.WA_DeleteOnClose)
-        try:
-            self.ui = QtUiTools.QUiLoader().load('../ui/mainwindow.ui')
-        except:
-            self.ui = uic.loadUi('../ui/mainwindow.ui')
-
-        casilla=-1
-        ayudaUsada=False
-        colorCambiado=False
-        num_dificultad=1
-        sgnlMprNumero=QSignalMapper()
-        sgnlMprOpcion=QSignalMapper()
-        numeros=array.array('i',(0 for i in range(0,80)))
-        gridNumeros=[(QVBoxLayout for i in range(0,80))]
-        frameNumeros=[(QFrame for i in range(0,80))]
-        opcionesNumeros=[(QPushButton for i in range(0,8))]
-        texto=String
-        nombre=String
-        textTiempo=String
-        timer=QTimer()
-        timeInicial=QTime()
-        ##  generador=Generador()
-        valorTiempo=0;
-        ##puntajeJugador=Puntaje
-        ##mejoresTiempos=MejoresTiempos()
-        ##ayuda=Ayuda()
-        ##acercaDe=AcercaDe()
-        ##listPrincipiante=Puntaje[5]
-        ##listIntermedio=Puntaje[5]
-        ##listAvanzado=Puntaje[5]
-
-    def on_btnLlenar_clicked(self):
-        num_dificultad=1+self.ui.cboDificultad.currentIndex()
-        #generador->GenerarTablero(num_dificultad);
-        #creacion de numeros
-        for i in range(0,9):
-            for j in range(0,9):
-                    #creacionNumeros(i*9+j,generador->tablero[i*9+j],i,j,generador->casillas_visibles[i*9+j])
-
-
-        #QtCore.connect(self.sgnlMprNumero, SIGNAL (mapped (int)), SLOT (obtenerCasilla(int)));
-
-        #creacionBotones();
-        #inicializarTimer();
-
-        self.ui.btnLlenar.setEnabled(false)
-        self.ui.btnFinalizar.setEnabled(true)
-        self.ui.actionGuardar_partida.setEnabled(true)
-
-
-    def creacionNumeros(param, param1, i, j, param2):
-        pass
-
-
-
-
-
-
-
-
-
-
-if __name__ == '__main__':
-    import sys
-    app = PySide.QtGui.QApplication(sys.argv)
-    mainWin = MainWindow()
-    mainWin.ui.show()
-    sys.exit(app.exec_())
-
-
-
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(_translate("MainWindow", "Sudoku", None))
+        self.label.setText(_translate("MainWindow", "SUDOKU", None))
+        self.gbOpciones.setTitle(_translate("MainWindow", "Opciones", None))
+        self.chkAlerta1.setText(_translate("MainWindow", "Alerta jugadas invalidas", None))
+        self.chkAlerta2.setText(_translate("MainWindow", "Alerta jugadas incorrectas", None))
+        self.chkAyuda.setText(_translate("MainWindow", "Ayuda", None))
+        self.chkPista.setText(_translate("MainWindow", "Pista", None))
+        self.btnLlenar.setText(_translate("MainWindow", "Iniciar", None))
+        self.gbNumeros.setTitle(_translate("MainWindow", "Numeros", None))
+        self.btnAyuda.setText(_translate("MainWindow", "Ayuda", None))
+        self.btnFinalizar.setText(_translate("MainWindow", "Finalizar", None))
+        self.lblDificultad.setText(_translate("MainWindow", "Dificultad", None))
+        self.cboDificultad.setItemText(0, _translate("MainWindow", "1 Facil", None))
+        self.cboDificultad.setItemText(1, _translate("MainWindow", "2 Intermedio", None))
+        self.cboDificultad.setItemText(2, _translate("MainWindow", "3 Dificil", None))
+        self.menuMenu.setTitle(_translate("MainWindow", "Menu", None))
+        self.menuAyuda.setTitle(_translate("MainWindow", "Ayuda", None))
+        self.actionNueva_partida.setText(_translate("MainWindow", "Nueva partida", None))
+        self.actionGuardar_partida.setText(_translate("MainWindow", "Guardar partida", None))
+        self.actionCargar_partida.setText(_translate("MainWindow", "Cargar partida", None))
+        self.actionSalir.setText(_translate("MainWindow", "Salir", None))
+        self.actionAyuda.setText(_translate("MainWindow", "Ayuda", None))
+        self.actionAcerca_de.setText(_translate("MainWindow", "Acerca de", None))
+        self.actionMejores_tiempos.setText(_translate("MainWindow", "Mejores tiempos", None))
 
