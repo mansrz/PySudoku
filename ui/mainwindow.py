@@ -6,8 +6,9 @@
 #      by: PyQt4 UI code generator 4.10.2
 #
 # WARNING! All changes made in this file will be lost!
+from PySide import QtCore, QtGui
 
-from PyQt4 import QtCore, QtGui
+import PyQt4
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
