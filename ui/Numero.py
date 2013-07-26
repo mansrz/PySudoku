@@ -3,7 +3,6 @@ __author__ = 'user'
 import sys
 from PySide.QtCore import *
 from PySide.QtGui import *
-from ui import Funciones
 
 class Numero (QFrame):
     casilla =-1
