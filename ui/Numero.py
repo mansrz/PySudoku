@@ -3,8 +3,10 @@ __author__ = 'user'
 import sys
 from PySide.QtCore import *
 from PySide.QtGui import *
+from ui import Funciones
 
 class Numero (QFrame):
+    casilla =-1
 
     def __init__(self, valor, fila, columna, visible):
         QFrame.__init__(self)
@@ -22,7 +24,7 @@ class Numero (QFrame):
         self.valorCorrecto = valor
         self.valor = -1
 
-        textOpciones= QLineEdit()
+        self.textOpciones= QLineEdit()
         self.boton = QPushButton("")
 
         self.setCuadricula()
@@ -42,7 +44,7 @@ class Numero (QFrame):
 
         gridNumero = QVBoxLayout()
         gridNumero.setContentsMargins(0,0,0,0)
-        gridNumero.addWidget(textOpciones)
+        gridNumero.addWidget(self.textOpciones)
         gridNumero.addWidget(self.boton)
         self.setLayout(gridNumero)
 
