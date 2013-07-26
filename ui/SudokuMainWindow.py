@@ -19,7 +19,8 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         for i in range(9):
             for j in range(9):
                 #self.creacionNumeros(i*9+j,1,i,j,1)
-                numeros.append(QLabel("i"))
+                #numero = Numero.Numero(i*9+j,i,j)
+                numeros.append(Numero.Numero(i*9+j,i,j,i==j))
                 #numero = Numero(1,i,j,1)
                 #numeros[i*9+j] = Numero(1,i,j,1)
                 self.gridTablero.addWidget(numeros[i*9+j],i,j,0)
