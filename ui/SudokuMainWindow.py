@@ -3,9 +3,9 @@ __author__ = 'user'
 import sys
 from PySide.QtCore import *
 from PySide.QtGui import *
-from PySide import QtCore
 from ui import sudokuui
 from ui import Numero
+from ui import ventanas
 from random import randint
 
 class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
@@ -20,7 +20,9 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         self.connect(self.btnLlenar, SIGNAL("clicked()"), self.clickBtnLlenar)
         self.connect(self.chkAyuda, SIGNAL("stateChanged(int)"), self.stateChangedChkAyuda)
         self.connect(self.btnAyuda, SIGNAL("clicked()"), self.clickBtnAyuda)
-
+        self.connect(self.actionAcerca_de, SIGNAL("triggered()"), self.triggerAcercaDe)
+        self.connect(self.actionAyuda, SIGNAL("triggered()"), self.triggerAyuda)
+        self.connect(self.actionMejores_tiempos, SIGNAL("triggered()"), self.triggerMejoresTiempos)
 
 
     def clickBtnLlenar(self):
@@ -120,8 +122,21 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
                     self.numeros[i].cambiarColorBotonOriginal()
         self.colorCambiado = False
 
+
+    def triggerAcercaDe(self):
+        acercaDe.show()
+
+    def triggerAyuda(self):
+        ayuda.show()
+
+    def triggerMejoresTiempos(self):
+        mejoresTiempos.show()
+
 app= QApplication(sys.argv)
 sudoku=SudokuMainWindow()
+acercaDe = ventanas.wAcercaDe()
+ayuda = ventanas.wAyuda()
+mejoresTiempos = ventanas.wMejoresTiempos()
 sudoku.show()
 app.exec_()
 
