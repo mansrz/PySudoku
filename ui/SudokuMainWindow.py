@@ -7,6 +7,7 @@ from ui import sudokuui
 from ui import Numero
 from ui import ventanas
 from random import randint
+from ui import Generador
 
 class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
     def __init__(self, parent=None):
@@ -26,12 +27,19 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
 
 
     def clickBtnLlenar(self):
+        #generador = Generador.Generador()
         self.numeros =[]
         for i in range(9):
             for j in range(9):
                 self.creacionNumeros(i*9+j,i+1,i,j,i==j)
         self.sgnlMprNumero.mapped[int].connect(self.obtenerCasilla)
         self.creacionBotones()
+        self.timeInicial=QTime.currentTime()
+        self.inicializarTimer()
+        self.btnLlenar.setEnabled(False)
+        self.btnFinalizar.setEnabled(True)
+        self.actionGuardar_partida.setEnabled(True)
+
 
     def stateChangedChkAyuda(self):
         if self.chkAyuda.checkState() and not(self.ayudaUsada):
@@ -121,6 +129,38 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
                 if self.numeros[i].valor == -1:
                     self.numeros[i].cambiarColorBotonOriginal()
         self.colorCambiado = False
+
+    def inicializarTimer(self):
+        self.timer = QTimer()
+        self.connect(self.timer,SIGNAL("timeout()"),self.actualizarTimer())
+        self.timer.start()
+        QTimer.singleShot(1000,self.timer,self.actualizarTimer())
+        #timer = QTimer(self)
+        #self.connect(timer,SIGNAL("timeout()"),self,self.actualizarTimer())
+        #timer.start()
+        #QTimer.singleShot(1000, self.actualizarTimer)
+
+
+    def actualizarTimer(self):
+        timeAct=QTime.currentTime()
+        minIni=self.timeInicial.minute()
+        minAct=timeAct.minute()
+        segIni=self.timeInicial.second()
+        segAct=timeAct.second()
+        msegIni=self.timeInicial.msec()
+        msegAct=timeAct.msec()
+        if msegAct < msegIni:
+            msegAct = 1000+msegAct
+            segAct = segAct-1
+        if segAct < segIni:
+            segAct = 60 + segAct
+            minAct = minAct-1
+        print(str(minAct-minIni)+":"+str(segAct-segIni))
+        time = QTime(0,minAct-minIni, segAct-segIni,100*(msegAct-msegIni)//100)
+        self.lcdNumber.display(time.toString("mm:ss.zz"))
+        #self.lcdNumber.display(time.toString("mm:ss")+"."+str((msegAct-msegIni)//10))
+
+
 
 
     def triggerAcercaDe(self):
