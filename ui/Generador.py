@@ -162,15 +162,16 @@ class Generador:
             i+=1
         return lleno
 
-    def BackTrackSolucion(self,x,y):
+    def BackTrackSolucion(self,startx,starty):
         solved = self.esCompleto();
         foundzero = False;
-        e=0
-        startx=0
-        starty=y
-        while foundzero==False & solved==False  & y < 9:
-            x=startx
-            while foundzero==False & (x <9):
+        e=1
+        x=startx
+        y=starty
+        while foundzero==False and solved==False  and y < 9:
+            #print ("while y "+str(y))
+            while foundzero==False and (x <9):
+                #print ("while x "+str(x))
                 foundzero = (self.tablero[(x*9)+y] == 0)
                 x+=1
             startx=0
@@ -178,18 +179,17 @@ class Generador:
         x-=1
         y-=1
         if (solved==False & foundzero):
-            while solved==False & e<9:
-                try:
-                    if (self.MovimientoValido(x, y, e)):
-                        self.SetValor(x, y, e)
-                        if (self.BackTrackSolucion( x , y+1)):
-                            solved = True;
-                        else:
-                            self.tablero[(x*9)+ y];
-
-
-                except IndexError as error:
-                    print(error)# or pass, do nothing just ignore that row...
+            while solved==False and e<10:
+                #print ("while e "+str(e))
+                #try:
+                if (self.MovimientoValido(x, y, e)):
+                    self.SetValor(x, y, e)
+                    if (self.BackTrackSolucion(x, y+1)):
+                        solved = True;
+                    else:
+                        self.tablero[x*9+y]
+                #except IndexError as error:
+                    #print(error)# or pass, do nothing just ignore that row...
                 e+=1
         return solved;
 
@@ -205,7 +205,10 @@ class Generador:
         else:
             return False;
     def GetValor(self,x,y):
-        valor=0
+        #valor=0
+        #print("len tablero "+str(len(self.tablero))+" x*9+y " +str(x*9+y))
+        if len(self.tablero)==(x*9+y):
+            print("len tablero "+str(len(self.tablero))+" x*9+y " +str(x*9+y))
         valor=self.tablero[(x*9)+y]
         return valor
 
@@ -216,6 +219,8 @@ class Generador:
         else:
             valido=False
         while i<9:
+            if i*9+y==81:
+                print("fuera de indice "+str(i*9+y)+" i "+str(i)+" " + str(y))
             verdad= self.GetValor(i,y)!=v
             if (verdad==False):
                 valido=False
@@ -228,19 +233,23 @@ class Generador:
         return valido
 
     def ChequearVertical(self,x, y, v):
-        valido=False
-        i=0
-        if self.tablero[(x*9)+y-2] == 0:
-            valido=True
-        else:
-            valido=False
-        while i<9:
-            if self.GetValor(x,i) == v:
-                valido=False
-                break
-            else:
-                valido=True
-            i+=1
+        #valido=False
+        #i=0
+        #if self.tablero[(x*9)+y-2] == 0:
+            #valido=True
+        #else:
+            #valido=False
+        #while i<9:
+            #if self.GetValor(x,i) == v:
+                #valido=False
+                #break
+            #else:
+                #valido=True
+            #i+=1
+        valido = self.tablero[x*9+y]==0
+        for i in range(9):
+            if valido:
+                valido=self.tablero[x*9+i]!=v
         return valido
 
     def ChequearBloque(self,x, y, v):
