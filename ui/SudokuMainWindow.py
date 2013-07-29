@@ -19,17 +19,20 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         self.colorCambiado=False
         self.ayudaUsada=False
         self.connect(self.btnLlenar, SIGNAL("clicked()"), self.clickBtnLlenar)
-        self.connect(self.chkAyuda, SIGNAL("stateChanged(int)"), self.stateChangedChkAyuda)
         self.connect(self.btnAyuda, SIGNAL("clicked()"), self.clickBtnAyuda)
+        self.connect(self.btnFinalizar,SIGNAL("clicked()"),self.clickBtnFinalizar)
+        self.connect(self.chkAyuda, SIGNAL("stateChanged(int)"), self.stateChangedChkAyuda)
+        self.connect(self.chkAlerta1, SIGNAL("stateChanged(int)"), self.stateChangedChkAlerta1)
+        self.connect(self.chkAlerta2, SIGNAL("stateChanged(int)"), self.stateChangedChkAlerta2)
         self.connect(self.actionAcerca_de, SIGNAL("triggered()"), self.triggerAcercaDe)
         self.connect(self.actionAyuda, SIGNAL("triggered()"), self.triggerAyuda)
         self.connect(self.actionMejores_tiempos, SIGNAL("triggered()"), self.triggerMejoresTiempos)
-        self.connect(self.btnFinalizar,SIGNAL("clicked()"),self.clickBtnFinalizar)
+
         #timer
         self.timeInicial=QTime.currentTime()
+        self.actualizarTimer()
         self.timer = QTimer(self)
         self.timer.timeout.connect(self.actualizarTimer)
-        #self.connect(self.timer, SIGNAL("timeout()"), self.actualizarTimer());
 
 
     def clickBtnLlenar(self):
@@ -47,11 +50,12 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         self.actionGuardar_partida.setEnabled(True)
 
 
-    def stateChangedChkAyuda(self):
-        if self.chkAyuda.checkState() and not(self.ayudaUsada):
-            self.btnAyuda.setEnabled(True)
-        if not(self.chkAyuda.checkState()):
-            self.btnAyuda.setEnabled(False)
+    def clickBtnFinalizar(self):
+        self.timer.stop()
+        self.btnLlenar.setEnabled(True)
+        self.btnFinalizar.setEnabled(False)
+        self.actionGuardar_partida.setEnabled(False)
+
 
     def clickBtnAyuda(self):
         arrayInt = []
@@ -65,6 +69,34 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         #nik: sacar de comentario la siguiente linea para permitir una ayuda
         #self.btnAyuda.setEnabled(False)
         self.ayudaUsada=True
+
+    def stateChangedChkAyuda(self):
+        if self.chkAyuda.checkState() and not(self.ayudaUsada):
+            self.btnAyuda.setEnabled(True)
+        if not(self.chkAyuda.checkState()):
+            self.btnAyuda.setEnabled(False)
+
+
+    def stateChangedChkAlerta1(self):
+        if self.chkAlerta1.checkState():
+            self.colorInvalidas()
+        else:
+            for i in range(81):
+                self.numeros[i].cambiarColorBotonOriginal()
+            if self.chkAlerta2.checkState():
+                self.colorIncorrectas()
+
+
+    def stateChangedChkAlerta2(self):
+        if self.chkAlerta2.checkState():
+            self.colorIncorrectas()
+        else:
+            for i in range(81):
+                self.numeros[i].cambiarColorBotonOriginal()
+            if self.chkAlerta1.checkState():
+                self.colorInvalidas()
+
+
 
     def obtenerCasilla(self, n):
         self.casilla = n
@@ -136,6 +168,17 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
                     self.numeros[i].cambiarColorBotonOriginal()
         self.colorCambiado = False
 
+    def colorInvalidas(self):
+        for i in range (81):
+            if self.numeros[i].boton.isEnabled() and not(self.jugadaValida(i,self.numeros[i].valor)) and self.numeros[i].valor !=-1:
+                self.numeros[i].cambiarColorBotonAlerta()
+
+    def colorIncorrectas(self):
+        for i in range(81):
+            if self.numeros[i].boton.isEnabled() and self.numeros[i].valor!=self.numeros[i].valorCorrecto and self.numeros[i].valor !=-1:
+                self.numeros[i].cambiarColorBotonAlerta()
+
+
     def inicializarTimer(self):
         self.timer.setSingleShot(False)
         if not self.timer.isActive():
@@ -160,9 +203,6 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         #self.lcdNumber.display(time.toString("mm:ss.z"))
         self.lcdNumber.display(time.toString("mm:ss")+"."+str((msegAct-msegIni)//10).zfill(2))
 
-
-    def clickBtnFinalizar(self):
-        self.timer.stop()
 
 
     def triggerAcercaDe(self):
