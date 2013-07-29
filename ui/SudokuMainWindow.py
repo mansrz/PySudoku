@@ -24,6 +24,12 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         self.connect(self.actionAcerca_de, SIGNAL("triggered()"), self.triggerAcercaDe)
         self.connect(self.actionAyuda, SIGNAL("triggered()"), self.triggerAyuda)
         self.connect(self.actionMejores_tiempos, SIGNAL("triggered()"), self.triggerMejoresTiempos)
+        self.connect(self.btnFinalizar,SIGNAL("clicked()"),self.clickBtnFinalizar)
+        #timer
+        self.timeInicial=QTime.currentTime()
+        self.timer = QTimer(self)
+        self.timer.timeout.connect(self.actualizarTimer)
+        #self.connect(self.timer, SIGNAL("timeout()"), self.actualizarTimer());
 
 
     def clickBtnLlenar(self):
@@ -131,14 +137,9 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         self.colorCambiado = False
 
     def inicializarTimer(self):
-        self.timer = QTimer()
-        self.connect(self.timer,SIGNAL("timeout()"),self.actualizarTimer())
-        self.timer.start()
-        QTimer.singleShot(1000,self.timer,self.actualizarTimer())
-        #timer = QTimer(self)
-        #self.connect(timer,SIGNAL("timeout()"),self,self.actualizarTimer())
-        #timer.start()
-        #QTimer.singleShot(1000, self.actualizarTimer)
+        self.timer.setSingleShot(False)
+        if not self.timer.isActive():
+            self.timer.start(10)
 
 
     def actualizarTimer(self):
@@ -155,12 +156,13 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         if segAct < segIni:
             segAct = 60 + segAct
             minAct = minAct-1
-        print(str(minAct-minIni)+":"+str(segAct-segIni))
-        time = QTime(0,minAct-minIni, segAct-segIni,100*(msegAct-msegIni)//100)
-        self.lcdNumber.display(time.toString("mm:ss.zz"))
-        #self.lcdNumber.display(time.toString("mm:ss")+"."+str((msegAct-msegIni)//10))
+        time = QTime(0,minAct-minIni, segAct-segIni,msegAct-msegIni)
+        #self.lcdNumber.display(time.toString("mm:ss.z"))
+        self.lcdNumber.display(time.toString("mm:ss")+"."+str((msegAct-msegIni)//10).zfill(2))
 
 
+    def clickBtnFinalizar(self):
+        self.timer.stop()
 
 
     def triggerAcercaDe(self):
@@ -173,6 +175,7 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         mejoresTiempos.show()
 
 app= QApplication(sys.argv)
+timer = QTimer()
 sudoku=SudokuMainWindow()
 acercaDe = ventanas.wAcercaDe()
 ayuda = ventanas.wAyuda()
