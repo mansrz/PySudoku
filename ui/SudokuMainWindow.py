@@ -6,6 +6,7 @@ from PySide.QtGui import *
 from ui import sudokuui
 from ui import Numero
 from ui import ventanas
+from ui import jugador
 from random import randint
 from ui import Generador
 
@@ -27,7 +28,6 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         self.connect(self.actionAcerca_de, SIGNAL("triggered()"), self.triggerAcercaDe)
         self.connect(self.actionAyuda, SIGNAL("triggered()"), self.triggerAyuda)
         self.connect(self.actionMejores_tiempos, SIGNAL("triggered()"), self.triggerMejoresTiempos)
-
         #timer
         self.timeInicial=QTime.currentTime()
         self.actualizarTimer()
@@ -55,6 +55,16 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         self.btnLlenar.setEnabled(True)
         self.btnFinalizar.setEnabled(False)
         self.actionGuardar_partida.setEnabled(False)
+        self.colorIncorrectas()
+        for i in range (81):
+            if not(self.jugadaCorrecta(i)):
+                QMessageBox.information(self,"Sudoku","Ha perdido")
+                return
+        self.nombre=QInputDialog.getText(self,"Sudoku","Ha ganado, ingrese su nombre.")
+        ventanas.insertarEnLista(jugador.Jugador(str(self.cboDificultad.currentIndex()+1),self.nombre[0],str(self.timerTexto),str(self.timerValor)))
+        mejoresTiempos.guardarTiempos()
+        mejoresTiempos.mostrarTiempos()
+        mejoresTiempos.show()
 
 
     def clickBtnAyuda(self):
@@ -134,7 +144,7 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
                 else:
                     self.numeros[self.casilla].cambiarColorBotonOriginal()
             if self.chkAlerta2.checkState():
-                if not(self.jugadaCorrecta()):
+                if not(self.jugadaCorrecta(self.casilla)):
                     self.numeros[self.casilla].cambiarColorBotonAlerta()
                 else:
                     self.numeros[self.casilla].cambiarColorBotonOriginal()
@@ -156,8 +166,8 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
                     return False
         return True
 
-    def jugadaCorrecta(self):
-        if self.numeros[self.casilla].valor==self.numeros[self.casilla].valorCorrecto:
+    def jugadaCorrecta(self,casilla):
+        if self.numeros[casilla].valor==self.numeros[casilla].valorCorrecto:
             return True
         return False
 
@@ -201,7 +211,9 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
             minAct = minAct-1
         time = QTime(0,minAct-minIni, segAct-segIni,msegAct-msegIni)
         #self.lcdNumber.display(time.toString("mm:ss.z"))
-        self.lcdNumber.display(time.toString("mm:ss")+"."+str((msegAct-msegIni)//10).zfill(2))
+        self.timerTexto=time.toString("mm:ss")+"."+str((msegAct-msegIni)//10).zfill(2)
+        self.timerValor=msegAct-msegIni+(segAct-segIni)*1000+(minAct-minIni)*60*1000
+        self.lcdNumber.display(self.timerTexto)
 
 
 
@@ -213,6 +225,7 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
 
     def triggerMejoresTiempos(self):
         mejoresTiempos.show()
+
 
 app= QApplication(sys.argv)
 timer = QTimer()
