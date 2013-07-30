@@ -18,6 +18,7 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         self.sgnlMprOpcion = QSignalMapper(self)
         self.casilla =-1
         self.colorCambiado=False
+        self.dificultad=1
         self.ayudaUsada=False
         self.connect(self.btnLlenar, SIGNAL("clicked()"), self.clickBtnLlenar)
         self.connect(self.btnAyuda, SIGNAL("clicked()"), self.clickBtnAyuda)
@@ -36,11 +37,14 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
 
 
     def clickBtnLlenar(self):
-        #generador = Generador.Generador()
+        self.dificultad=self.cboDificultad.currentIndex()
+        generador = Generador.Generador(self.dificultad)
+        for i in range(81):
+            print(generador.tablero[i])
         self.numeros =[]
         for i in range(9):
             for j in range(9):
-                self.creacionNumeros(i*9+j,i+1,i,j,i==j)
+                self.creacionNumeros(i*9+j,generador.tablero[i*9+j],i,j,generador.visibles[i*9+j])
         self.sgnlMprNumero.mapped[int].connect(self.obtenerCasilla)
         self.creacionBotones()
         self.timeInicial=QTime.currentTime()
