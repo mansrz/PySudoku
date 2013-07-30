@@ -34,9 +34,9 @@ class Celda:
 class Generador:
     celda = [[Celda(fila, columna, "") for columna in range(9)] for fila in range(9)]
     tablero=[]*80
-    visibles= [ True for i in range(80)]
+    visibles= [ True for i in range(81)]
     def __init__(self, dificultad):
-
+        dificultad+=1
         #for i in range (10):
         while (not self.checkSudokuForZero()):
             self.wipeSudokuClean()
@@ -45,7 +45,13 @@ class Generador:
         for i in range (0,9):
             for j in range (0,9):
                 self.tablero.append(self.celda[i][j].valorCorrecto)
-        self.CasillasVisibles(1)
+        self.CasillasVisibles(dificultad)
+        if(dificultad==1):
+            print("Faceel")
+        if dificultad==2:
+            print("intermedio")
+        if dificultad==3:
+            print("difeeceell")
 
 
 
