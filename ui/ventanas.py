@@ -4,24 +4,28 @@ from ui import acercadeUI
 from ui import ayudaUI
 from ui import mejoresTiemposUI
 from ui import jugador
+from ui.NikCrypt import nikDecrypt, nikEncrypt
+
 
 class wAcercaDe(QMainWindow,acercadeUI.Ui_AcercaDe):
     def __init__(self, parent=None):
         super(wAcercaDe,self).__init__(parent)
         self.setupUi(self)
+        self.setWindowTitle("Acerca de")
 
 
 class wAyuda(QMainWindow,ayudaUI.Ui_Ayuda):
     def __init__(self, parent=None):
         super(wAyuda,self).__init__(parent)
         self.setupUi(self)
-
+        self.setWindowTitle("Ayuda")
 
 
 class wMejoresTiempos(QMainWindow,mejoresTiemposUI.Ui_MejoresTiempos):
     def __init__(self, parent=None):
         super(wMejoresTiempos,self).__init__(parent)
         self.setupUi(self)
+        self.setWindowTitle("Mejores tiempos")
         #self.guardarTiempos()
         self.cargarTiempos()
         self.mostrarTiempos()
@@ -37,6 +41,7 @@ class wMejoresTiempos(QMainWindow,mejoresTiemposUI.Ui_MejoresTiempos):
     def guardarTiempos(self):
         f = open("../bestTimes.sud", "w")
         text =""
+        textEncrypt=""
         #inicializar Mejores Tiempos
         #for i in range (5):
          #   text += "1,n"+str(i+1)+",59:59:99,3599999\n"
@@ -45,17 +50,18 @@ class wMejoresTiempos(QMainWindow,mejoresTiemposUI.Ui_MejoresTiempos):
         #guardar Mejores tiempos
         for i in range(len(listaJugadores)):
             text+=listaJugadores[i].nivel+","+listaJugadores[i].nombre+","+listaJugadores[i].tiempo+","+listaJugadores[i].valor+"\n"
-        f.write(text)
+        textEncrypt= nikEncrypt(text)
+        f.write(textEncrypt)
 
 
 
     def cargarTiempos(self):
-        f = open("../bestTimes.sud", "r")
-        for line in f:
-            if len(line):
-                line = line.rstrip()
-                jugadorText=line.split(",")
-                listaJugadores.append(jugador.Jugador(jugadorText[0],jugadorText[1],jugadorText[2],jugadorText[3]))
+        f=open("../bestTimes.sud", "r")
+        textDecrypt= nikDecrypt(f.read())
+        textDecrypt=textDecrypt.split("\n")
+        for i in range (len(textDecrypt)-1):
+            jugadorText=textDecrypt[i].split(",")
+            listaJugadores.append(jugador.Jugador(jugadorText[0],jugadorText[1],jugadorText[2],jugadorText[3]))
 
 
     def mostrarTiempos(self):

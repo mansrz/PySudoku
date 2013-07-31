@@ -9,11 +9,14 @@ from ui import ventanas
 from ui import jugador
 from random import randint
 from ui import Generador
+from ui.NikCrypt import nikDecrypt, nikEncrypt
+
 
 class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
     def __init__(self, parent=None):
         super(SudokuMainWindow,self).__init__(parent)
         self.setupUi(self)
+        self.numeros =[]
         self.sgnlMprNumero = QSignalMapper(self)
         self.sgnlMprOpcion = QSignalMapper(self)
         self.casilla =-1
@@ -28,6 +31,8 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         self.connect(self.chkAlerta2, SIGNAL("stateChanged(int)"), self.stateChangedChkAlerta2)
         self.connect(self.actionAcerca_de, SIGNAL("triggered()"), self.triggerAcercaDe)
         self.connect(self.actionAyuda, SIGNAL("triggered()"), self.triggerAyuda)
+        self.connect(self.actionGuardar_partida, SIGNAL("triggered()"), self.triggerGuardarPartida)
+        self.connect(self.actionCargar_partida, SIGNAL("triggered()"), self.triggerCargarPartida)
         self.connect(self.actionMejores_tiempos, SIGNAL("triggered()"), self.triggerMejoresTiempos)
         #timer
         self.timeInicial=QTime.currentTime()
@@ -39,9 +44,6 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
     def clickBtnLlenar(self):
         self.dificultad=self.cboDificultad.currentIndex()
         generador = Generador.Generador(self.dificultad)
-        for i in range(81):
-            print(generador.tablero[i])
-        self.numeros =[]
         for i in range(9):
             for j in range(9):
                 self.creacionNumeros(i*9+j,generador.tablero[i*9+j],i,j,generador.visibles[i*9+j])
@@ -230,6 +232,59 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
     def triggerMejoresTiempos(self):
         mejoresTiempos.show()
 
+    def triggerGuardarPartida(self):
+        f = open("../savedGame.sud", "w")
+        text =""
+        for i in range (81):
+            text+=str(self.numeros[i].valorCorrecto)+","+\
+                 str(self.numeros[i].valor)+","+\
+                 str(self.numeros[i].boton.isEnabled())+"\n"
+        text+=str(self.timerValor)
+        textEncrypt= nikEncrypt(text)
+        print(text)
+        print(textEncrypt)
+        print(nikDecrypt(textEncrypt))
+        f.write(textEncrypt)
+
+    def triggerCargarPartida(self):
+        f=open("../savedGame.sud", "r")
+        textEncrypt=(f.read())
+        print(textEncrypt)
+        textDecrypt= nikDecrypt(textEncrypt)
+        print(textDecrypt)
+        textDecrypt=textDecrypt.split("\n")
+        for i in range (9):
+            for j in range (9):
+                casillaText=textDecrypt[i*9+j].split(",")
+                self.creacionNumeros(i*9+j,int(casillaText[0]),i,j,casillaText[2]!='True')
+                if int(casillaText[1])!=-1:
+                    self.numeros[i*9+j].valor=int(casillaText[1])
+                    self.numeros[i*9+j].boton.setText(casillaText[1])
+        self.sgnlMprNumero.mapped[int].connect(self.obtenerCasilla)
+        self.creacionBotones()
+        self.timeInicial=self.tiempoGuardado(textDecrypt[81])
+        self.inicializarTimer()
+        self.btnLlenar.setEnabled(False)
+        self.btnFinalizar.setEnabled(True)
+        self.actionGuardar_partida.setEnabled(True)
+
+    def tiempoGuardado(self, tiempo):
+        print(tiempo)
+        timeAct=QTime.currentTime()
+        minIni=int(tiempo)//60000
+        minAct=timeAct.minute()
+        segIni=(int(tiempo)-minIni*60000)//1000
+        segAct=timeAct.second()
+        msegIni=int(tiempo)-minIni*60000-segIni*1000
+        msegAct=timeAct.msec()
+        if msegAct < msegIni:
+            msegAct = 1000+msegAct
+            segAct = segAct-1
+        if segAct < segIni:
+            segAct = 60 + segAct
+            minAct = minAct-1
+        time = QTime(0,minAct-minIni, segAct-segIni,msegAct-msegIni)
+        return time
 
 app= QApplication(sys.argv)
 timer = QTimer()

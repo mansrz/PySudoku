@@ -2,23 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc8efed6-655d-40e9-a560-aa869d0dd24d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/Numero.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ui/SudokuMainWindow.py" />
-      <change type="DELETED" beforePath="C:\Users\user\Documents\GitHub\PySudoku\Sudoku\mainwindow.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/MejoresPuntajes.py" afterPath="$PROJECT_DIR$/ui/MejoresPuntajes.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/mainwindow.py" afterPath="$PROJECT_DIR$/ui/mainwindow.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Funciones Python/Funciones.py" afterPath="$PROJECT_DIR$/Funciones Python/Funciones.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/SudokuMainWindow.py" afterPath="$PROJECT_DIR$/ui/SudokuMainWindow.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bestTimes.sud" afterPath="$PROJECT_DIR$/bestTimes.sud" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/ventanas.py" afterPath="$PROJECT_DIR$/ui/ventanas.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PySudoku.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/mainwindow.py" changelist="dc8efed6-655d-40e9-a560-aa869d0dd24d" time="1374676932595" ignored="false" />
     <file path="/main.py" changelist="dc8efed6-655d-40e9-a560-aa869d0dd24d" time="1374677119108" ignored="false" />
-    <file path="/Dummy.txt" changelist="dc8efed6-655d-40e9-a560-aa869d0dd24d" time="1374762131009" ignored="false" />
+    <file path="/Dummy.txt" changelist="dc8efed6-655d-40e9-a560-aa869d0dd24d" time="1375268769647" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/pyQt/demo.py" changelist="dc8efed6-655d-40e9-a560-aa869d0dd24d" time="1374510735904" ignored="false" />
     <file path="/demo.py" changelist="dc8efed6-655d-40e9-a560-aa869d0dd24d" time="1374510531746" ignored="false" />
-    <file path="/Numero.py" changelist="dc8efed6-655d-40e9-a560-aa869d0dd24d" time="1374763773817" ignored="false" />
+    <file path="/Numero.py" changelist="dc8efed6-655d-40e9-a560-aa869d0dd24d" time="1375059450499" ignored="false" />
     <file path="/MejoresPuntajes.py" changelist="dc8efed6-655d-40e9-a560-aa869d0dd24d" time="1374762840233" ignored="false" />
-    <file path="/SudokuMainWindow.py" changelist="dc8efed6-655d-40e9-a560-aa869d0dd24d" time="1374770589894" ignored="false" />
+    <file path="/SudokuMainWindow.py" changelist="dc8efed6-655d-40e9-a560-aa869d0dd24d" time="1375279943846" ignored="false" />
+    <file path="/Funciones.py" changelist="dc8efed6-655d-40e9-a560-aa869d0dd24d" time="1374855043543" ignored="false" />
+    <file path="/ventanas.py" changelist="dc8efed6-655d-40e9-a560-aa869d0dd24d" time="1375276549272" ignored="false" />
+    <file path="/acercadeUI.py" changelist="dc8efed6-655d-40e9-a560-aa869d0dd24d" time="1374879274544" ignored="false" />
+    <file path="/Generador.py" changelist="dc8efed6-655d-40e9-a560-aa869d0dd24d" time="1375195845875" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/untitled1/stopwatch.py" changelist="dc8efed6-655d-40e9-a560-aa869d0dd24d" time="1375053464076" ignored="false" />
+    <file path="/stopwatch.py" changelist="dc8efed6-655d-40e9-a560-aa869d0dd24d" time="1375053464076" ignored="false" />
+    <file path="/jugador.py" changelist="dc8efed6-655d-40e9-a560-aa869d0dd24d" time="1375127486303" ignored="false" />
+    <file path="/nik's simple crypt.py" changelist="dc8efed6-655d-40e9-a560-aa869d0dd24d" time="1375275675049" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +44,39 @@
     <favorites_list name="PySudoku" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="SudokuMainWindow.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ui/SudokuMainWindow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="268" column="51" selection-start="10642" selection-end="10642" vertical-scroll-proportion="0.3628049">
+              <folding>
+                <element signature="e#21#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NikCrypt.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/NikCrypt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ventanas.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/ventanas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="44" selection-start="2105" selection-end="2105" vertical-scroll-proportion="-4.84">
+              <folding>
+                <element signature="e#20#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -56,21 +95,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/mainwindow.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="C:/Python33/Lib/tokenize.py" />
         <option value="$PROJECT_DIR$/Sudoku/mainwindow.py" />
         <option value="$PROJECT_DIR$/ui/mainwindow.py" />
         <option value="$PROJECT_DIR$/Sudoku/main.py" />
         <option value="$PROJECT_DIR$/ui/MejoresPuntajes.py" />
+        <option value="$PROJECT_DIR$/ui/Funciones.py" />
+        <option value="$PROJECT_DIR$/ui/acercadeUI.py" />
         <option value="$PROJECT_DIR$/ui/Numero.py" />
+        <option value="$PROJECT_DIR$/Funciones Python/Funciones.py" />
+        <option value="$PROJECT_DIR$/ui/jugador.py" />
+        <option value="$PROJECT_DIR$/ui/Generador.py" />
+        <option value="$PROJECT_DIR$/ui/magiccrypt.py" />
+        <option value="$PROJECT_DIR$/ui/nik's simple crypt.py" />
+        <option value="$PROJECT_DIR$/ui/ventanas.py" />
         <option value="$PROJECT_DIR$/ui/SudokuMainWindow.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1366" />
-    <option name="height" value="738" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -141,7 +189,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Sudoku" />
+              <option name="myItemId" value="Funciones Python" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -173,42 +221,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.SudokuMainWindow">
-    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sudoku" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="PySudoku" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sudoku/main.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="mainwindow" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="PySudoku" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/mainwindow.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="SudokuMainWindow" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,6 +233,59 @@
       <module name="PySudoku" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/SudokuMainWindow.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Generador" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="PySudoku" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/Generador.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Funciones" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Funciones Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="PySudoku" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Funciones Python/Funciones.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="magiccrypt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="PySudoku" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/magiccrypt.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -293,17 +358,36 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.mainwindow" />
-      <item index="2" class="java.lang.String" itemvalue="Python.SudokuMainWindow" />
+    <configuration default="false" name="nik's simple crypt" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="PySudoku" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/nik's simple crypt.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.nik's simple crypt" />
+      <item index="1" class="java.lang.String" itemvalue="Python.SudokuMainWindow" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Generador" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Funciones" />
+      <item index="4" class="java.lang.String" itemvalue="Python.magiccrypt" />
     </list>
     <recent_temporary>
       <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Python.SudokuMainWindow" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main" />
-        <item index="2" class="java.lang.String" itemvalue="Python.mainwindow" />
-        <item index="3" class="java.lang.String" itemvalue="Python.mainwindow" />
+        <item index="1" class="java.lang.String" itemvalue="Python.magiccrypt" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Funciones" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Generador" />
       </list>
     </recent_temporary>
   </component>
@@ -355,23 +439,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="738" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32702237" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2635432" sideWeight="0.7370968" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21702453" sideWeight="0.7332186" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3989455" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1659091" sideWeight="0.654424" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39732888" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26130652" sideWeight="0.49469697" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26678142" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34557596" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -433,111 +517,117 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ui/acercade.py">
+    <entry file="file://$PROJECT_DIR$/ui/acercadeUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+        <state line="36" column="107" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.85024154" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/jugador.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/mejorestiempos.py">
+    <entry file="file://$PROJECT_DIR$/ui/Generador.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="16" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
+        <state line="268" column="4" selection-start="7858" selection-end="7858" vertical-scroll-proportion="0.7447447">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python33/Lib/tokenize.py">
+    <entry file="file://C:/Python33/Lib/site-packages/Crypto/Cipher/AES.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="21" selection-start="4303" selection-end="4303" vertical-scroll-proportion="0.0" />
+        <state line="58" column="0" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.33153638">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sudoku/__init__.py">
+    <entry file="file://C:/Python33/Lib/site-packages/Crypto/Cipher/blockalgo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sudoku/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Python33/Lib/tokenize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="21" selection-start="4303" selection-end="4303" vertical-scroll-proportion="0.039443154" />
+        <state line="140" column="0" selection-start="5951" selection-end="5951" vertical-scroll-proportion="0.33153638">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Funciones Python/Funciones y Algoritmos">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="5" column="24" selection-start="99" selection-end="99" vertical-scroll-proportion="-7.0498443" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sudoku/__init__.py">
+    <entry file="file://$PROJECT_DIR$/ui/sudokuui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.039443154" />
+        <state line="243" column="135" selection-start="11406" selection-end="11413" vertical-scroll-proportion="0.048158642">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python33/Lib/site-packages/Crypto/Cipher/ARC4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="23" selection-start="3547" selection-end="3558" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1375197409000" expanded="false" signature="-1:-1" placeholder="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Funciones Python/Funciones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="184" column="0" selection-start="3352" selection-end="4458" vertical-scroll-proportion="0.19263457">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python33/Lib/bz2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="482" column="0" selection-start="17351" selection-end="17351" vertical-scroll-proportion="9.319673">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ui/Numero.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="25" selection-start="21" selection-end="112" vertical-scroll-proportion="0.0">
+        <state line="31" column="12" selection-start="717" selection-end="776" vertical-scroll-proportion="-5.56">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python33/Lib/base64.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="0" selection-start="3239" selection-end="3239" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/ventanas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="44" selection-start="2105" selection-end="2105" vertical-scroll-proportion="-4.84">
           <folding>
-            <element signature="e#21#31#0" expanded="true" />
+            <element signature="e#20#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sudoku/main.py">
+    <entry file="file://C:/Python33/Lib/site-packages/simplecrypt/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="0" selection-end="735" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
+        <state line="58" column="0" selection-start="1818" selection-end="1818" vertical-scroll-proportion="0.3323442">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/mainwindow.py">
+    <entry file="file://$PROJECT_DIR$/ui/NikCrypt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#231#263#0" expanded="true" />
-          </folding>
+        <state line="17" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ui/SudokuMainWindow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="40" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0">
+        <state line="268" column="51" selection-start="10642" selection-end="10642" vertical-scroll-proportion="0.3628049">
           <folding>
             <element signature="e#21#31#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/sudokuui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="7" selection-start="2691" selection-end="2691" vertical-scroll-proportion="0.7260982">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/MejoresPuntajes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.38666666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/acercade.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/mejorestiempos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="16" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0425">
-          <folding />
         </state>
       </provider>
     </entry>
