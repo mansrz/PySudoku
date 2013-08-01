@@ -3,7 +3,11 @@ __author__ = 'user'
 import sys
 from PySide.QtCore import *
 from PySide.QtGui import *
-
+    """ _Clase Numero
+    Numeoro pro nunca lo subespor mi colia, no te puede resol r eto sqisiieimno
+      Inicializa las variables usadas en la aplicacion e implementa las conexiones entre botones
+      y la barra de menu.
+    """
 class Numero (QFrame):
     casilla =-1
 

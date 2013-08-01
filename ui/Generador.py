@@ -1,4 +1,9 @@
 import random
+## @package Generador
+#  Este archivo genera tablero, casillas visibles(Dif
+#
+
+
 
 class Celda:
 

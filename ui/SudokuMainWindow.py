@@ -17,12 +17,8 @@ from ui import Generador
 from ui.NikCrypt import nikDecrypt, nikEncrypt
 
 
-""" Clase SudokuMainWindow
-#  Implementa QMainWindow y sudokuui.Ui_MainWindow.
-#  Contiene todos los metodos y funciones usados en la interfaz grafica.
-"""
-class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
-    """ Metodo constructor
+    """ _init_
+    Metodo constructor
       Inicializa las variables usadas en la aplicacion e implementa las conexiones entre botones
       y la barra de menu.
     """
@@ -198,7 +194,6 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
                     if self.jugadaValida(i,n+1) and self.numeros[i].valor==-1:
                         self.numeros[i].cambiarColorBotonPista()
                         self.colorCambiado=True
-
 
     def jugadaValida(self, casilla, valor):
         for i in range (81):
