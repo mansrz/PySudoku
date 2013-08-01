@@ -1,13 +1,15 @@
 __author__ = 'user'
-
+## @package Numero
+#  Este archivo contiene la clase Numero
+#
 import sys
 from PySide.QtCore import *
 from PySide.QtGui import *
-    """ _Clase Numero
-    Numeoro pro nunca lo subespor mi colia, no te puede resol r eto sqisiieimno
-      Inicializa las variables usadas en la aplicacion e implementa las conexiones entre botones
-      y la barra de menu.
-    """
+""" _Clase Numero
+
+Inicializa las variables usadas en la aplicacion e implementa las conexiones entre botones
+ y la barra de menu.
+"""
 class Numero (QFrame):
     casilla =-1
 
@@ -53,6 +55,13 @@ class Numero (QFrame):
 
 
     def setNumero(self, valor, fila, columna, visible):
+        """
+        Setea el valor en el objeto Numero
+        :param valor: Valor del usuario
+        :param fila: valor de la fila
+        :param columna: valor d ela columna
+        :param visible: Boolean de visibilidad
+        """
         self.fila = fila
         self.columna = columna
         self.valorCorrecto = valor
@@ -82,6 +91,10 @@ class Numero (QFrame):
 
 
     def setCuadricula(self):
+        """
+        Devuelve el valor de la cuadricula según el valor x,y.
+
+        """
         filadiv=self.fila//3
         columnadiv=self.columna//3
 

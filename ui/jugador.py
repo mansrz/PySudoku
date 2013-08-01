@@ -1,5 +1,12 @@
 __author__ = 'user'
+## @package Jugador
+#  Este archivo la clase Jugador
+#
 
+
+""" _Clase Jugador
+Clase Jugador con el nivel que escogio, nombre, tiempo y el valor.
+"""
 class Jugador:
 
     def __init__(self, nivel, nombre, tiempo, valor):

@@ -4,10 +4,19 @@ import random
 #
 
 
+""" Clase Celda
+#  Clase celda que tiene una fila, columna, y valor correcto.
+"""
 
 class Celda:
 
     def __init__(self, fila, columna, text):
+        """
+
+        :param fila: El valor de la fila
+        :param columna: el valor de la columna
+        :param Valor: el valor en esa celda
+        """
         self.fila = fila
         self.columna = columna
         self.cuadricula = (fila // 3) * 3 + (columna // 3)
@@ -35,12 +44,20 @@ class Celda:
 
 
 
+""" Clase Generador
+#  Funciones y Metodos para generar un tablero de sudoku y
+# para las dificultades
+"""
 
 class Generador:
     celda = [[Celda(fila, columna, "") for columna in range(9)] for fila in range(9)]
     tablero=[]*80
     visibles= [ True for i in range(81)]
     def __init__(self, dificultad):
+        """
+        Metodo Constructor
+        :param dificultad:El nivel de la dificultad
+        """
         dificultad+=1
         #for i in range (10):
         while (not self.checkSudokuForZero()):
@@ -61,6 +78,10 @@ class Generador:
 
 
     def CasillasVisibles(self, dificultad):
+        """
+        Implementa el algoritmo para ver niveles de dificultad.
+        :param dificultad: El Nivel de dificultad
+        """
         lista=[Celda(0,0,"") for i in range (40) ]
         mov_posibles=[[False for i in range(1,10)] for j in range(0,40)]
         n=40
@@ -112,6 +133,14 @@ class Generador:
 
 
     def validateCellAtPointerWithNumber(self,row, column, value, counter):
+        """
+        Valida la celda en el tablero
+        :param row: fila
+        :param column: columna
+        :param value: valor
+        :param counter: contador
+        :return:
+        """
         i, j = 0, 0
 
         while i < 9:
@@ -143,6 +172,11 @@ class Generador:
 
 
     def sudokuGenerator(self,row):
+        """
+        Funcion para generar sudoku con backtracking
+        :param row: fila
+        :return: Valor de verdad si se resolvio
+        """
         if (row > 8):
             return
         i, j = 0, 0
@@ -185,6 +219,13 @@ class Generador:
         return True
 
     def MovimientoValido(self,x, y, v):
+        """
+        Funcion que valida un movimiento
+        :param x: valor de la fila
+        :param y: valor de la columna
+        :param v: valor de la celda
+        :return: Valor de verdad si es valido
+        """
         horizontal=self.ChequearHorizontal(x, y, v)
         vertical=self.ChequearVertical(x, y, v)
         bloque=self.ChequearBloque(x, y, v)

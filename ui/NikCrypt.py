@@ -3,7 +3,7 @@ __author__ = 'user'
 
 import bz2
 import base64
-from simplecrypt import encrypt, decrypt
+from simplecrypt import
 
 def nikEncrypt(text):
     textCrypt=base64.b16encode(text.encode('utf8'))

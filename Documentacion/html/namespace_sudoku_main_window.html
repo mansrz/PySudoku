@@ -68,7 +68,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -80,7 +80,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">SudokuMainWindow Namespace Reference</div>  </div>
@@ -90,94 +90,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>Este archivo contiene la interfaz de la ventana principal.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ad2dce6a936d7220c129c340af891ecf5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad2dce6a936d7220c129c340af891ecf5"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b></td></tr>
-<tr class="separator:ad2dce6a936d7220c129c340af891ecf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e89ea56838c070f5a743f0dc9b48168"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3e89ea56838c070f5a743f0dc9b48168"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>clickBtnLlenar</b></td></tr>
-<tr class="separator:a3e89ea56838c070f5a743f0dc9b48168"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8553daab0286fd6ed1472e6336abc35"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa8553daab0286fd6ed1472e6336abc35"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>clickBtnFinalizar</b></td></tr>
-<tr class="separator:aa8553daab0286fd6ed1472e6336abc35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a239c965f01439feb5ba906bfd20e0fb2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a239c965f01439feb5ba906bfd20e0fb2"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>clickBtnAyuda</b></td></tr>
-<tr class="separator:a239c965f01439feb5ba906bfd20e0fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b895acd7ac313c3baed7db1c47d3df9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0b895acd7ac313c3baed7db1c47d3df9"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>stateChangedChkAyuda</b></td></tr>
-<tr class="separator:a0b895acd7ac313c3baed7db1c47d3df9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09d1fff15ee91d88f8c1a730608cac66"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a09d1fff15ee91d88f8c1a730608cac66"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>stateChangedChkAlerta1</b></td></tr>
-<tr class="separator:a09d1fff15ee91d88f8c1a730608cac66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c6afa026d67f130277504d88f9dac1f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6c6afa026d67f130277504d88f9dac1f"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>stateChangedChkAlerta2</b></td></tr>
-<tr class="separator:a6c6afa026d67f130277504d88f9dac1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ff08afd28a5a2d8f9a0d5e4ef676777"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ff08afd28a5a2d8f9a0d5e4ef676777"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>obtenerCasilla</b></td></tr>
-<tr class="separator:a7ff08afd28a5a2d8f9a0d5e4ef676777"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7ebdfe4b9ad326e24d246bbe30be021"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad7ebdfe4b9ad326e24d246bbe30be021"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>verificarTableroLleno</b></td></tr>
-<tr class="separator:ad7ebdfe4b9ad326e24d246bbe30be021"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9b7b3e3cc455ff779a283c5d74ad223"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac9b7b3e3cc455ff779a283c5d74ad223"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>creacionNumeros</b></td></tr>
-<tr class="separator:ac9b7b3e3cc455ff779a283c5d74ad223"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fbbe37c4e684e493767e2aea3599c24"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4fbbe37c4e684e493767e2aea3599c24"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>creacionBotones</b></td></tr>
-<tr class="separator:a4fbbe37c4e684e493767e2aea3599c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace468e7ae00f30e3803e9ea1551d6057"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace468e7ae00f30e3803e9ea1551d6057"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>cambiarNumero</b></td></tr>
-<tr class="separator:ace468e7ae00f30e3803e9ea1551d6057"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa9a86026cdc98fd448aa57163777dca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa9a86026cdc98fd448aa57163777dca"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>jugadaValida</b></td></tr>
-<tr class="separator:afa9a86026cdc98fd448aa57163777dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb881b7215105d819d2a666a093d8f69"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb881b7215105d819d2a666a093d8f69"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>jugadaCorrecta</b></td></tr>
-<tr class="separator:adb881b7215105d819d2a666a093d8f69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a153eab306882a557ace791d4694a85d7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a153eab306882a557ace791d4694a85d7"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>colorOriginal</b></td></tr>
-<tr class="separator:a153eab306882a557ace791d4694a85d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58d768af59de84cfeec87228594c6033"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a58d768af59de84cfeec87228594c6033"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>colorInvalidas</b></td></tr>
-<tr class="separator:a58d768af59de84cfeec87228594c6033"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7492b1569531e1514e1639b6f1113c2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac7492b1569531e1514e1639b6f1113c2"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>colorIncorrectas</b></td></tr>
-<tr class="separator:ac7492b1569531e1514e1639b6f1113c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a241acb0ab51d878771e45e1d2e3294f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a241acb0ab51d878771e45e1d2e3294f3"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>inicializarTimer</b></td></tr>
-<tr class="separator:a241acb0ab51d878771e45e1d2e3294f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ab5d25ffc0b2a6cbf355cf916c7fabf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6ab5d25ffc0b2a6cbf355cf916c7fabf"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>actualizarTimer</b></td></tr>
-<tr class="separator:a6ab5d25ffc0b2a6cbf355cf916c7fabf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76c97dc5e24f5cbcd7d58109f642be47"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a76c97dc5e24f5cbcd7d58109f642be47"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>triggerAcercaDe</b></td></tr>
-<tr class="separator:a76c97dc5e24f5cbcd7d58109f642be47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3604d52f2974b843b706803a78a554a5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3604d52f2974b843b706803a78a554a5"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>triggerAyuda</b></td></tr>
-<tr class="separator:a3604d52f2974b843b706803a78a554a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29147d8f0d6a79c967b6ea6af71f0e19"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a29147d8f0d6a79c967b6ea6af71f0e19"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>triggerMejoresTiempos</b></td></tr>
-<tr class="separator:a29147d8f0d6a79c967b6ea6af71f0e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64919d02270965452e19c923c5aa035d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a64919d02270965452e19c923c5aa035d"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>triggerGuardarPartida</b></td></tr>
-<tr class="separator:a64919d02270965452e19c923c5aa035d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae27f851905833b23c5ae7fff60742af5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae27f851905833b23c5ae7fff60742af5"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>triggerCargarPartida</b></td></tr>
-<tr class="separator:ae27f851905833b23c5ae7fff60742af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a212d230ee947cee764972e29cdd35d5b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a212d230ee947cee764972e29cdd35d5b"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>tiempoGuardado</b></td></tr>
-<tr class="separator:a212d230ee947cee764972e29cdd35d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sudoku_main_window_1_1_sudoku_main_window.html">SudokuMainWindow</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a6ae78ac4268752c431aac0753cef7fda"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6ae78ac4268752c431aac0753cef7fda"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><b>__author__</b> = 'user'</td></tr>
 <tr class="separator:a6ae78ac4268752c431aac0753cef7fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35d31b5601ce72462e732a6b20d49872"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a35d31b5601ce72462e732a6b20d49872"></a>
+<tr class="memitem:a9987028fc6a39b7d72c438ef465f4d5c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9987028fc6a39b7d72c438ef465f4d5c"></a>
 tuple&#160;</td><td class="memItemRight" valign="bottom"><b>timer</b> = QTimer()</td></tr>
-<tr class="separator:a35d31b5601ce72462e732a6b20d49872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a9987028fc6a39b7d72c438ef465f4d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfbc10a324850ef667e112a43d373a3f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adfbc10a324850ef667e112a43d373a3f"></a>
-tuple&#160;</td><td class="memItemRight" valign="bottom"><b>sudoku</b> = SudokuMainWindow()</td></tr>
+tuple&#160;</td><td class="memItemRight" valign="bottom"><b>sudoku</b> = <a class="el" href="class_sudoku_main_window_1_1_sudoku_main_window.html">SudokuMainWindow</a>()</td></tr>
 <tr class="separator:adfbc10a324850ef667e112a43d373a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2c821d9cac0d9d48afe8dc47dd88796"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af2c821d9cac0d9d48afe8dc47dd88796"></a>
 tuple&#160;</td><td class="memItemRight" valign="bottom"><b>acercaDe</b> = <a class="el" href="classventanas_1_1w_acerca_de.html">ventanas.wAcercaDe</a>()</td></tr>
@@ -188,55 +115,13 @@ tuple&#160;</td><td class="memItemRight" valign="bottom"><b>ayuda</b> = <a class
 <tr class="memitem:aaaf4c59bb37372582cb7062e6792c711"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaaf4c59bb37372582cb7062e6792c711"></a>
 tuple&#160;</td><td class="memItemRight" valign="bottom"><b>mejoresTiempos</b> = <a class="el" href="classventanas_1_1w_mejores_tiempos.html">ventanas.wMejoresTiempos</a>()</td></tr>
 <tr class="separator:aaaf4c59bb37372582cb7062e6792c711"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad14f8dd6384d391f7167bfca8af9f5f5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad14f8dd6384d391f7167bfca8af9f5f5"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>numeros</b></td></tr>
-<tr class="separator:ad14f8dd6384d391f7167bfca8af9f5f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a836c72d1cdb307710003bcc57214a8cd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a836c72d1cdb307710003bcc57214a8cd"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sgnlMprNumero</b></td></tr>
-<tr class="separator:a836c72d1cdb307710003bcc57214a8cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8a2812d835b8ddd5f3823e3f83dcd69"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab8a2812d835b8ddd5f3823e3f83dcd69"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>sgnlMprOpcion</b></td></tr>
-<tr class="separator:ab8a2812d835b8ddd5f3823e3f83dcd69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf7c10c6c7091df5ff85852f4fd1553c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf7c10c6c7091df5ff85852f4fd1553c"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>casilla</b></td></tr>
-<tr class="separator:adf7c10c6c7091df5ff85852f4fd1553c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac90bccc34d2ae1b9290a35f4ea4c36fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac90bccc34d2ae1b9290a35f4ea4c36fe"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>colorCambiado</b></td></tr>
-<tr class="separator:ac90bccc34d2ae1b9290a35f4ea4c36fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e9f486d8684b47f36acac1ad901793a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4e9f486d8684b47f36acac1ad901793a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>dificultad</b></td></tr>
-<tr class="separator:a4e9f486d8684b47f36acac1ad901793a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e910cd3545b3130b693c477b3d7b2b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4e910cd3545b3130b693c477b3d7b2b6"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ayudaUsada</b></td></tr>
-<tr class="separator:a4e910cd3545b3130b693c477b3d7b2b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82730cf4fa62f4f9398874b505666b40"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a82730cf4fa62f4f9398874b505666b40"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>tableroLleno</b></td></tr>
-<tr class="separator:a82730cf4fa62f4f9398874b505666b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad033265b1572d8a982732d2803f9bbe1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad033265b1572d8a982732d2803f9bbe1"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>tableroExiste</b></td></tr>
-<tr class="separator:ad033265b1572d8a982732d2803f9bbe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a917c254f0ca37f474edd1a1f8370ae96"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a917c254f0ca37f474edd1a1f8370ae96"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>timeInicial</b></td></tr>
-<tr class="separator:a917c254f0ca37f474edd1a1f8370ae96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1eeac23bbc2b82b4946f7f0a0bfe96d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac1eeac23bbc2b82b4946f7f0a0bfe96d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>nombre</b></td></tr>
-<tr class="separator:ac1eeac23bbc2b82b4946f7f0a0bfe96d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a018eceecf733b29bf03f5e7fc4c4bc75"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a018eceecf733b29bf03f5e7fc4c4bc75"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>opcionesNumeros</b></td></tr>
-<tr class="separator:a018eceecf733b29bf03f5e7fc4c4bc75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0defbcc751881aff8400f31a37213bab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0defbcc751881aff8400f31a37213bab"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>timerTexto</b></td></tr>
-<tr class="separator:a0defbcc751881aff8400f31a37213bab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b28c0a6fa52e10c4c5ccb94ec218cb3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4b28c0a6fa52e10c4c5ccb94ec218cb3"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>timerValor</b></td></tr>
-<tr class="separator:a4b28c0a6fa52e10c4c5ccb94ec218cb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Este archivo contiene la interfaz de la ventana principal. </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 1 2013 01:07:06 for PySudoku by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 1 2013 09:09:28 for PySudoku by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.4
 </small></address>

@@ -1,4 +1,7 @@
 __author__ = 'user'
+## @package Ventanas
+#  Este archivo contiene las Ventanas de Acerca de, Ayuda, Mejores tiempos.
+#
 from PySide.QtGui import *
 from ui import acercadeUI
 from ui import ayudaUI
@@ -6,20 +9,26 @@ from ui import mejoresTiemposUI
 from ui import jugador
 from ui.NikCrypt import nikDecrypt, nikEncrypt
 
-
+""" _Clase wAcercaDe
+#Ventana de Acerca de
+"""
 class wAcercaDe(QMainWindow,acercadeUI.Ui_AcercaDe):
     def __init__(self, parent=None):
         super(wAcercaDe,self).__init__(parent)
         self.setupUi(self)
         self.setWindowTitle("Acerca de")
 
-
+""" _Clase wAyuda
+#Ventana de ayuda
+"""
 class wAyuda(QMainWindow,ayudaUI.Ui_Ayuda):
     def __init__(self, parent=None):
         super(wAyuda,self).__init__(parent)
         self.setupUi(self)
         self.setWindowTitle("Ayuda")
-
+""" _Clase wMejoresTiempos
+#Contiene las ventanas de Mejores Tiempos, las funciones para actualizarlos, guardarlos y cargarlos.
+"""
 
 class wMejoresTiempos(QMainWindow,mejoresTiemposUI.Ui_MejoresTiempos):
     def __init__(self, parent=None):
@@ -39,6 +48,10 @@ class wMejoresTiempos(QMainWindow,mejoresTiemposUI.Ui_MejoresTiempos):
         self.close()
 
     def guardarTiempos(self):
+        """
+        Funcion para guardar Tiempo una vez que termine el sudoku
+
+        """
         f = open("../bestTimes.sud", "w")
         text =""
         textEncrypt=""
@@ -56,6 +69,10 @@ class wMejoresTiempos(QMainWindow,mejoresTiemposUI.Ui_MejoresTiempos):
 
 
     def cargarTiempos(self):
+        """
+        Funcion para cargar el archivo de tiempos
+
+        """
         f=open("../bestTimes.sud", "r")
         textDecrypt= nikDecrypt(f.read())
         textDecrypt=textDecrypt.split("\n")
@@ -65,6 +82,10 @@ class wMejoresTiempos(QMainWindow,mejoresTiemposUI.Ui_MejoresTiempos):
 
 
     def mostrarTiempos(self):
+        """
+        Funcion que muestra los tiempos ordenados
+
+        """
         principiante=0
         intermedio=0
         avanzado=0

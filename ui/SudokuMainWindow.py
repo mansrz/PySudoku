@@ -17,8 +17,12 @@ from ui import Generador
 from ui.NikCrypt import nikDecrypt, nikEncrypt
 
 
-    """ _init_
-    Metodo constructor
+""" Clase SudokuMainWindow
+#  Implementa QMainWindow y sudokuui.Ui_MainWindow.
+#  Contiene todos los metodos y funciones usados en la interfaz grafica.
+"""
+class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
+    """ Metodo constructor
       Inicializa las variables usadas en la aplicacion e implementa las conexiones entre botones
       y la barra de menu.
     """
