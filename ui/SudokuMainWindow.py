@@ -1,5 +1,10 @@
 __author__ = 'user'
 
+## @package SudokuMainWindow
+#  Este archivo contiene la interfaz de la ventana principal
+#
+
+
 import sys
 from PySide.QtCore import *
 from PySide.QtGui import *
@@ -12,7 +17,15 @@ from ui import Generador
 from ui.NikCrypt import nikDecrypt, nikEncrypt
 
 
+""" Clase SudokuMainWindow
+#  Implementa QMainWindow y sudokuui.Ui_MainWindow.
+#  Contiene todos los metodos y funciones usados en la interfaz grafica.
+"""
 class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
+    """ Metodo constructor
+      Inicializa las variables usadas en la aplicacion e implementa las conexiones entre botones
+      y la barra de menu.
+    """
     def __init__(self, parent=None):
         super(SudokuMainWindow,self).__init__(parent)
         self.setupUi(self)
@@ -23,6 +36,8 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         self.colorCambiado=False
         self.dificultad=1
         self.ayudaUsada=False
+        self.tableroLleno=False
+        self.tableroExiste=False
         self.connect(self.btnLlenar, SIGNAL("clicked()"), self.clickBtnLlenar)
         self.connect(self.btnAyuda, SIGNAL("clicked()"), self.clickBtnAyuda)
         self.connect(self.btnFinalizar,SIGNAL("clicked()"),self.clickBtnFinalizar)
@@ -46,11 +61,19 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         generador = Generador.Generador(self.dificultad)
         for i in range(9):
             for j in range(9):
-                self.creacionNumeros(i*9+j,generador.tablero[i*9+j],i,j,generador.visibles[i*9+j])
+                if not(self.tableroExiste):
+                    print("nuevo tablero")
+                    print(str(generador.tablero[i*9+j]))
+                    self.creacionNumeros(i*9+j,generador.tablero[i*9+j],i,j,generador.visibles[i*9+j])
+                else:
+                    print("tablero existe")
+                    print(str(generador.tablero[i*9+j]))
+                    self.numeros[i*9+j].setNumero(generador.tablero[i*9+j],i,j,generador.visibles[i*9+j])
         self.sgnlMprNumero.mapped[int].connect(self.obtenerCasilla)
         self.creacionBotones()
         self.timeInicial=QTime.currentTime()
         self.inicializarTimer()
+        self.tableroExiste=True
         self.btnLlenar.setEnabled(False)
         self.btnFinalizar.setEnabled(True)
         self.actionGuardar_partida.setEnabled(True)
@@ -63,7 +86,7 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         self.actionGuardar_partida.setEnabled(False)
         self.colorIncorrectas()
         for i in range (81):
-            if not(self.jugadaCorrecta(i)):
+            if not(self.jugadaCorrecta(i)) and not(self.tableroLleno):
                 QMessageBox.information(self,"Sudoku","Ha perdido")
                 return
         self.nombre=QInputDialog.getText(self,"Sudoku","Ha ganado, ingrese su nombre.")
@@ -71,6 +94,8 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         mejoresTiempos.guardarTiempos()
         mejoresTiempos.mostrarTiempos()
         mejoresTiempos.show()
+        self.tableroLleno=False
+        self.borrarTablero()
 
 
     def clickBtnAyuda(self):
@@ -120,6 +145,14 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         self.colorOriginal()
 
 
+    def verificarTableroLleno(self):
+        for i in range (81):
+            print(str(self.numeros[i].valor))
+            if self.numeros[i].valor == -1:
+                return False
+        return True
+
+
     def creacionNumeros(self, i, valor, col, fila, visible):
         self.numeros.append(Numero.Numero(valor,col,fila,visible))
         self.gridTablero.addWidget(self.numeros[i],col,fila,0)
@@ -155,6 +188,10 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
                 else:
                     self.numeros[self.casilla].cambiarColorBotonOriginal()
             self.casilla =-1
+            if self.verificarTableroLleno():
+                print("Tablero lleno")
+                self.tableroLleno=True
+                self.clickBtnFinalizar()
         else:
             if self.chkPista.checkState():
                 for i in range(81):
@@ -285,6 +322,9 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
             minAct = minAct-1
         time = QTime(0,minAct-minIni, segAct-segIni,msegAct-msegIni)
         return time
+
+
+
 
 app= QApplication(sys.argv)
 timer = QTimer()

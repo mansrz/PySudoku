@@ -48,6 +48,20 @@ class Numero (QFrame):
         self.setLayout(gridNumero)
 
 
+    def setNumero(self, valor, fila, columna, visible):
+        self.fila = fila
+        self.columna = columna
+        self.valorCorrecto = valor
+        self.valor = -1
+        self.textOpciones= QLineEdit()
+        self.boton = QPushButton("")
+        self.setCuadricula()
+        if visible:
+            self.valor=valor
+            self.boton.setText(str(valor))
+        self.boton.setEnabled(not(visible))
+
+
     def cambiarColorBotonAlerta(self):
         self.setStyleSheet("background-color: rgb(229, 0, 141);")
 
