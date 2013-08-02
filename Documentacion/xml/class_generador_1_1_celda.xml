@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_generador_1_1_celda" kind="class" prot="public">
+    <compoundname>Generador::Celda</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_generador_1_1_celda_1aec792452bb33327f9d956b8f83d57282" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Generador.Celda::fila</definition>
+        <argsstring></argsstring>
+        <name>fila</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="20" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generador_1_1_celda_1a90fdf3e757c913e5a31d94c134a1ba90" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Generador.Celda::columna</definition>
+        <argsstring></argsstring>
+        <name>columna</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="21" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generador_1_1_celda_1a7b0d4462edfdda325a4cf5f1c7782f2b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Generador.Celda::cuadricula</definition>
+        <argsstring></argsstring>
+        <name>cuadricula</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="22" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generador_1_1_celda_1a82d01cf51e9e9b4f9c7fb9b22fdd3b8c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Generador.Celda::valor</definition>
+        <argsstring></argsstring>
+        <name>valor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="23" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generador_1_1_celda_1afaf6c119be48af5f52790ef0b6e975fc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Generador.Celda::valorCorrecto</definition>
+        <argsstring></argsstring>
+        <name>valorCorrecto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="24" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generador_1_1_celda_1aec979402884d639c20f1516604cf9206" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Generador.Celda::text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="25" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_generador_1_1_celda_1a99ba14581c4f92d9402fadd2df1259ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Generador.Celda.__init__</definition>
+        <argsstring></argsstring>
+        <name>__init__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>:param fila: El valor de la fila
+:param columna: el valor de la columna
+:param Valor: el valor en esa celda
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="13" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="13" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generador_1_1_celda_1a00598ee2bc359706b3255aef3a3e6b95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Generador.Celda.getValor</definition>
+        <argsstring></argsstring>
+        <name>getValor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="27" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generador_1_1_celda_1a42ff22e50d1bd29e5b40bf4472ba655b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Generador.Celda.getValorCorrecto</definition>
+        <argsstring></argsstring>
+        <name>getValorCorrecto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="30" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generador_1_1_celda_1aa4450e9534af1616749a7ba0f4cd79c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Generador.Celda.getCuadricula</definition>
+        <argsstring></argsstring>
+        <name>getCuadricula</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="33" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generador_1_1_celda_1a767d397f9c7c4b24d2fc47faff43d3bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Generador.Celda.setText</definition>
+        <argsstring></argsstring>
+        <name>setText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="36" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="36" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generador_1_1_celda_1ab76b2b964a6ab2735fb9e0d0ba339a22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Generador.Celda.setValor</definition>
+        <argsstring></argsstring>
+        <name>setValor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="39" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generador_1_1_celda_1ab3309853db0d2ce4f8c41236688e66b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Generador.Celda.setValorCorrecto</definition>
+        <argsstring></argsstring>
+        <name>setValorCorrecto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="42" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="42" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="11" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="11" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_generador_1_1_celda_1a99ba14581c4f92d9402fadd2df1259ef" prot="public" virt="non-virtual"><scope>Generador::Celda</scope><name>__init__</name></member>
+      <member refid="class_generador_1_1_celda_1a90fdf3e757c913e5a31d94c134a1ba90" prot="public" virt="non-virtual"><scope>Generador::Celda</scope><name>columna</name></member>
+      <member refid="class_generador_1_1_celda_1a7b0d4462edfdda325a4cf5f1c7782f2b" prot="public" virt="non-virtual"><scope>Generador::Celda</scope><name>cuadricula</name></member>
+      <member refid="class_generador_1_1_celda_1aec792452bb33327f9d956b8f83d57282" prot="public" virt="non-virtual"><scope>Generador::Celda</scope><name>fila</name></member>
+      <member refid="class_generador_1_1_celda_1aa4450e9534af1616749a7ba0f4cd79c0" prot="public" virt="non-virtual"><scope>Generador::Celda</scope><name>getCuadricula</name></member>
+      <member refid="class_generador_1_1_celda_1a00598ee2bc359706b3255aef3a3e6b95" prot="public" virt="non-virtual"><scope>Generador::Celda</scope><name>getValor</name></member>
+      <member refid="class_generador_1_1_celda_1a42ff22e50d1bd29e5b40bf4472ba655b" prot="public" virt="non-virtual"><scope>Generador::Celda</scope><name>getValorCorrecto</name></member>
+      <member refid="class_generador_1_1_celda_1a767d397f9c7c4b24d2fc47faff43d3bc" prot="public" virt="non-virtual"><scope>Generador::Celda</scope><name>setText</name></member>
+      <member refid="class_generador_1_1_celda_1ab76b2b964a6ab2735fb9e0d0ba339a22" prot="public" virt="non-virtual"><scope>Generador::Celda</scope><name>setValor</name></member>
+      <member refid="class_generador_1_1_celda_1ab3309853db0d2ce4f8c41236688e66b7" prot="public" virt="non-virtual"><scope>Generador::Celda</scope><name>setValorCorrecto</name></member>
+      <member refid="class_generador_1_1_celda_1aec979402884d639c20f1516604cf9206" prot="public" virt="non-virtual"><scope>Generador::Celda</scope><name>text</name></member>
+      <member refid="class_generador_1_1_celda_1a82d01cf51e9e9b4f9c7fb9b22fdd3b8c" prot="public" virt="non-virtual"><scope>Generador::Celda</scope><name>valor</name></member>
+      <member refid="class_generador_1_1_celda_1afaf6c119be48af5f52790ef0b6e975fc" prot="public" virt="non-virtual"><scope>Generador::Celda</scope><name>valorCorrecto</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

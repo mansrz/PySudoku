@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="namespace_numero" kind="namespace">
+    <compoundname>Numero</compoundname>
+    <innerclass refid="class_numero_1_1_numero" prot="public">Numero::Numero</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_numero_1a9532b284867554352445fe666632c1cb" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Numero.__author__</definition>
+        <argsstring></argsstring>
+        <name>__author__</name>
+        <initializer>= &apos;user&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" line="1" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Este archivo contiene la clase <ref refid="namespace_numero" kindref="compound">Numero</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,5 +1,7 @@
 __author__ = 'user'
-
+## @package NikCrypt
+#  Este archivo contiene las funciones de desencriptar y encriptar
+#
 
 import bz2
 import base64

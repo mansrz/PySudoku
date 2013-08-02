@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="namespacemejores_tiempos_u_i" kind="namespace">
+    <compoundname>mejoresTiemposUI</compoundname>
+    <innerclass refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos" prot="public">mejoresTiemposUI::Ui_MejoresTiempos</innerclass>
+    <briefdescription>
+<para>Este archivo contiene las Ventana de mejores tiempos. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

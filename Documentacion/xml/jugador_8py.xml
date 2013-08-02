@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="jugador_8py" kind="file">
+    <compoundname>jugador.py</compoundname>
+    <innerclass refid="classjugador_1_1_jugador" prot="public">jugador::Jugador</innerclass>
+    <innernamespace refid="namespacejugador">jugador</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacejugador" refkind="compound"><highlight class="normal">__author__<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;user&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">##<sp/>@package<sp/>jugador</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">#<sp/><sp/>Este<sp/>archivo<sp/>la<sp/>clase<sp/>Jugador</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">#</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>_Clase<sp/>Jugador</highlight></codeline>
+<codeline lineno="8"><highlight class="stringliteral">Clase<sp/>Jugador<sp/>con<sp/>el<sp/>nivel<sp/>que<sp/>escogio,<sp/>nombre,<sp/>tiempo<sp/>y<sp/>el<sp/>valor.</highlight></codeline>
+<codeline lineno="9"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classjugador_1_1_jugador" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classjugador_1_1_jugador" kindref="compound">Jugador</ref>:</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classjugador_1_1_jugador_1acd76dd6cca15ff1d47a0516f24ed82a8" kindref="member">__init__</ref>(self,<sp/>nivel,<sp/>nombre,<sp/>tiempo,<sp/>valor):</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="14"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Constructor</highlight></codeline>
+<codeline lineno="15"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:param<sp/>nivel:</highlight></codeline>
+<codeline lineno="16"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:param<sp/>nombre:</highlight></codeline>
+<codeline lineno="17"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:param<sp/>tiempo:</highlight></codeline>
+<codeline lineno="18"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:param<sp/>valor:</highlight></codeline>
+<codeline lineno="19"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classjugador_1_1_jugador_1a814299d846d18566c8ae46e5ce1d882c" kindref="member">nivel</ref><sp/>=<sp/>nivel</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classjugador_1_1_jugador_1a1dbfc0544f5ccd6634c89ec8371ee334" kindref="member">nombre</ref><sp/>=<sp/>nombre</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classjugador_1_1_jugador_1abf922bf19bd357fa114e02540c74eac7" kindref="member">tiempo</ref><sp/>=<sp/>tiempo</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classjugador_1_1_jugador_1adbac29c1b384134e07d2fafe2d38cf18" kindref="member">valor</ref><sp/>=<sp/>valor</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/jugador.py"/>
+  </compounddef>
+</doxygen>

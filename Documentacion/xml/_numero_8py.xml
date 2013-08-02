@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="_numero_8py" kind="file">
+    <compoundname>Numero.py</compoundname>
+    <innerclass refid="class_numero_1_1_numero" prot="public">Numero::Numero</innerclass>
+    <innernamespace refid="namespace_numero">Numero</innernamespace>
+    <innernamespace refid="namespace_py_side_1_1_qt_core">PySide::QtCore</innernamespace>
+    <innernamespace refid="namespace_py_side_1_1_qt_gui">PySide::QtGui</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_numero" refkind="compound"><highlight class="normal">__author__<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;user&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">##<sp/>@package<sp/>Numero</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">#<sp/><sp/>Este<sp/>archivo<sp/>contiene<sp/>la<sp/>clase<sp/>Numero</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">#</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>sys</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespace_py_side_1_1_qt_core" kindref="compound">PySide.QtCore</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespace_py_side_1_1_qt_gui" kindref="compound">PySide.QtGui</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>_Clase<sp/>Numero</highlight></codeline>
+<codeline lineno="9"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="10"><highlight class="stringliteral">Inicializa<sp/>las<sp/>variables<sp/>usadas<sp/>en<sp/>la<sp/>aplicacion<sp/>e<sp/>implementa<sp/>las<sp/>conexiones<sp/>entre<sp/>botones</highlight></codeline>
+<codeline lineno="11"><highlight class="stringliteral"><sp/>y<sp/>la<sp/>barra<sp/>de<sp/>menu.</highlight></codeline>
+<codeline lineno="12"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_numero_1_1_numero" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_numero_1_1_numero" kindref="compound">Numero</ref><sp/>(QFrame):</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>casilla<sp/>=-1</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__init__(self,<sp/>valor,<sp/>fila,<sp/>columna,<sp/>visible):</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QFrame.__init__(self)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>font<sp/>=<sp/>QFont()</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>font.setFamily(</highlight><highlight class="stringliteral">&quot;Broadway&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>font.setPointSize(22)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sizePolicy<sp/>=<sp/>QSizePolicy<sp/>(QSizePolicy.Ignored,<sp/>QSizePolicy.Fixed)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sizePolicy.setHorizontalStretch(0)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sizePolicy.setVerticalStretch(0)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1add58c510e6dfea0d3c3692c79e7c249a" kindref="member">fila</ref><sp/>=<sp/>fila</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1a4efc6e94fb89bf311c713fcda7fd7fac" kindref="member">columna</ref><sp/>=<sp/>columna</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1a9b4f5e3b0d3fa36ab48a1b25bc915b03" kindref="member">valorCorrecto</ref><sp/>=<sp/>valor</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1a79d57b9de0112d09194bff4aa2558fd8" kindref="member">valor</ref><sp/>=<sp/>-1</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1ab0d5b31bbf9e6ec1f8497bbf03ed68bf" kindref="member">textOpciones</ref>=<sp/>QLineEdit()</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1aef53c5ef68a40f343af7a12d4fde21a0" kindref="member">boton</ref><sp/>=<sp/>QPushButton(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1a6ec5c677a3f7d8166aacf84b102eee0d" kindref="member">setCuadricula</ref>()</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>visible:</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1a79d57b9de0112d09194bff4aa2558fd8" kindref="member">valor</ref>=valor</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.boton.setText(str(valor))</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.boton.setEnabled(not(visible))</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1ab1f9269d0aa574800961da32f7f95f16" kindref="member">cambiarColorBotonOriginal</ref>();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.setFrameStyle(2)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.boton.setStyleSheet(</highlight><highlight class="stringliteral">&quot;border:none&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.boton.setFont(font)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sizePolicy.setHeightForWidth(self.boton.sizePolicy().hasHeightForWidth())</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.boton.setSizePolicy(sizePolicy)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridNumero<sp/>=<sp/>QVBoxLayout()</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridNumero.setContentsMargins(0,0,0,0)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridNumero.addWidget(self.<ref refid="class_numero_1_1_numero_1ab0d5b31bbf9e6ec1f8497bbf03ed68bf" kindref="member">textOpciones</ref>)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gridNumero.addWidget(self.<ref refid="class_numero_1_1_numero_1aef53c5ef68a40f343af7a12d4fde21a0" kindref="member">boton</ref>)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.setLayout(gridNumero)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_numero_1_1_numero_1a818d0986e959bc7475473acba2c9db52" kindref="member">setNumero</ref>(self,<sp/>valor,<sp/>fila,<sp/>columna,<sp/>visible):</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="59"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Setea<sp/>el<sp/>valor<sp/>en<sp/>el<sp/>objeto<sp/>Numero</highlight></codeline>
+<codeline lineno="60"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:param<sp/>valor:<sp/>Valor<sp/>del<sp/>usuario</highlight></codeline>
+<codeline lineno="61"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:param<sp/>fila:<sp/>valor<sp/>de<sp/>la<sp/>fila</highlight></codeline>
+<codeline lineno="62"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:param<sp/>columna:<sp/>valor<sp/>d<sp/>ela<sp/>columna</highlight></codeline>
+<codeline lineno="63"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:param<sp/>visible:<sp/>Boolean<sp/>de<sp/>visibilidad</highlight></codeline>
+<codeline lineno="64"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1add58c510e6dfea0d3c3692c79e7c249a" kindref="member">fila</ref><sp/>=<sp/>fila</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1a4efc6e94fb89bf311c713fcda7fd7fac" kindref="member">columna</ref><sp/>=<sp/>columna</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1a9b4f5e3b0d3fa36ab48a1b25bc915b03" kindref="member">valorCorrecto</ref><sp/>=<sp/>valor</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1a79d57b9de0112d09194bff4aa2558fd8" kindref="member">valor</ref><sp/>=<sp/>-1</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1ab0d5b31bbf9e6ec1f8497bbf03ed68bf" kindref="member">textOpciones</ref>=<sp/>QLineEdit()</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1aef53c5ef68a40f343af7a12d4fde21a0" kindref="member">boton</ref><sp/>=<sp/>QPushButton(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1a6ec5c677a3f7d8166aacf84b102eee0d" kindref="member">setCuadricula</ref>()</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>visible:</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1a79d57b9de0112d09194bff4aa2558fd8" kindref="member">valor</ref>=valor</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.boton.setText(str(valor))</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.boton.setEnabled(not(visible))</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">cambiarColorBotonAlerta(self):</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.setStyleSheet(</highlight><highlight class="stringliteral">&quot;background-color:<sp/>rgb(229,<sp/>0,<sp/>141);&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">cambiarColorBotonPista(self):</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.setStyleSheet(</highlight><highlight class="stringliteral">&quot;background-color:<sp/>rgb(0,<sp/>170,<sp/>255);&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">cambiarColorBotonOriginal(self):</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>self.<ref refid="class_numero_1_1_numero_1a7a97cb3e4252e08aa77949a4aa616548" kindref="member">cuadricula</ref>%2==0:</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.setStyleSheet(</highlight><highlight class="stringliteral">&quot;background-color:<sp/>rgb(255,<sp/>205,<sp/>135);&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.setStyleSheet(</highlight><highlight class="stringliteral">&quot;background-color:<sp/>rgb(255,<sp/>255,<sp/>127);&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_numero_1_1_numero_1a6ec5c677a3f7d8166aacf84b102eee0d" kindref="member">setCuadricula</ref>(self):</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="95"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Devuelve<sp/>el<sp/>valor<sp/>de<sp/>la<sp/>cuadricula<sp/>según<sp/>el<sp/>valor<sp/>x,y.</highlight></codeline>
+<codeline lineno="96"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="97"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>filadiv=self.<ref refid="class_numero_1_1_numero_1add58c510e6dfea0d3c3692c79e7c249a" kindref="member">fila</ref>//3</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>columnadiv=self.<ref refid="class_numero_1_1_numero_1a4efc6e94fb89bf311c713fcda7fd7fac" kindref="member">columna</ref>//3</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>filadiv==0:</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>columnadiv==0:</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1a7a97cb3e4252e08aa77949a4aa616548" kindref="member">cuadricula</ref>=0</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">elif</highlight><highlight class="normal"><sp/>columnadiv==1:</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1a7a97cb3e4252e08aa77949a4aa616548" kindref="member">cuadricula</ref>=1</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">elif</highlight><highlight class="normal"><sp/>columnadiv==2:</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1a7a97cb3e4252e08aa77949a4aa616548" kindref="member">cuadricula</ref>=2</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">elif</highlight><highlight class="normal"><sp/>filadiv==1:</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>columnadiv==0:</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1a7a97cb3e4252e08aa77949a4aa616548" kindref="member">cuadricula</ref>=3</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">elif</highlight><highlight class="normal"><sp/>columnadiv==1:</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1a7a97cb3e4252e08aa77949a4aa616548" kindref="member">cuadricula</ref>=4</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">elif</highlight><highlight class="normal"><sp/>columnadiv==2:</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1a7a97cb3e4252e08aa77949a4aa616548" kindref="member">cuadricula</ref>=5</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">elif</highlight><highlight class="normal"><sp/>filadiv==2:</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>columnadiv==0:</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1a7a97cb3e4252e08aa77949a4aa616548" kindref="member">cuadricula</ref>=6</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">elif</highlight><highlight class="normal"><sp/>columnadiv==1:</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1a7a97cb3e4252e08aa77949a4aa616548" kindref="member">cuadricula</ref>=7</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">elif</highlight><highlight class="normal"><sp/>columnadiv==2:</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="class_numero_1_1_numero_1a7a97cb3e4252e08aa77949a4aa616548" kindref="member">cuadricula</ref>=8</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py"/>
+  </compounddef>
+</doxygen>

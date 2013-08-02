@@ -1,5 +1,5 @@
 __author__ = 'user'
-## @package Ventanas
+## @package ventanas
 #  Este archivo contiene las Ventanas de Acerca de, Ayuda, Mejores tiempos.
 #
 from PySide.QtGui import *

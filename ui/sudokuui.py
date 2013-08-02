@@ -6,9 +6,13 @@
 #      by: pyside-uic 0.2.14 running on PySide 1.2.0
 #
 # WARNING! All changes made in this file will be lost!
-
+## @package sudokuui
+#  Interfaz gráfica creada en Qt Creator
+#
 from PySide import QtCore, QtGui
-
+""" _Clase SudokuUi
+Tiene la ventana con la interfáz gráfica creada en qt
+"""
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")

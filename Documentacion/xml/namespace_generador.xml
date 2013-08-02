@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="namespace_generador" kind="namespace">
+    <compoundname>Generador</compoundname>
+    <innerclass refid="class_generador_1_1_celda" prot="public">Generador::Celda</innerclass>
+    <innerclass refid="class_generador_1_1_generador" prot="public">Generador::Generador</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_generador_1a8cbdae695491da450934c4369caf8d29" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple Generador.Ta</definition>
+        <argsstring></argsstring>
+        <name>Ta</name>
+        <initializer>= <ref refid="class_generador_1_1_generador" kindref="compound">Generador</ref>(3)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="333" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Este archivo genera tablero, casillas visibles(Dif. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

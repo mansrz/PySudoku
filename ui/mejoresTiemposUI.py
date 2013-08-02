@@ -6,9 +6,13 @@
 #      by: pyside-uic 0.2.14 running on PySide 1.2.0
 #
 # WARNING! All changes made in this file will be lost!
-
+## @package mejoresTiemposUI
+#  Este archivo contiene las Ventana de mejores tiempos
+#
 from PySide import QtCore, QtGui
-
+""" _Clase MejoresTiempos
+Tiene la ventana con la información de MejoresTiempos
+"""
 class Ui_MejoresTiempos(object):
     def setupUi(self, MejoresTiempos):
         MejoresTiempos.setObjectName("MejoresTiempos")

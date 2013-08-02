@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_1788f8309b1a812dcb800a185471cf6c" kind="dir">
+    <compoundname>C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui</compoundname>
+    <innerfile refid="acercade_u_i_8py">acercadeUI.py</innerfile>
+    <innerfile refid="ayuda_u_i_8py">ayudaUI.py</innerfile>
+    <innerfile refid="_generador_8py">Generador.py</innerfile>
+    <innerfile refid="jugador_8py">jugador.py</innerfile>
+    <innerfile refid="mejores_tiempos_u_i_8py">mejoresTiemposUI.py</innerfile>
+    <innerfile refid="nik's_01simple_01crypt_8py">nik&apos;s simple crypt.py</innerfile>
+    <innerfile refid="_nik_crypt_8py">NikCrypt.py</innerfile>
+    <innerfile refid="_numero_8py">Numero.py</innerfile>
+    <innerfile refid="_sudoku_main_window_8py">SudokuMainWindow.py</innerfile>
+    <innerfile refid="sudokuui_8py">sudokuui.py</innerfile>
+    <innerfile refid="_tablero_8py">Tablero.py</innerfile>
+    <innerfile refid="ventanas_8py">ventanas.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/"/>
+  </compounddef>
+</doxygen>

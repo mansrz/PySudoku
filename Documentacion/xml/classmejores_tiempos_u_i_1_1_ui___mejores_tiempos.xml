@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos" kind="class" prot="public">
+    <compoundname>mejoresTiemposUI::Ui_MejoresTiempos</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <derivedcompoundref refid="classventanas_1_1w_mejores_tiempos" prot="public" virt="non-virtual">ventanas.wMejoresTiempos</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1aa8cd68c61a7f36c8e6cc03089279d252" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>mejoresTiemposUI.Ui_MejoresTiempos::tab</definition>
+        <argsstring></argsstring>
+        <name>tab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" line="20" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a1f9270a09ec22df65af2c88f22272d2d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>mejoresTiemposUI.Ui_MejoresTiempos::tabPrincipiante</definition>
+        <argsstring></argsstring>
+        <name>tabPrincipiante</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" line="29" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1abc7def506bcb43a74f16e2d3f42b44a2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>mejoresTiemposUI.Ui_MejoresTiempos::tablePrincipiante</definition>
+        <argsstring></argsstring>
+        <name>tablePrincipiante</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" line="31" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a5ba8a8ab05843d64b9d940d436351ce3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>mejoresTiemposUI.Ui_MejoresTiempos::tabIntermedio</definition>
+        <argsstring></argsstring>
+        <name>tabIntermedio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" line="52" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a5c7d5b9816496271ee8f575407f62074" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>mejoresTiemposUI.Ui_MejoresTiempos::tableIntermedio</definition>
+        <argsstring></argsstring>
+        <name>tableIntermedio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" line="54" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a96e6b62d20314aa8135213e1b682be27" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>mejoresTiemposUI.Ui_MejoresTiempos::tabAvanzado</definition>
+        <argsstring></argsstring>
+        <name>tabAvanzado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" line="75" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1ae5921b387d85a354e084cc4e631eee06" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>mejoresTiemposUI.Ui_MejoresTiempos::tableAvanzado</definition>
+        <argsstring></argsstring>
+        <name>tableAvanzado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" line="77" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a83fa8701e748d74c24954570349860cd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>mejoresTiemposUI.Ui_MejoresTiempos::labelMejoresTiempos</definition>
+        <argsstring></argsstring>
+        <name>labelMejoresTiempos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" line="100" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1ae8e938354726bd2ac50902586b157505" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>mejoresTiemposUI.Ui_MejoresTiempos::pushButton</definition>
+        <argsstring></argsstring>
+        <name>pushButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" line="104" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a6bb0f6b347b6fd5c57628191ef6e454e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def mejoresTiemposUI.Ui_MejoresTiempos.setupUi</definition>
+        <argsstring></argsstring>
+        <name>setupUi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" line="17" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" bodystart="17" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a6635519238cb6b3fa06d8251cb802204" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def mejoresTiemposUI.Ui_MejoresTiempos.retranslateUi</definition>
+        <argsstring></argsstring>
+        <name>retranslateUi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" line="116" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" bodystart="116" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="36">
+        <label>object</label>
+      </node>
+      <node id="37">
+        <label>ventanas.wMejoresTiempos</label>
+        <link refid="classventanas_1_1w_mejores_tiempos"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>mejoresTiemposUI.Ui_MejoresTiempos</label>
+        <link refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="39">
+        <label>object</label>
+      </node>
+      <node id="38">
+        <label>mejoresTiemposUI.Ui_MejoresTiempos</label>
+        <link refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" line="16" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/mejoresTiemposUI.py" bodystart="16" bodyend="147"/>
+    <listofallmembers>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a83fa8701e748d74c24954570349860cd" prot="public" virt="non-virtual"><scope>mejoresTiemposUI::Ui_MejoresTiempos</scope><name>labelMejoresTiempos</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1ae8e938354726bd2ac50902586b157505" prot="public" virt="non-virtual"><scope>mejoresTiemposUI::Ui_MejoresTiempos</scope><name>pushButton</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a6635519238cb6b3fa06d8251cb802204" prot="public" virt="non-virtual"><scope>mejoresTiemposUI::Ui_MejoresTiempos</scope><name>retranslateUi</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a6bb0f6b347b6fd5c57628191ef6e454e" prot="public" virt="non-virtual"><scope>mejoresTiemposUI::Ui_MejoresTiempos</scope><name>setupUi</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1aa8cd68c61a7f36c8e6cc03089279d252" prot="public" virt="non-virtual"><scope>mejoresTiemposUI::Ui_MejoresTiempos</scope><name>tab</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a96e6b62d20314aa8135213e1b682be27" prot="public" virt="non-virtual"><scope>mejoresTiemposUI::Ui_MejoresTiempos</scope><name>tabAvanzado</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a5ba8a8ab05843d64b9d940d436351ce3" prot="public" virt="non-virtual"><scope>mejoresTiemposUI::Ui_MejoresTiempos</scope><name>tabIntermedio</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1ae5921b387d85a354e084cc4e631eee06" prot="public" virt="non-virtual"><scope>mejoresTiemposUI::Ui_MejoresTiempos</scope><name>tableAvanzado</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a5c7d5b9816496271ee8f575407f62074" prot="public" virt="non-virtual"><scope>mejoresTiemposUI::Ui_MejoresTiempos</scope><name>tableIntermedio</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1abc7def506bcb43a74f16e2d3f42b44a2" prot="public" virt="non-virtual"><scope>mejoresTiemposUI::Ui_MejoresTiempos</scope><name>tablePrincipiante</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a1f9270a09ec22df65af2c88f22272d2d" prot="public" virt="non-virtual"><scope>mejoresTiemposUI::Ui_MejoresTiempos</scope><name>tabPrincipiante</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

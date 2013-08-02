@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="namespace_tablero" kind="namespace">
+    <compoundname>Tablero</compoundname>
+    <innerclass refid="class_tablero_1_1_generador" prot="public">Tablero::Generador</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_tablero_1afdd392e1d8c2031b8cb3fe43d5469e24" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple Tablero.Tablero</definition>
+        <argsstring></argsstring>
+        <name>Tablero</name>
+        <initializer>= <ref refid="class_tablero_1_1_generador" kindref="compound">Generador</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" line="275" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

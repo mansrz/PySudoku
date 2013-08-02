@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_tablero_1_1_generador" kind="class" prot="public">
+    <compoundname>Tablero::Generador</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_tablero_1_1_generador_1a7f684f5faaa38d939ce5e73e6daf689d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Tablero.Generador::tablero</definition>
+        <argsstring></argsstring>
+        <name>tablero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" line="5" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tablero_1_1_generador_1a5905dcb68004105106ff0b34da2e3c70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Tablero.Generador.__init__</definition>
+        <argsstring></argsstring>
+        <name>__init__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" line="4" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" bodystart="4" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tablero_1_1_generador_1a9163d8790feb0de72c7e5f6a92c19356" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Tablero.Generador.generarSolucionRandom</definition>
+        <argsstring></argsstring>
+        <name>generarSolucionRandom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" line="15" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" bodystart="15" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tablero_1_1_generador_1ab8ea34613494302bab1a480bcb97cff6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Tablero.Generador.resolverTablero</definition>
+        <argsstring></argsstring>
+        <name>resolverTablero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" line="32" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" bodystart="32" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tablero_1_1_generador_1a38af03bba1b3304770af3602f8fa6f85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Tablero.Generador.esValido</definition>
+        <argsstring></argsstring>
+        <name>esValido</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" line="40" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tablero_1_1_generador_1a50f44e99b4338b0eb1a9a400653c48fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Tablero.Generador.ValidarVertical</definition>
+        <argsstring></argsstring>
+        <name>ValidarVertical</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" line="43" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" bodystart="43" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tablero_1_1_generador_1aa0fd80802a7c9222c898f8a44c12e404" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Tablero.Generador.ValidarHorizontal</definition>
+        <argsstring></argsstring>
+        <name>ValidarHorizontal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" line="67" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" bodystart="67" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tablero_1_1_generador_1a612ac862468583b8267e6cc5d06c70aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Tablero.Generador.ValidarBloque</definition>
+        <argsstring></argsstring>
+        <name>ValidarBloque</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" line="91" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" bodystart="91" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tablero_1_1_generador_1af91a616789e1d371313ac6ff881520d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Tablero.Generador.escanearSolucion</definition>
+        <argsstring></argsstring>
+        <name>escanearSolucion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" line="120" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" bodystart="120" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tablero_1_1_generador_1a48ea8fae24ab4db4a043a1b914aebc5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Tablero.Generador.esCompleto</definition>
+        <argsstring></argsstring>
+        <name>esCompleto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" line="157" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" bodystart="157" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tablero_1_1_generador_1a12167d65e7046fc6e16de760468f9a22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Tablero.Generador.BackTrackSolucion</definition>
+        <argsstring></argsstring>
+        <name>BackTrackSolucion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" line="173" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" bodystart="173" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tablero_1_1_generador_1accab4b0a8ac45fab6070948254a535b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Tablero.Generador.SetValor</definition>
+        <argsstring></argsstring>
+        <name>SetValor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" line="193" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" bodystart="193" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tablero_1_1_generador_1af67762e198d584415c3546da78676748" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Tablero.Generador.MovimientoValido</definition>
+        <argsstring></argsstring>
+        <name>MovimientoValido</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" line="196" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" bodystart="196" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tablero_1_1_generador_1abe7c9ee6f2da8dd163b242db8d201813" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Tablero.Generador.GetValor</definition>
+        <argsstring></argsstring>
+        <name>GetValor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" line="204" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" bodystart="204" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tablero_1_1_generador_1ab4988a69fb9085aa54d17c2ce51bb459" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Tablero.Generador.ChequearHorizontal</definition>
+        <argsstring></argsstring>
+        <name>ChequearHorizontal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" line="212" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" bodystart="212" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tablero_1_1_generador_1a941cd888165911d2601f97b41dc4be3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Tablero.Generador.ChequearVertical</definition>
+        <argsstring></argsstring>
+        <name>ChequearVertical</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" line="232" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" bodystart="232" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tablero_1_1_generador_1ae41e3d9b0a5718953ba3b0edb42f2cbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Tablero.Generador.ChequearBloque</definition>
+        <argsstring></argsstring>
+        <name>ChequearBloque</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" line="252" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" bodystart="252" bodyend="273"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" line="2" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Tablero.py" bodystart="2" bodyend="274"/>
+    <listofallmembers>
+      <member refid="class_tablero_1_1_generador_1a5905dcb68004105106ff0b34da2e3c70" prot="public" virt="non-virtual"><scope>Tablero::Generador</scope><name>__init__</name></member>
+      <member refid="class_tablero_1_1_generador_1a12167d65e7046fc6e16de760468f9a22" prot="public" virt="non-virtual"><scope>Tablero::Generador</scope><name>BackTrackSolucion</name></member>
+      <member refid="class_tablero_1_1_generador_1ae41e3d9b0a5718953ba3b0edb42f2cbf" prot="public" virt="non-virtual"><scope>Tablero::Generador</scope><name>ChequearBloque</name></member>
+      <member refid="class_tablero_1_1_generador_1ab4988a69fb9085aa54d17c2ce51bb459" prot="public" virt="non-virtual"><scope>Tablero::Generador</scope><name>ChequearHorizontal</name></member>
+      <member refid="class_tablero_1_1_generador_1a941cd888165911d2601f97b41dc4be3b" prot="public" virt="non-virtual"><scope>Tablero::Generador</scope><name>ChequearVertical</name></member>
+      <member refid="class_tablero_1_1_generador_1af91a616789e1d371313ac6ff881520d4" prot="public" virt="non-virtual"><scope>Tablero::Generador</scope><name>escanearSolucion</name></member>
+      <member refid="class_tablero_1_1_generador_1a48ea8fae24ab4db4a043a1b914aebc5e" prot="public" virt="non-virtual"><scope>Tablero::Generador</scope><name>esCompleto</name></member>
+      <member refid="class_tablero_1_1_generador_1a38af03bba1b3304770af3602f8fa6f85" prot="public" virt="non-virtual"><scope>Tablero::Generador</scope><name>esValido</name></member>
+      <member refid="class_tablero_1_1_generador_1a9163d8790feb0de72c7e5f6a92c19356" prot="public" virt="non-virtual"><scope>Tablero::Generador</scope><name>generarSolucionRandom</name></member>
+      <member refid="class_tablero_1_1_generador_1abe7c9ee6f2da8dd163b242db8d201813" prot="public" virt="non-virtual"><scope>Tablero::Generador</scope><name>GetValor</name></member>
+      <member refid="class_tablero_1_1_generador_1af67762e198d584415c3546da78676748" prot="public" virt="non-virtual"><scope>Tablero::Generador</scope><name>MovimientoValido</name></member>
+      <member refid="class_tablero_1_1_generador_1ab8ea34613494302bab1a480bcb97cff6" prot="public" virt="non-virtual"><scope>Tablero::Generador</scope><name>resolverTablero</name></member>
+      <member refid="class_tablero_1_1_generador_1accab4b0a8ac45fab6070948254a535b4" prot="public" virt="non-virtual"><scope>Tablero::Generador</scope><name>SetValor</name></member>
+      <member refid="class_tablero_1_1_generador_1a7f684f5faaa38d939ce5e73e6daf689d" prot="public" virt="non-virtual"><scope>Tablero::Generador</scope><name>tablero</name></member>
+      <member refid="class_tablero_1_1_generador_1a612ac862468583b8267e6cc5d06c70aa" prot="public" virt="non-virtual"><scope>Tablero::Generador</scope><name>ValidarBloque</name></member>
+      <member refid="class_tablero_1_1_generador_1aa0fd80802a7c9222c898f8a44c12e404" prot="public" virt="non-virtual"><scope>Tablero::Generador</scope><name>ValidarHorizontal</name></member>
+      <member refid="class_tablero_1_1_generador_1a50f44e99b4338b0eb1a9a400653c48fa" prot="public" virt="non-virtual"><scope>Tablero::Generador</scope><name>ValidarVertical</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

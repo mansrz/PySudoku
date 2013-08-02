@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="namespacesudokuui" kind="namespace">
+    <compoundname>sudokuui</compoundname>
+    <innerclass refid="classsudokuui_1_1_ui___main_window" prot="public">sudokuui::Ui_MainWindow</innerclass>
+    <briefdescription>
+<para>Interfaz gráfica creada en Qt Creator. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

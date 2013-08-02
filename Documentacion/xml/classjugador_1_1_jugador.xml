@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="classjugador_1_1_jugador" kind="class" prot="public">
+    <compoundname>jugador::Jugador</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classjugador_1_1_jugador_1a814299d846d18566c8ae46e5ce1d882c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jugador.Jugador::nivel</definition>
+        <argsstring></argsstring>
+        <name>nivel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/jugador.py" line="20" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/jugador.py" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjugador_1_1_jugador_1a1dbfc0544f5ccd6634c89ec8371ee334" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jugador.Jugador::nombre</definition>
+        <argsstring></argsstring>
+        <name>nombre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/jugador.py" line="21" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/jugador.py" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjugador_1_1_jugador_1abf922bf19bd357fa114e02540c74eac7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jugador.Jugador::tiempo</definition>
+        <argsstring></argsstring>
+        <name>tiempo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/jugador.py" line="22" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/jugador.py" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classjugador_1_1_jugador_1adbac29c1b384134e07d2fafe2d38cf18" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>jugador.Jugador::valor</definition>
+        <argsstring></argsstring>
+        <name>valor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/jugador.py" line="23" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/jugador.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classjugador_1_1_jugador_1acd76dd6cca15ff1d47a0516f24ed82a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def jugador.Jugador.__init__</definition>
+        <argsstring></argsstring>
+        <name>__init__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Constructor
+:param nivel:
+:param nombre:
+:param tiempo:
+:param valor:
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/jugador.py" line="12" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/jugador.py" bodystart="12" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/jugador.py" line="10" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/jugador.py" bodystart="10" bodyend="24"/>
+    <listofallmembers>
+      <member refid="classjugador_1_1_jugador_1acd76dd6cca15ff1d47a0516f24ed82a8" prot="public" virt="non-virtual"><scope>jugador::Jugador</scope><name>__init__</name></member>
+      <member refid="classjugador_1_1_jugador_1a814299d846d18566c8ae46e5ce1d882c" prot="public" virt="non-virtual"><scope>jugador::Jugador</scope><name>nivel</name></member>
+      <member refid="classjugador_1_1_jugador_1a1dbfc0544f5ccd6634c89ec8371ee334" prot="public" virt="non-virtual"><scope>jugador::Jugador</scope><name>nombre</name></member>
+      <member refid="classjugador_1_1_jugador_1abf922bf19bd357fa114e02540c74eac7" prot="public" virt="non-virtual"><scope>jugador::Jugador</scope><name>tiempo</name></member>
+      <member refid="classjugador_1_1_jugador_1adbac29c1b384134e07d2fafe2d38cf18" prot="public" virt="non-virtual"><scope>jugador::Jugador</scope><name>valor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

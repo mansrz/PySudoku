@@ -1,0 +1,509 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="classsudokuui_1_1_ui___main_window" kind="class" prot="public">
+    <compoundname>sudokuui::Ui_MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <derivedcompoundref refid="class_sudoku_main_window_1_1_sudoku_main_window" prot="public" virt="non-virtual">SudokuMainWindow.SudokuMainWindow</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a6282b23abd869a67f2c219780778a8c6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::centralWidget</definition>
+        <argsstring></argsstring>
+        <name>centralWidget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="21" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a6114e11c94c892dcf77dd23789f51699" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::gridLayoutWidget</definition>
+        <argsstring></argsstring>
+        <name>gridLayoutWidget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="23" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a53f586e421a5620c8266427717d65c5a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::gridTablero</definition>
+        <argsstring></argsstring>
+        <name>gridTablero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="26" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1ad26c91c6900eab0caf64c40bcc65f630" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::label</definition>
+        <argsstring></argsstring>
+        <name>label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="31" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1ad670263c469deb42388573cab852bbcb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::gbOpciones</definition>
+        <argsstring></argsstring>
+        <name>gbOpciones</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="41" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a8aa7947d3bd7e9face48a26d107f0aff" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::chkAlerta1</definition>
+        <argsstring></argsstring>
+        <name>chkAlerta1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="52" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a6dd6f7f93cf5c4505bdfe48dc93440d1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::chkAlerta2</definition>
+        <argsstring></argsstring>
+        <name>chkAlerta2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="63" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a872ae8b9cd92af2bf64744c768cb7235" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::chkAyuda</definition>
+        <argsstring></argsstring>
+        <name>chkAyuda</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="74" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1adde0a7697330b695f90441f33def153c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::chkPista</definition>
+        <argsstring></argsstring>
+        <name>chkPista</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="85" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1afe2dd318a5271ae1ea045c32cf82f931" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::btnLlenar</definition>
+        <argsstring></argsstring>
+        <name>btnLlenar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="96" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a6e9dc327440fb1404a0dd6ddb393ac55" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::gbNumeros</definition>
+        <argsstring></argsstring>
+        <name>gbNumeros</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="105" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1aff24a3956daf91fb973908fb3400c886" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::gridLayoutWidget_2</definition>
+        <argsstring></argsstring>
+        <name>gridLayoutWidget_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="116" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a72c2a396c49ba9923f65bee3b2cff122" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::gridNumeros</definition>
+        <argsstring></argsstring>
+        <name>gridNumeros</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="119" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1af04c8ff967d04e7b7b63fa6bc6beb462" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::btnAyuda</definition>
+        <argsstring></argsstring>
+        <name>btnAyuda</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="122" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a905a485955cc4100e693759f088ef606" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::lcdNumber</definition>
+        <argsstring></argsstring>
+        <name>lcdNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="132" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a58e053292b250741df9883947b3681b6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::btnFinalizar</definition>
+        <argsstring></argsstring>
+        <name>btnFinalizar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="137" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a886be2c8e87819b286060f8a47926f5b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::layoutWidget</definition>
+        <argsstring></argsstring>
+        <name>layoutWidget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="145" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a9655e75db8ffee6fce920fa812f98b4f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::horizontalLayout</definition>
+        <argsstring></argsstring>
+        <name>horizontalLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="148" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a123c28199b8cdba685b8a0022b7f8875" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::lblDificultad</definition>
+        <argsstring></argsstring>
+        <name>lblDificultad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="151" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1abe7885f4b93b68e82746d821d4ba9923" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::cboDificultad</definition>
+        <argsstring></argsstring>
+        <name>cboDificultad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="160" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a9f5b2d7c8eee38437345d5f0462470dd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::menuBar</definition>
+        <argsstring></argsstring>
+        <name>menuBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="172" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a819f425769527ecb41842b727c15fd1f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::menuMenu</definition>
+        <argsstring></argsstring>
+        <name>menuMenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="179" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a24fb10bfd9502bdb77c073e738ef18e0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::menuAyuda</definition>
+        <argsstring></argsstring>
+        <name>menuAyuda</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="181" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a89e552c24ec54060de22f7b30664c31f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::mainToolBar</definition>
+        <argsstring></argsstring>
+        <name>mainToolBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="184" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1ac5a84bcb1c39736fbac28f62d6f3fc28" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::actionNueva_partida</definition>
+        <argsstring></argsstring>
+        <name>actionNueva_partida</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="187" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a4e095dc0bbf558facc5b1e62cc325ff4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::actionGuardar_partida</definition>
+        <argsstring></argsstring>
+        <name>actionGuardar_partida</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="193" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a78dd95829203c345bcc2f41743348f57" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::actionCargar_partida</definition>
+        <argsstring></argsstring>
+        <name>actionCargar_partida</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="200" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1acf580ed577baa24a3052ca3784cde3d0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::actionSalir</definition>
+        <argsstring></argsstring>
+        <name>actionSalir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="206" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a727fd47e605aba698f3ccd7fdef2b559" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::actionAyuda</definition>
+        <argsstring></argsstring>
+        <name>actionAyuda</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="212" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1a2e0a25588fa107e4c61181ed80bb3a46" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::actionAcerca_de</definition>
+        <argsstring></argsstring>
+        <name>actionAcerca_de</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="218" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsudokuui_1_1_ui___main_window_1aece3a743957be27f6f09c6c882582958" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>sudokuui.Ui_MainWindow::actionMejores_tiempos</definition>
+        <argsstring></argsstring>
+        <name>actionMejores_tiempos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="224" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsudokuui_1_1_ui___main_window_1af7d8582f64fe04816c4ea928b3601f9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sudokuui.Ui_MainWindow.setupUi</definition>
+        <argsstring></argsstring>
+        <name>setupUi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="17" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="17" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classsudokuui_1_1_ui___main_window_1a757ddd14ff06b39edc0d04a4d7e10a57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sudokuui.Ui_MainWindow.retranslateUi</definition>
+        <argsstring></argsstring>
+        <name>retranslateUi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="244" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="244" bodyend="271"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="32">
+        <label>SudokuMainWindow.SudokuMainWindow</label>
+        <link refid="class_sudoku_main_window_1_1_sudoku_main_window"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>sudokuui.Ui_MainWindow</label>
+        <link refid="classsudokuui_1_1_ui___main_window"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="33">
+        <label>sudokuui.Ui_MainWindow</label>
+        <link refid="classsudokuui_1_1_ui___main_window"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" line="16" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/sudokuui.py" bodystart="16" bodyend="271"/>
+    <listofallmembers>
+      <member refid="classsudokuui_1_1_ui___main_window_1a2e0a25588fa107e4c61181ed80bb3a46" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>actionAcerca_de</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a727fd47e605aba698f3ccd7fdef2b559" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>actionAyuda</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a78dd95829203c345bcc2f41743348f57" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>actionCargar_partida</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a4e095dc0bbf558facc5b1e62cc325ff4" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>actionGuardar_partida</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1aece3a743957be27f6f09c6c882582958" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>actionMejores_tiempos</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1ac5a84bcb1c39736fbac28f62d6f3fc28" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>actionNueva_partida</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1acf580ed577baa24a3052ca3784cde3d0" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>actionSalir</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1af04c8ff967d04e7b7b63fa6bc6beb462" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>btnAyuda</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a58e053292b250741df9883947b3681b6" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>btnFinalizar</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1afe2dd318a5271ae1ea045c32cf82f931" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>btnLlenar</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1abe7885f4b93b68e82746d821d4ba9923" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>cboDificultad</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a6282b23abd869a67f2c219780778a8c6" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>centralWidget</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a8aa7947d3bd7e9face48a26d107f0aff" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>chkAlerta1</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a6dd6f7f93cf5c4505bdfe48dc93440d1" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>chkAlerta2</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a872ae8b9cd92af2bf64744c768cb7235" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>chkAyuda</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1adde0a7697330b695f90441f33def153c" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>chkPista</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a6e9dc327440fb1404a0dd6ddb393ac55" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>gbNumeros</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1ad670263c469deb42388573cab852bbcb" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>gbOpciones</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a6114e11c94c892dcf77dd23789f51699" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>gridLayoutWidget</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1aff24a3956daf91fb973908fb3400c886" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>gridLayoutWidget_2</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a72c2a396c49ba9923f65bee3b2cff122" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>gridNumeros</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a53f586e421a5620c8266427717d65c5a" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>gridTablero</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a9655e75db8ffee6fce920fa812f98b4f" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>horizontalLayout</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1ad26c91c6900eab0caf64c40bcc65f630" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>label</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a886be2c8e87819b286060f8a47926f5b" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>layoutWidget</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a123c28199b8cdba685b8a0022b7f8875" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>lblDificultad</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a905a485955cc4100e693759f088ef606" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>lcdNumber</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a89e552c24ec54060de22f7b30664c31f" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>mainToolBar</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a24fb10bfd9502bdb77c073e738ef18e0" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>menuAyuda</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a9f5b2d7c8eee38437345d5f0462470dd" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>menuBar</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a819f425769527ecb41842b727c15fd1f" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>menuMenu</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a757ddd14ff06b39edc0d04a4d7e10a57" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>retranslateUi</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1af7d8582f64fe04816c4ea928b3601f9a" prot="public" virt="non-virtual"><scope>sudokuui::Ui_MainWindow</scope><name>setupUi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="ventanas_8py" kind="file">
+    <compoundname>ventanas.py</compoundname>
+    <innerclass refid="classventanas_1_1w_acerca_de" prot="public">ventanas::wAcercaDe</innerclass>
+    <innerclass refid="classventanas_1_1w_ayuda" prot="public">ventanas::wAyuda</innerclass>
+    <innerclass refid="classventanas_1_1w_mejores_tiempos" prot="public">ventanas::wMejoresTiempos</innerclass>
+    <innernamespace refid="namespaceventanas">ventanas</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceventanas" refkind="compound"><highlight class="normal">__author__<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;user&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">##<sp/>@package<sp/>ventanas</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">#<sp/><sp/>Este<sp/>archivo<sp/>contiene<sp/>las<sp/>Ventanas<sp/>de<sp/>Acerca<sp/>de,<sp/>Ayuda,<sp/>Mejores<sp/>tiempos.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">#</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespace_py_side_1_1_qt_gui" kindref="compound">PySide.QtGui</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>ui<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>acercadeUI</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>ui<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>ayudaUI</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>ui<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>mejoresTiemposUI</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>ui<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>jugador</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>ui.NikCrypt<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>nikDecrypt,<sp/>nikEncrypt</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>_Clase<sp/>wAcercaDe</highlight></codeline>
+<codeline lineno="13"><highlight class="stringliteral">#Ventana<sp/>de<sp/>Acerca<sp/>de</highlight></codeline>
+<codeline lineno="14"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classventanas_1_1w_acerca_de" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classventanas_1_1w_acerca_de" kindref="compound">wAcercaDe</ref>(QMainWindow,<ref refid="classacercade_u_i_1_1_ui___acerca_de" kindref="compound">acercadeUI.Ui_AcercaDe</ref>):</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__init__(self,<sp/>parent=None):</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(wAcercaDe,self).__init__(parent)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classacercade_u_i_1_1_ui___acerca_de_1aefd67a324d3a0f1b22deb4dc4e4a440d" kindref="member">setupUi</ref>(self)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.setWindowTitle(</highlight><highlight class="stringliteral">&quot;Acerca<sp/>de&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>_Clase<sp/>wAyuda</highlight></codeline>
+<codeline lineno="22"><highlight class="stringliteral">#Ventana<sp/>de<sp/>ayuda</highlight></codeline>
+<codeline lineno="23"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="classventanas_1_1w_ayuda" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classventanas_1_1w_ayuda" kindref="compound">wAyuda</ref>(QMainWindow,<ref refid="classayuda_u_i_1_1_ui___ayuda" kindref="compound">ayudaUI.Ui_Ayuda</ref>):</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__init__(self,<sp/>parent=None):</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(wAyuda,self).__init__(parent)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classayuda_u_i_1_1_ui___ayuda_1a616863ea29f44f7f52d368e09f480753" kindref="member">setupUi</ref>(self)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.setWindowTitle(</highlight><highlight class="stringliteral">&quot;Ayuda&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>_Clase<sp/>wMejoresTiempos</highlight></codeline>
+<codeline lineno="30"><highlight class="stringliteral">#Contiene<sp/>las<sp/>ventanas<sp/>de<sp/>Mejores<sp/>Tiempos,<sp/>las<sp/>funciones<sp/>para<sp/>actualizarlos,<sp/>guardarlos<sp/>y<sp/>cargarlos.</highlight></codeline>
+<codeline lineno="31"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classventanas_1_1w_mejores_tiempos" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classventanas_1_1w_mejores_tiempos" kindref="compound">wMejoresTiempos</ref>(QMainWindow,<ref refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos" kindref="compound">mejoresTiemposUI.Ui_MejoresTiempos</ref>):</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">__init__(self,<sp/>parent=None):</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(wMejoresTiempos,self).__init__(parent)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a6bb0f6b347b6fd5c57628191ef6e454e" kindref="member">setupUi</ref>(self)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.setWindowTitle(</highlight><highlight class="stringliteral">&quot;Mejores<sp/>tiempos&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#self.guardarTiempos()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classventanas_1_1w_mejores_tiempos_1a913d4d800d0492c403cf5668646ee629" kindref="member">cargarTiempos</ref>()</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classventanas_1_1w_mejores_tiempos_1a7a3c86fec7473b1b05266a69bb418a9a" kindref="member">mostrarTiempos</ref>()</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.tableAvanzado.setEditTriggers(QAbstractItemView.NoEditTriggers)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.tableIntermedio.setEditTriggers(QAbstractItemView.NoEditTriggers)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.tablePrincipiante.setEditTriggers(QAbstractItemView.NoEditTriggers)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.pushButton.clicked.connect(self.<ref refid="classventanas_1_1w_mejores_tiempos_1a1d1586af2cb7d6e4b16fc14b963a7b33" kindref="member">clickBtnSalir</ref>)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">clickBtnSalir(self):</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.close()</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classventanas_1_1w_mejores_tiempos_1a4a22501803f7b0dfef0fae412d16eddd" kindref="member">guardarTiempos</ref>(self):</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="52"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Funcion<sp/>para<sp/>guardar<sp/>Tiempo<sp/>una<sp/>vez<sp/>que<sp/>termine<sp/>el<sp/>sudoku</highlight></codeline>
+<codeline lineno="53"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="54"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f<sp/>=<sp/>open(</highlight><highlight class="stringliteral">&quot;../bestTimes.sud&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;w&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text<sp/>=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textEncrypt=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#inicializar<sp/>Mejores<sp/>Tiempos</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#for<sp/>i<sp/>in<sp/>range<sp/>(5):</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/><sp/><sp/>text<sp/>+=<sp/>&quot;1,n&quot;+str(i+1)+&quot;,59:59:99,3599999\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/><sp/>text<sp/>+=<sp/>&quot;2,n&quot;+str(i+1)+&quot;,59:59:99,3599999\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>text<sp/>+=<sp/>&quot;3,n&quot;+str(i+1)+&quot;,59:59:99,3599999\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#guardar<sp/>Mejores<sp/>tiempos</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>i<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>range(len(listaJugadores)):</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text+=listaJugadores[i].nivel+</highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal">+listaJugadores[i].nombre+</highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal">+listaJugadores[i].tiempo+</highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal">+listaJugadores[i].valor+</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textEncrypt=<sp/>nikEncrypt(text)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f.write(textEncrypt)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classventanas_1_1w_mejores_tiempos_1a913d4d800d0492c403cf5668646ee629" kindref="member">cargarTiempos</ref>(self):</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="73"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Funcion<sp/>para<sp/>cargar<sp/>el<sp/>archivo<sp/>de<sp/>tiempos</highlight></codeline>
+<codeline lineno="74"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="75"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f=open(</highlight><highlight class="stringliteral">&quot;../bestTimes.sud&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;</highlight><highlight class="stringliteral">r&quot;)</highlight></codeline>
+<codeline lineno="77"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textDecrypt=<sp/>nikDecrypt(f.read())</highlight></codeline>
+<codeline lineno="78"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>textDecrypt=textDecrypt.split(</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>i<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>range<sp/>(len(textDecrypt)-1):</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>jugadorText=textDecrypt[i].split(</highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>listaJugadores.append(<ref refid="classjugador_1_1_jugador" kindref="compound">jugador.Jugador</ref>(jugadorText[0],jugadorText[1],jugadorText[2],jugadorText[3]))</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classventanas_1_1w_mejores_tiempos_1a7a3c86fec7473b1b05266a69bb418a9a" kindref="member">mostrarTiempos</ref>(self):</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="86"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Funcion<sp/>que<sp/>muestra<sp/>los<sp/>tiempos<sp/>ordenados</highlight></codeline>
+<codeline lineno="87"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="88"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>principiante=0</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intermedio=0</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>avanzado=0</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>i<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>range<sp/>(len(listaJugadores)):</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>listaJugadores[i].nivel<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;1&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>principiante<sp/>&lt;5:</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.tablePrincipiante.setItem(principiante,0,<sp/>QTableWidgetItem(listaJugadores[i].nombre))</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.tablePrincipiante.setItem(principiante,1,<sp/>QTableWidgetItem(listaJugadores[i].tiempo))</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>principiante=principiante+1</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">elif</highlight><highlight class="normal"><sp/>listaJugadores[i].nivel<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;2&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>intermedio<sp/>&lt;5:</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.tableIntermedio.setItem(intermedio,0,<sp/>QTableWidgetItem(listaJugadores[i].nombre))</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.tableIntermedio.setItem(intermedio,1,<sp/>QTableWidgetItem(listaJugadores[i].tiempo))</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intermedio<sp/>=<sp/>intermedio+1</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">elif</highlight><highlight class="normal"><sp/>listaJugadores[i].nivel<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;3&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>avanzado<sp/>&lt;5:</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.tableAvanzado.setItem(avanzado,0,<sp/>QTableWidgetItem(listaJugadores[i].nombre))</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.tableAvanzado.setItem(avanzado,1,<sp/>QTableWidgetItem(listaJugadores[i].tiempo))</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>avanzado=avanzado+1</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">insertarEnLista(jugador):</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>i=0</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>i&lt;(len(listaJugadores)-1)<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>int(listaJugadores[i].valor)&lt;int(jugador.valor):</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i=i+1</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>listaJugadores.insert(i,jugador)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal">listaJugadores=[]</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py"/>
+  </compounddef>
+</doxygen>

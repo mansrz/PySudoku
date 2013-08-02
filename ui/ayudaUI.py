@@ -6,9 +6,14 @@
 #      by: pyside-uic 0.2.14 running on PySide 1.2.0
 #
 # WARNING! All changes made in this file will be lost!
-
+## @package ayudaUI
+#  Este archivo contiene las Ventana de ayuda
+#
 from PySide import QtCore, QtGui
+""" _Clase AyudaUI
 
+Tiene la ventana con la información de AyudaUI
+"""
 class Ui_Ayuda(object):
     def setupUi(self, Ayuda):
         Ayuda.setObjectName("Ayuda")

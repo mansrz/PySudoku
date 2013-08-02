@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="namespace_nik_crypt" kind="namespace">
+    <compoundname>NikCrypt</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_nik_crypt_1a712c7e8aab82ca963e4d373756e2214d" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string NikCrypt.__author__</definition>
+        <argsstring></argsstring>
+        <name>__author__</name>
+        <initializer>= &apos;user&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/NikCrypt.py" line="1" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/NikCrypt.py" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_nik_crypt_1ab1be1cdff363132c4ff972e3a58d405e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def NikCrypt.nikEncrypt</definition>
+        <argsstring></argsstring>
+        <name>nikEncrypt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/NikCrypt.py" line="10" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/NikCrypt.py" bodystart="10" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_nik_crypt_1a963556cc97e7c297bd363d225f08ba1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def NikCrypt.nikDecrypt</definition>
+        <argsstring></argsstring>
+        <name>nikDecrypt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/NikCrypt.py" line="18" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/NikCrypt.py" bodystart="18" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Este archivo contiene las funciones de desencriptar y encriptar. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/NikCrypt.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

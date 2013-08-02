@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ventanas',['Ventanas',['../namespace_ventanas.html',1,'']]]
+  ['ventanas',['ventanas',['../namespaceventanas.html',1,'']]]
 ];

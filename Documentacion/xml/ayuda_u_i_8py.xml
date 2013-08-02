@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="ayuda_u_i_8py" kind="file">
+    <compoundname>ayudaUI.py</compoundname>
+    <innerclass refid="classayuda_u_i_1_1_ui___ayuda" prot="public">ayudaUI::Ui_Ayuda</innerclass>
+    <innernamespace refid="namespaceayuda_u_i">ayudaUI</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceayuda_u_i" refkind="compound"><highlight class="comment">#<sp/>-*-<sp/>coding:<sp/>utf-8<sp/>-*-</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Form<sp/>implementation<sp/>generated<sp/>from<sp/>reading<sp/>ui<sp/>file<sp/>&apos;ayuda.ui&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">#</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Created:<sp/>Fri<sp/>Jul<sp/>26<sp/>17:29:44<sp/>2013</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">#<sp/><sp/><sp/><sp/><sp/><sp/>by:<sp/>pyside-uic<sp/>0.2.14<sp/>running<sp/>on<sp/>PySide<sp/>1.2.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">#</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">#<sp/>WARNING!<sp/>All<sp/>changes<sp/>made<sp/>in<sp/>this<sp/>file<sp/>will<sp/>be<sp/>lost!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">##<sp/>@package<sp/>ayudaUI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">#<sp/><sp/>Este<sp/>archivo<sp/>contiene<sp/>las<sp/>Ventana<sp/>de<sp/>ayuda</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">#</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>PySide<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>QtCore,<sp/>QtGui</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>_Clase<sp/>AyudaUI</highlight></codeline>
+<codeline lineno="14"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="15"><highlight class="stringliteral">Tiene<sp/>la<sp/>ventana<sp/>con<sp/>la<sp/>información<sp/>de<sp/>AyudaUI</highlight></codeline>
+<codeline lineno="16"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="classayuda_u_i_1_1_ui___ayuda" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classayuda_u_i_1_1_ui___ayuda" kindref="compound">Ui_Ayuda</ref>(object):</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">setupUi(self,<sp/>Ayuda):</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ayuda.setObjectName(</highlight><highlight class="stringliteral">&quot;Ayuda&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ayuda.resize(460,<sp/>432)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classayuda_u_i_1_1_ui___ayuda_1a2b56f75a292ff08c862a23b55b60525c" kindref="member">label</ref><sp/>=<sp/>QtGui.QLabel(Ayuda)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.label.setGeometry(QtCore.QRect(20,<sp/>20,<sp/>421,<sp/>31))</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>font<sp/>=<sp/>QtGui.QFont()</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>font.setFamily(</highlight><highlight class="stringliteral">&quot;Broadway&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>font.setPointSize(26)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.label.setFont(font)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.label.setAlignment(QtCore.Qt.AlignCenter)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.label.setObjectName(</highlight><highlight class="stringliteral">&quot;label&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classayuda_u_i_1_1_ui___ayuda_1afe089ef2b986a612644064f9a178c3c5" kindref="member">label_2</ref><sp/>=<sp/>QtGui.QLabel(Ayuda)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.label_2.setGeometry(QtCore.QRect(30,<sp/>50,<sp/>431,<sp/>331))</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>font<sp/>=<sp/>QtGui.QFont()</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>font.setFamily(</highlight><highlight class="stringliteral">&quot;Broadway&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>font.setPointSize(12)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.label_2.setFont(font)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.label_2.setTextFormat(QtCore.Qt.AutoText)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.label_2.setObjectName(</highlight><highlight class="stringliteral">&quot;label_2&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classayuda_u_i_1_1_ui___ayuda_1ac4a0b3f55d0bd9996436e79857e8e8d9" kindref="member">pushButton</ref><sp/>=<sp/>QtGui.QPushButton(Ayuda)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.pushButton.setGeometry(QtCore.QRect(190,<sp/>380,<sp/>81,<sp/>31))</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>font<sp/>=<sp/>QtGui.QFont()</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>font.setFamily(</highlight><highlight class="stringliteral">&quot;Broadway&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>font.setPointSize(12)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.pushButton.setFont(font)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.pushButton.setObjectName(</highlight><highlight class="stringliteral">&quot;pushButton&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classayuda_u_i_1_1_ui___ayuda_1a9eff96f141f61c51614d817a9a0f16a7" kindref="member">retranslateUi</ref>(Ayuda)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QtCore.QMetaObject.connectSlotsByName(Ayuda)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">retranslateUi(self,<sp/>Ayuda):</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ayuda.setWindowTitle(QtGui.QApplication.translate(</highlight><highlight class="stringliteral">&quot;Ayuda&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Dialog&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,<sp/>QtGui.QApplication.UnicodeUTF8))</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.label.setText(QtGui.QApplication.translate(</highlight><highlight class="stringliteral">&quot;Ayuda&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;AYUDA&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,<sp/>QtGui.QApplication.UnicodeUTF8))</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.label_2.setText(QtGui.QApplication.translate(</highlight><highlight class="stringliteral">&quot;Ayuda&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;El<sp/>sudoku<sp/>se<sp/>presenta<sp/>normalmente<sp/>como<sp/>una<sp/>\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;tabla<sp/>de<sp/>9<sp/>×<sp/>9,<sp/>compuesta<sp/>por<sp/>subtablas<sp/>de<sp/>\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;3<sp/>×<sp/>3<sp/>denominadas<sp/>\&quot;regiones\&quot;<sp/>(también<sp/>se<sp/>le<sp/>\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;llaman<sp/>\&quot;cajas\&quot;<sp/>o<sp/>\&quot;bloques\&quot;).\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;Algunas<sp/>celdas<sp/>ya<sp/>contienen<sp/>números,<sp/>conocidos<sp/>\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;como<sp/>\&quot;números<sp/>dados\&quot;<sp/>(o<sp/>a<sp/>veces<sp/>\&quot;pistas\&quot;).\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;El<sp/>objetivo<sp/>es<sp/>rellenar<sp/>las<sp/>celdas<sp/>vacías,<sp/>\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;con<sp/>un<sp/>número<sp/>en<sp/>cada<sp/>una<sp/>de<sp/>ellas,<sp/>de<sp/>tal<sp/>\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;forma<sp/>que<sp/>cada<sp/>columna,<sp/>fila<sp/>y<sp/>región<sp/>contenga<sp/>\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;los<sp/>números<sp/>1–9<sp/>sólo<sp/>una<sp/>vez.\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;Además,<sp/>cada<sp/>número<sp/>de<sp/>la<sp/>solución<sp/>aparece<sp/>\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;sólo<sp/>una<sp/>vez<sp/>en<sp/>cada<sp/>una<sp/>de<sp/>las<sp/>tres<sp/>\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;\&quot;direcciones\&quot;,<sp/>de<sp/>ahí<sp/>el<sp/>\&quot;los<sp/>números<sp/>deben<sp/>\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;estar<sp/>solos\&quot;<sp/>que<sp/>evoca<sp/>el<sp/>nombre<sp/>del<sp/>juego.&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,<sp/>QtGui.QApplication.UnicodeUTF8))</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.pushButton.setText(QtGui.QApplication.translate(</highlight><highlight class="stringliteral">&quot;Ayuda&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Salir&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,<sp/>QtGui.QApplication.UnicodeUTF8))</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ayudaUI.py"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_numero_1_1_numero" kind="class" prot="public">
+    <compoundname>Numero::Numero</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QFrame</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_numero_1_1_numero_1a47b615282708c7153fce5360d06082ec" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Numero.Numero::casilla</definition>
+        <argsstring></argsstring>
+        <name>casilla</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" line="14" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_numero_1_1_numero_1add58c510e6dfea0d3c3692c79e7c249a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Numero.Numero::fila</definition>
+        <argsstring></argsstring>
+        <name>fila</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" line="27" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_numero_1_1_numero_1a4efc6e94fb89bf311c713fcda7fd7fac" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Numero.Numero::columna</definition>
+        <argsstring></argsstring>
+        <name>columna</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" line="28" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_numero_1_1_numero_1a9b4f5e3b0d3fa36ab48a1b25bc915b03" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Numero.Numero::valorCorrecto</definition>
+        <argsstring></argsstring>
+        <name>valorCorrecto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" line="29" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_numero_1_1_numero_1a79d57b9de0112d09194bff4aa2558fd8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Numero.Numero::valor</definition>
+        <argsstring></argsstring>
+        <name>valor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" line="30" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_numero_1_1_numero_1ab0d5b31bbf9e6ec1f8497bbf03ed68bf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Numero.Numero::textOpciones</definition>
+        <argsstring></argsstring>
+        <name>textOpciones</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" line="32" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_numero_1_1_numero_1aef53c5ef68a40f343af7a12d4fde21a0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Numero.Numero::boton</definition>
+        <argsstring></argsstring>
+        <name>boton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" line="33" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_numero_1_1_numero_1a7a97cb3e4252e08aa77949a4aa616548" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Numero.Numero::cuadricula</definition>
+        <argsstring></argsstring>
+        <name>cuadricula</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" line="103" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_numero_1_1_numero_1a9f17c96d676757e0b155e88537e3abb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Numero.Numero.__init__</definition>
+        <argsstring></argsstring>
+        <name>__init__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" line="16" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" bodystart="16" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_numero_1_1_numero_1a818d0986e959bc7475473acba2c9db52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Numero.Numero.setNumero</definition>
+        <argsstring></argsstring>
+        <name>setNumero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Setea el valor en el objeto Numero
+:param valor: Valor del usuario
+:param fila: valor de la fila
+:param columna: valor d ela columna
+:param visible: Boolean de visibilidad
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" line="57" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" bodystart="57" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_numero_1_1_numero_1ae0fd65c2f86d7dd2bb094b35fcd85ab6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Numero.Numero.cambiarColorBotonAlerta</definition>
+        <argsstring></argsstring>
+        <name>cambiarColorBotonAlerta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" line="78" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_numero_1_1_numero_1af740b535557fcd6bde1e43888e05a2fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Numero.Numero.cambiarColorBotonPista</definition>
+        <argsstring></argsstring>
+        <name>cambiarColorBotonPista</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" line="82" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" bodystart="82" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_numero_1_1_numero_1ab1f9269d0aa574800961da32f7f95f16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Numero.Numero.cambiarColorBotonOriginal</definition>
+        <argsstring></argsstring>
+        <name>cambiarColorBotonOriginal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" line="86" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" bodystart="86" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_numero_1_1_numero_1a6ec5c677a3f7d8166aacf84b102eee0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Numero.Numero.setCuadricula</definition>
+        <argsstring></argsstring>
+        <name>setCuadricula</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Devuelve el valor de la cuadricula según el valor x,y.</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" line="93" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" bodystart="93" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="8">
+        <label>Numero.Numero</label>
+        <link refid="class_numero_1_1_numero"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>QFrame</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>Numero.Numero</label>
+        <link refid="class_numero_1_1_numero"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>QFrame</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" line="13" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Numero.py" bodystart="13" bodyend="124"/>
+    <listofallmembers>
+      <member refid="class_numero_1_1_numero_1a9f17c96d676757e0b155e88537e3abb3" prot="public" virt="non-virtual"><scope>Numero::Numero</scope><name>__init__</name></member>
+      <member refid="class_numero_1_1_numero_1aef53c5ef68a40f343af7a12d4fde21a0" prot="public" virt="non-virtual"><scope>Numero::Numero</scope><name>boton</name></member>
+      <member refid="class_numero_1_1_numero_1ae0fd65c2f86d7dd2bb094b35fcd85ab6" prot="public" virt="non-virtual"><scope>Numero::Numero</scope><name>cambiarColorBotonAlerta</name></member>
+      <member refid="class_numero_1_1_numero_1ab1f9269d0aa574800961da32f7f95f16" prot="public" virt="non-virtual"><scope>Numero::Numero</scope><name>cambiarColorBotonOriginal</name></member>
+      <member refid="class_numero_1_1_numero_1af740b535557fcd6bde1e43888e05a2fa" prot="public" virt="non-virtual"><scope>Numero::Numero</scope><name>cambiarColorBotonPista</name></member>
+      <member refid="class_numero_1_1_numero_1a47b615282708c7153fce5360d06082ec" prot="public" virt="non-virtual"><scope>Numero::Numero</scope><name>casilla</name></member>
+      <member refid="class_numero_1_1_numero_1a4efc6e94fb89bf311c713fcda7fd7fac" prot="public" virt="non-virtual"><scope>Numero::Numero</scope><name>columna</name></member>
+      <member refid="class_numero_1_1_numero_1a7a97cb3e4252e08aa77949a4aa616548" prot="public" virt="non-virtual"><scope>Numero::Numero</scope><name>cuadricula</name></member>
+      <member refid="class_numero_1_1_numero_1add58c510e6dfea0d3c3692c79e7c249a" prot="public" virt="non-virtual"><scope>Numero::Numero</scope><name>fila</name></member>
+      <member refid="class_numero_1_1_numero_1a6ec5c677a3f7d8166aacf84b102eee0d" prot="public" virt="non-virtual"><scope>Numero::Numero</scope><name>setCuadricula</name></member>
+      <member refid="class_numero_1_1_numero_1a818d0986e959bc7475473acba2c9db52" prot="public" virt="non-virtual"><scope>Numero::Numero</scope><name>setNumero</name></member>
+      <member refid="class_numero_1_1_numero_1ab0d5b31bbf9e6ec1f8497bbf03ed68bf" prot="public" virt="non-virtual"><scope>Numero::Numero</scope><name>textOpciones</name></member>
+      <member refid="class_numero_1_1_numero_1a79d57b9de0112d09194bff4aa2558fd8" prot="public" virt="non-virtual"><scope>Numero::Numero</scope><name>valor</name></member>
+      <member refid="class_numero_1_1_numero_1a9b4f5e3b0d3fa36ab48a1b25bc915b03" prot="public" virt="non-virtual"><scope>Numero::Numero</scope><name>valorCorrecto</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

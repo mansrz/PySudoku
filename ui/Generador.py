@@ -243,6 +243,13 @@ class Generador:
         return valor
 
     def ChequearHorizontal(self,x, y, v):
+        """
+        Chequea ese valor si es correcto horizontalmente
+        :param x:
+        :param y:
+        :param v:
+        :return:
+        """
         i=0
         if self.GetValor(x,y) == 0:
             valido=True
@@ -263,6 +270,13 @@ class Generador:
         return valido
 
     def ChequearVertical(self,x, y, v):
+        """
+        Chequea ese valor si es correcto verticalmente
+        :param x:
+        :param y:
+        :param v:
+        :return:
+        """
         valido = self.tablero[x*9+y]==0
         for i in range(9):
             if valido:
@@ -270,6 +284,13 @@ class Generador:
         return valido
 
     def ChequearBloque(self,x, y, v):
+        """
+        Chequea ese valor si es correcto en el bloque
+        :param x:
+        :param y:
+        :param v:
+        :return:
+        """
         if self.tablero[(x*9)+y] == 0:
             valido=True
         else:

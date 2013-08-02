@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="classacercade_u_i_1_1_ui___acerca_de" kind="class" prot="public">
+    <compoundname>acercadeUI::Ui_AcercaDe</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <derivedcompoundref refid="classventanas_1_1w_acerca_de" prot="public" virt="non-virtual">ventanas.wAcercaDe</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classacercade_u_i_1_1_ui___acerca_de_1a867506749372d38d091f6f45ac68cdf5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>acercadeUI.Ui_AcercaDe::label_2</definition>
+        <argsstring></argsstring>
+        <name>label_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/acercadeUI.py" line="23" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/acercadeUI.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classacercade_u_i_1_1_ui___acerca_de_1abb0b29b87b4861d692b65d2e6234b579" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>acercadeUI.Ui_AcercaDe::label</definition>
+        <argsstring></argsstring>
+        <name>label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/acercadeUI.py" line="30" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/acercadeUI.py" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classacercade_u_i_1_1_ui___acerca_de_1aefd67a324d3a0f1b22deb4dc4e4a440d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def acercadeUI.Ui_AcercaDe.setupUi</definition>
+        <argsstring></argsstring>
+        <name>setupUi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/acercadeUI.py" line="20" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/acercadeUI.py" bodystart="20" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classacercade_u_i_1_1_ui___acerca_de_1a470228c7638375668f956cd52ac985ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def acercadeUI.Ui_AcercaDe.retranslateUi</definition>
+        <argsstring></argsstring>
+        <name>retranslateUi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/acercadeUI.py" line="42" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/acercadeUI.py" bodystart="42" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="22">
+        <label>ventanas.wAcercaDe</label>
+        <link refid="classventanas_1_1w_acerca_de"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>object</label>
+      </node>
+      <node id="20">
+        <label>acercadeUI.Ui_AcercaDe</label>
+        <link refid="classacercade_u_i_1_1_ui___acerca_de"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="24">
+        <label>object</label>
+      </node>
+      <node id="23">
+        <label>acercadeUI.Ui_AcercaDe</label>
+        <link refid="classacercade_u_i_1_1_ui___acerca_de"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/acercadeUI.py" line="19" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/acercadeUI.py" bodystart="19" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classacercade_u_i_1_1_ui___acerca_de_1abb0b29b87b4861d692b65d2e6234b579" prot="public" virt="non-virtual"><scope>acercadeUI::Ui_AcercaDe</scope><name>label</name></member>
+      <member refid="classacercade_u_i_1_1_ui___acerca_de_1a867506749372d38d091f6f45ac68cdf5" prot="public" virt="non-virtual"><scope>acercadeUI::Ui_AcercaDe</scope><name>label_2</name></member>
+      <member refid="classacercade_u_i_1_1_ui___acerca_de_1a470228c7638375668f956cd52ac985ff" prot="public" virt="non-virtual"><scope>acercadeUI::Ui_AcercaDe</scope><name>retranslateUi</name></member>
+      <member refid="classacercade_u_i_1_1_ui___acerca_de_1aefd67a324d3a0f1b22deb4dc4e4a440d" prot="public" virt="non-virtual"><scope>acercadeUI::Ui_AcercaDe</scope><name>setupUi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

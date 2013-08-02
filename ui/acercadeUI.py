@@ -6,8 +6,15 @@
 #      by: pyside-uic 0.2.14 running on PySide 1.2.0
 #
 # WARNING! All changes made in this file will be lost!
+## @package acercadeUI
+#  Este archivo contiene las Ventana de acerca de
+#
 
 from PySide import QtCore, QtGui
+""" _Clase AcercaDe
+
+Tiene la ventana con la información de AcercaDe
+"""
 
 class Ui_AcercaDe(object):
     def setupUi(self, AcercaDe):

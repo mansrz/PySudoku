@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="namespacejugador" kind="namespace">
+    <compoundname>jugador</compoundname>
+    <innerclass refid="classjugador_1_1_jugador" prot="public">jugador::Jugador</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacejugador_1ada3eb1b740a09b709349b803b419d86e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string jugador.__author__</definition>
+        <argsstring></argsstring>
+        <name>__author__</name>
+        <initializer>= &apos;user&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/jugador.py" line="1" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/jugador.py" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Este archivo la clase <ref refid="classjugador_1_1_jugador" kindref="compound">Jugador</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/jugador.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

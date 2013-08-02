@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="classventanas_1_1w_ayuda" kind="class" prot="public">
+    <compoundname>ventanas::wAyuda</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMainWindow</basecompoundref>
+    <basecompoundref refid="classayuda_u_i_1_1_ui___ayuda" prot="public" virt="non-virtual">ayudaUI.Ui_Ayuda</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classventanas_1_1w_ayuda_1a75ddc112e68887106f7964a7788f5d90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def ventanas.wAyuda.__init__</definition>
+        <argsstring></argsstring>
+        <name>__init__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" line="25" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" bodystart="25" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="48">
+        <label>ventanas.wAyuda</label>
+        <link refid="classventanas_1_1w_ayuda"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+        <childnode refid="50" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>QMainWindow</label>
+      </node>
+      <node id="51">
+        <label>object</label>
+      </node>
+      <node id="50">
+        <label>ayudaUI.Ui_Ayuda</label>
+        <link refid="classayuda_u_i_1_1_ui___ayuda"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="52">
+        <label>ventanas.wAyuda</label>
+        <link refid="classventanas_1_1w_ayuda"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+        <childnode refid="54" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>QMainWindow</label>
+      </node>
+      <node id="55">
+        <label>object</label>
+      </node>
+      <node id="54">
+        <label>ayudaUI.Ui_Ayuda</label>
+        <link refid="classayuda_u_i_1_1_ui___ayuda"/>
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" line="24" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" bodystart="24" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classventanas_1_1w_ayuda_1a75ddc112e68887106f7964a7788f5d90" prot="public" virt="non-virtual"><scope>ventanas::wAyuda</scope><name>__init__</name></member>
+      <member refid="classayuda_u_i_1_1_ui___ayuda_1a2b56f75a292ff08c862a23b55b60525c" prot="public" virt="non-virtual"><scope>ventanas::wAyuda</scope><name>label</name></member>
+      <member refid="classayuda_u_i_1_1_ui___ayuda_1afe089ef2b986a612644064f9a178c3c5" prot="public" virt="non-virtual"><scope>ventanas::wAyuda</scope><name>label_2</name></member>
+      <member refid="classayuda_u_i_1_1_ui___ayuda_1ac4a0b3f55d0bd9996436e79857e8e8d9" prot="public" virt="non-virtual"><scope>ventanas::wAyuda</scope><name>pushButton</name></member>
+      <member refid="classayuda_u_i_1_1_ui___ayuda_1a9eff96f141f61c51614d817a9a0f16a7" prot="public" virt="non-virtual"><scope>ventanas::wAyuda</scope><name>retranslateUi</name></member>
+      <member refid="classayuda_u_i_1_1_ui___ayuda_1a616863ea29f44f7f52d368e09f480753" prot="public" virt="non-virtual"><scope>ventanas::wAyuda</scope><name>setupUi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

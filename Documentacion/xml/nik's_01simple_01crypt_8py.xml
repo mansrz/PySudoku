@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="nik's_01simple_01crypt_8py" kind="file">
+    <compoundname>nik&apos;s simple crypt.py</compoundname>
+    <innernamespace refid="namespacenik's_01simple_01crypt">nik&apos;s simple crypt</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">__author__<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;user&apos;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/nik's simple crypt.py"/>
+  </compounddef>
+</doxygen>

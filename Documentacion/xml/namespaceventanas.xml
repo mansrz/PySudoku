@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="namespaceventanas" kind="namespace">
+    <compoundname>ventanas</compoundname>
+    <innerclass refid="classventanas_1_1w_acerca_de" prot="public">ventanas::wAcercaDe</innerclass>
+    <innerclass refid="classventanas_1_1w_ayuda" prot="public">ventanas::wAyuda</innerclass>
+    <innerclass refid="classventanas_1_1w_mejores_tiempos" prot="public">ventanas::wMejoresTiempos</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceventanas_1aa80777d1173f2cdf2e5d6bdccd7b67df" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ventanas.__author__</definition>
+        <argsstring></argsstring>
+        <name>__author__</name>
+        <initializer>= &apos;user&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" line="1" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceventanas_1a4544f8e751bea0855961d5c0c77a63be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def ventanas.insertarEnLista</definition>
+        <argsstring></argsstring>
+        <name>insertarEnLista</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" line="107" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" bodystart="107" bodyend="115"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Este archivo contiene las Ventanas de Acerca de, Ayuda, Mejores tiempos. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

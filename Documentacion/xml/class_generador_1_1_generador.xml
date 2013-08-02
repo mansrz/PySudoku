@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_generador_1_1_generador" kind="class" prot="public">
+    <compoundname>Generador::Generador</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_generador_1_1_generador_1ab2abe734ee6c095b8a52a03a23e17214" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list Generador.Generador::celda</definition>
+        <argsstring></argsstring>
+        <name>celda</name>
+        <initializer>= [[<ref refid="class_generador_1_1_celda" kindref="compound">Celda</ref>(fila, columna, &quot;&quot;) for columna in range(9)] for fila in range(9)]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="53" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generador_1_1_generador_1a4a647468e6701f0c59c6e315a3f584e6" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list Generador.Generador::tablero</definition>
+        <argsstring></argsstring>
+        <name>tablero</name>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="54" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_generador_1_1_generador_1a03d94dc4bfee76deba76eed6ec44bac0" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list Generador.Generador::visibles</definition>
+        <argsstring></argsstring>
+        <name>visibles</name>
+        <initializer>= [ True for i in range(81)]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="55" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_generador_1_1_generador_1a7653a28c2b949a33513e269c80fce22a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Generador.Generador.__init__</definition>
+        <argsstring></argsstring>
+        <name>__init__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Metodo Constructor
+:param dificultad:El nivel de la dificultad
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="56" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="56" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generador_1_1_generador_1ab5129fee0d088ea23d9fd2a85a73506d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Generador.Generador.CasillasVisibles</definition>
+        <argsstring></argsstring>
+        <name>CasillasVisibles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implementa el algoritmo para ver niveles de dificultad.
+:param dificultad: El Nivel de dificultad
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="80" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="80" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generador_1_1_generador_1aef145f37afe0cb9cd9cd6832c0f8ccd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Generador.Generador.validateCellAtPointerWithNumber</definition>
+        <argsstring></argsstring>
+        <name>validateCellAtPointerWithNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Valida la celda en el tablero
+:param row: fila
+:param column: columna
+:param value: valor
+:param counter: contador
+:return:
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="135" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="135" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generador_1_1_generador_1ae5ece4fd0d0526f261ee964587f5bd83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Generador.Generador.numberAssigner</definition>
+        <argsstring></argsstring>
+        <name>numberAssigner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="159" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="159" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generador_1_1_generador_1af4c2ef52fe2543bdfea778a5a7e6ee7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Generador.Generador.sudokuGenerator</definition>
+        <argsstring></argsstring>
+        <name>sudokuGenerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Funcion para generar sudoku con backtracking
+:param row: fila
+:return: Valor de verdad si se resolvio
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="174" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="174" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generador_1_1_generador_1a96ddfcf197c4b980dacdcad5c52cc5eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Generador.Generador.checkSudokuForZero</definition>
+        <argsstring></argsstring>
+        <name>checkSudokuForZero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="209" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="209" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generador_1_1_generador_1afe624fd14668a68697dd8be2c9bddbe1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Generador.Generador.MovimientoValido</definition>
+        <argsstring></argsstring>
+        <name>MovimientoValido</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Funcion que valida un movimiento
+:param x: valor de la fila
+:param y: valor de la columna
+:param v: valor de la celda
+:return: Valor de verdad si es valido
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="221" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="221" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generador_1_1_generador_1ab817a51c7982e956a6a1d6e40bae9e60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Generador.Generador.GetValor</definition>
+        <argsstring></argsstring>
+        <name>GetValor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="237" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="237" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generador_1_1_generador_1aa143e691cf3301a3ff0a1bc3a56bd172" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Generador.Generador.ChequearHorizontal</definition>
+        <argsstring></argsstring>
+        <name>ChequearHorizontal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Chequea ese valor si es correcto horizontalmente
+:param x:
+:param y:
+:param v:
+:return:
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="245" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="245" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generador_1_1_generador_1af5fa571c200c831435c9614b7369c62b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Generador.Generador.ChequearVertical</definition>
+        <argsstring></argsstring>
+        <name>ChequearVertical</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Chequea ese valor si es correcto verticalmente
+:param x:
+:param y:
+:param v:
+:return:
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="272" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="272" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generador_1_1_generador_1aa641c9a08ddfbc84486a0504808fc436" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Generador.Generador.ChequearBloque</definition>
+        <argsstring></argsstring>
+        <name>ChequearBloque</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Chequea ese valor si es correcto en el bloque
+:param x:
+:param y:
+:param v:
+:return:
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="286" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="286" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="class_generador_1_1_generador_1aa935397ae17f757fe5d502b5d81c054e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Generador.Generador.wipeSudokuClean</definition>
+        <argsstring></argsstring>
+        <name>wipeSudokuClean</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="315" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="315" bodyend="329"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" line="52" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/Generador.py" bodystart="52" bodyend="330"/>
+    <listofallmembers>
+      <member refid="class_generador_1_1_generador_1a7653a28c2b949a33513e269c80fce22a" prot="public" virt="non-virtual"><scope>Generador::Generador</scope><name>__init__</name></member>
+      <member refid="class_generador_1_1_generador_1ab5129fee0d088ea23d9fd2a85a73506d" prot="public" virt="non-virtual"><scope>Generador::Generador</scope><name>CasillasVisibles</name></member>
+      <member refid="class_generador_1_1_generador_1ab2abe734ee6c095b8a52a03a23e17214" prot="public" virt="non-virtual"><scope>Generador::Generador</scope><name>celda</name></member>
+      <member refid="class_generador_1_1_generador_1a96ddfcf197c4b980dacdcad5c52cc5eb" prot="public" virt="non-virtual"><scope>Generador::Generador</scope><name>checkSudokuForZero</name></member>
+      <member refid="class_generador_1_1_generador_1aa641c9a08ddfbc84486a0504808fc436" prot="public" virt="non-virtual"><scope>Generador::Generador</scope><name>ChequearBloque</name></member>
+      <member refid="class_generador_1_1_generador_1aa143e691cf3301a3ff0a1bc3a56bd172" prot="public" virt="non-virtual"><scope>Generador::Generador</scope><name>ChequearHorizontal</name></member>
+      <member refid="class_generador_1_1_generador_1af5fa571c200c831435c9614b7369c62b" prot="public" virt="non-virtual"><scope>Generador::Generador</scope><name>ChequearVertical</name></member>
+      <member refid="class_generador_1_1_generador_1ab817a51c7982e956a6a1d6e40bae9e60" prot="public" virt="non-virtual"><scope>Generador::Generador</scope><name>GetValor</name></member>
+      <member refid="class_generador_1_1_generador_1afe624fd14668a68697dd8be2c9bddbe1" prot="public" virt="non-virtual"><scope>Generador::Generador</scope><name>MovimientoValido</name></member>
+      <member refid="class_generador_1_1_generador_1ae5ece4fd0d0526f261ee964587f5bd83" prot="public" virt="non-virtual"><scope>Generador::Generador</scope><name>numberAssigner</name></member>
+      <member refid="class_generador_1_1_generador_1af4c2ef52fe2543bdfea778a5a7e6ee7f" prot="public" virt="non-virtual"><scope>Generador::Generador</scope><name>sudokuGenerator</name></member>
+      <member refid="class_generador_1_1_generador_1a4a647468e6701f0c59c6e315a3f584e6" prot="public" virt="non-virtual"><scope>Generador::Generador</scope><name>tablero</name></member>
+      <member refid="class_generador_1_1_generador_1aef145f37afe0cb9cd9cd6832c0f8ccd9" prot="public" virt="non-virtual"><scope>Generador::Generador</scope><name>validateCellAtPointerWithNumber</name></member>
+      <member refid="class_generador_1_1_generador_1a03d94dc4bfee76deba76eed6ec44bac0" prot="public" virt="non-virtual"><scope>Generador::Generador</scope><name>visibles</name></member>
+      <member refid="class_generador_1_1_generador_1aa935397ae17f757fe5d502b5d81c054e" prot="public" virt="non-virtual"><scope>Generador::Generador</scope><name>wipeSudokuClean</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.4">
+  <compound refid="class_generador_1_1_celda" kind="class"><name>Generador::Celda</name>
+    <member refid="class_generador_1_1_celda_1aec792452bb33327f9d956b8f83d57282" kind="variable"><name>fila</name></member>
+    <member refid="class_generador_1_1_celda_1a90fdf3e757c913e5a31d94c134a1ba90" kind="variable"><name>columna</name></member>
+    <member refid="class_generador_1_1_celda_1a7b0d4462edfdda325a4cf5f1c7782f2b" kind="variable"><name>cuadricula</name></member>
+    <member refid="class_generador_1_1_celda_1a82d01cf51e9e9b4f9c7fb9b22fdd3b8c" kind="variable"><name>valor</name></member>
+    <member refid="class_generador_1_1_celda_1afaf6c119be48af5f52790ef0b6e975fc" kind="variable"><name>valorCorrecto</name></member>
+    <member refid="class_generador_1_1_celda_1aec979402884d639c20f1516604cf9206" kind="variable"><name>text</name></member>
+    <member refid="class_generador_1_1_celda_1a99ba14581c4f92d9402fadd2df1259ef" kind="function"><name>__init__</name></member>
+    <member refid="class_generador_1_1_celda_1a00598ee2bc359706b3255aef3a3e6b95" kind="function"><name>getValor</name></member>
+    <member refid="class_generador_1_1_celda_1a42ff22e50d1bd29e5b40bf4472ba655b" kind="function"><name>getValorCorrecto</name></member>
+    <member refid="class_generador_1_1_celda_1aa4450e9534af1616749a7ba0f4cd79c0" kind="function"><name>getCuadricula</name></member>
+    <member refid="class_generador_1_1_celda_1a767d397f9c7c4b24d2fc47faff43d3bc" kind="function"><name>setText</name></member>
+    <member refid="class_generador_1_1_celda_1ab76b2b964a6ab2735fb9e0d0ba339a22" kind="function"><name>setValor</name></member>
+    <member refid="class_generador_1_1_celda_1ab3309853db0d2ce4f8c41236688e66b7" kind="function"><name>setValorCorrecto</name></member>
+  </compound>
+  <compound refid="class_generador_1_1_generador" kind="class"><name>Generador::Generador</name>
+    <member refid="class_generador_1_1_generador_1ab2abe734ee6c095b8a52a03a23e17214" kind="variable"><name>celda</name></member>
+    <member refid="class_generador_1_1_generador_1a4a647468e6701f0c59c6e315a3f584e6" kind="variable"><name>tablero</name></member>
+    <member refid="class_generador_1_1_generador_1a03d94dc4bfee76deba76eed6ec44bac0" kind="variable"><name>visibles</name></member>
+    <member refid="class_generador_1_1_generador_1a7653a28c2b949a33513e269c80fce22a" kind="function"><name>__init__</name></member>
+    <member refid="class_generador_1_1_generador_1ab5129fee0d088ea23d9fd2a85a73506d" kind="function"><name>CasillasVisibles</name></member>
+    <member refid="class_generador_1_1_generador_1aef145f37afe0cb9cd9cd6832c0f8ccd9" kind="function"><name>validateCellAtPointerWithNumber</name></member>
+    <member refid="class_generador_1_1_generador_1ae5ece4fd0d0526f261ee964587f5bd83" kind="function"><name>numberAssigner</name></member>
+    <member refid="class_generador_1_1_generador_1af4c2ef52fe2543bdfea778a5a7e6ee7f" kind="function"><name>sudokuGenerator</name></member>
+    <member refid="class_generador_1_1_generador_1a96ddfcf197c4b980dacdcad5c52cc5eb" kind="function"><name>checkSudokuForZero</name></member>
+    <member refid="class_generador_1_1_generador_1afe624fd14668a68697dd8be2c9bddbe1" kind="function"><name>MovimientoValido</name></member>
+    <member refid="class_generador_1_1_generador_1ab817a51c7982e956a6a1d6e40bae9e60" kind="function"><name>GetValor</name></member>
+    <member refid="class_generador_1_1_generador_1aa143e691cf3301a3ff0a1bc3a56bd172" kind="function"><name>ChequearHorizontal</name></member>
+    <member refid="class_generador_1_1_generador_1af5fa571c200c831435c9614b7369c62b" kind="function"><name>ChequearVertical</name></member>
+    <member refid="class_generador_1_1_generador_1aa641c9a08ddfbc84486a0504808fc436" kind="function"><name>ChequearBloque</name></member>
+    <member refid="class_generador_1_1_generador_1aa935397ae17f757fe5d502b5d81c054e" kind="function"><name>wipeSudokuClean</name></member>
+  </compound>
+  <compound refid="class_tablero_1_1_generador" kind="class"><name>Tablero::Generador</name>
+    <member refid="class_tablero_1_1_generador_1a7f684f5faaa38d939ce5e73e6daf689d" kind="variable"><name>tablero</name></member>
+    <member refid="class_tablero_1_1_generador_1a5905dcb68004105106ff0b34da2e3c70" kind="function"><name>__init__</name></member>
+    <member refid="class_tablero_1_1_generador_1a9163d8790feb0de72c7e5f6a92c19356" kind="function"><name>generarSolucionRandom</name></member>
+    <member refid="class_tablero_1_1_generador_1ab8ea34613494302bab1a480bcb97cff6" kind="function"><name>resolverTablero</name></member>
+    <member refid="class_tablero_1_1_generador_1a38af03bba1b3304770af3602f8fa6f85" kind="function"><name>esValido</name></member>
+    <member refid="class_tablero_1_1_generador_1a50f44e99b4338b0eb1a9a400653c48fa" kind="function"><name>ValidarVertical</name></member>
+    <member refid="class_tablero_1_1_generador_1aa0fd80802a7c9222c898f8a44c12e404" kind="function"><name>ValidarHorizontal</name></member>
+    <member refid="class_tablero_1_1_generador_1a612ac862468583b8267e6cc5d06c70aa" kind="function"><name>ValidarBloque</name></member>
+    <member refid="class_tablero_1_1_generador_1af91a616789e1d371313ac6ff881520d4" kind="function"><name>escanearSolucion</name></member>
+    <member refid="class_tablero_1_1_generador_1a48ea8fae24ab4db4a043a1b914aebc5e" kind="function"><name>esCompleto</name></member>
+    <member refid="class_tablero_1_1_generador_1a12167d65e7046fc6e16de760468f9a22" kind="function"><name>BackTrackSolucion</name></member>
+    <member refid="class_tablero_1_1_generador_1accab4b0a8ac45fab6070948254a535b4" kind="function"><name>SetValor</name></member>
+    <member refid="class_tablero_1_1_generador_1af67762e198d584415c3546da78676748" kind="function"><name>MovimientoValido</name></member>
+    <member refid="class_tablero_1_1_generador_1abe7c9ee6f2da8dd163b242db8d201813" kind="function"><name>GetValor</name></member>
+    <member refid="class_tablero_1_1_generador_1ab4988a69fb9085aa54d17c2ce51bb459" kind="function"><name>ChequearHorizontal</name></member>
+    <member refid="class_tablero_1_1_generador_1a941cd888165911d2601f97b41dc4be3b" kind="function"><name>ChequearVertical</name></member>
+    <member refid="class_tablero_1_1_generador_1ae41e3d9b0a5718953ba3b0edb42f2cbf" kind="function"><name>ChequearBloque</name></member>
+  </compound>
+  <compound refid="classjugador_1_1_jugador" kind="class"><name>jugador::Jugador</name>
+    <member refid="classjugador_1_1_jugador_1a814299d846d18566c8ae46e5ce1d882c" kind="variable"><name>nivel</name></member>
+    <member refid="classjugador_1_1_jugador_1a1dbfc0544f5ccd6634c89ec8371ee334" kind="variable"><name>nombre</name></member>
+    <member refid="classjugador_1_1_jugador_1abf922bf19bd357fa114e02540c74eac7" kind="variable"><name>tiempo</name></member>
+    <member refid="classjugador_1_1_jugador_1adbac29c1b384134e07d2fafe2d38cf18" kind="variable"><name>valor</name></member>
+    <member refid="classjugador_1_1_jugador_1acd76dd6cca15ff1d47a0516f24ed82a8" kind="function"><name>__init__</name></member>
+  </compound>
+  <compound refid="class_numero_1_1_numero" kind="class"><name>Numero::Numero</name>
+    <member refid="class_numero_1_1_numero_1a47b615282708c7153fce5360d06082ec" kind="variable"><name>casilla</name></member>
+    <member refid="class_numero_1_1_numero_1add58c510e6dfea0d3c3692c79e7c249a" kind="variable"><name>fila</name></member>
+    <member refid="class_numero_1_1_numero_1a4efc6e94fb89bf311c713fcda7fd7fac" kind="variable"><name>columna</name></member>
+    <member refid="class_numero_1_1_numero_1a9b4f5e3b0d3fa36ab48a1b25bc915b03" kind="variable"><name>valorCorrecto</name></member>
+    <member refid="class_numero_1_1_numero_1a79d57b9de0112d09194bff4aa2558fd8" kind="variable"><name>valor</name></member>
+    <member refid="class_numero_1_1_numero_1ab0d5b31bbf9e6ec1f8497bbf03ed68bf" kind="variable"><name>textOpciones</name></member>
+    <member refid="class_numero_1_1_numero_1aef53c5ef68a40f343af7a12d4fde21a0" kind="variable"><name>boton</name></member>
+    <member refid="class_numero_1_1_numero_1a7a97cb3e4252e08aa77949a4aa616548" kind="variable"><name>cuadricula</name></member>
+    <member refid="class_numero_1_1_numero_1a9f17c96d676757e0b155e88537e3abb3" kind="function"><name>__init__</name></member>
+    <member refid="class_numero_1_1_numero_1a818d0986e959bc7475473acba2c9db52" kind="function"><name>setNumero</name></member>
+    <member refid="class_numero_1_1_numero_1ae0fd65c2f86d7dd2bb094b35fcd85ab6" kind="function"><name>cambiarColorBotonAlerta</name></member>
+    <member refid="class_numero_1_1_numero_1af740b535557fcd6bde1e43888e05a2fa" kind="function"><name>cambiarColorBotonPista</name></member>
+    <member refid="class_numero_1_1_numero_1ab1f9269d0aa574800961da32f7f95f16" kind="function"><name>cambiarColorBotonOriginal</name></member>
+    <member refid="class_numero_1_1_numero_1a6ec5c677a3f7d8166aacf84b102eee0d" kind="function"><name>setCuadricula</name></member>
+  </compound>
+  <compound refid="class_sudoku_main_window_1_1_sudoku_main_window" kind="class"><name>SudokuMainWindow::SudokuMainWindow</name>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1ac2e9cceaaf36e4d4d0ffbd646dca0fd9" kind="variable"><name>numeros</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a012a36be9d3f9648a1c1f89649a8d259" kind="variable"><name>sgnlMprNumero</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a00f4ef9be740b78d47a6c8d99a102205" kind="variable"><name>sgnlMprOpcion</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a114dac730b306137fc13474cd9eabd8c" kind="variable"><name>casilla</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a2fd32e4e0d7e82a464ac3898ccc4637c" kind="variable"><name>colorCambiado</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a645017ef826b404061c0954d702e81e1" kind="variable"><name>dificultad</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a3b5e5c8e03833814d82f4ca1531af9c2" kind="variable"><name>ayudaUsada</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1afe8f983f779fc16f942e202865024b15" kind="variable"><name>tableroLleno</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a549e0432a4386a67cb4ee4d3741c0835" kind="variable"><name>tableroExiste</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1ade06c7abd46ed3d4385ebf0e01b670b1" kind="variable"><name>timeInicial</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1ace319036ada7a045ab675ff38fa8ddb1" kind="variable"><name>timer</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1ae9b4ab2489626295aa20808e8ffeeeca" kind="variable"><name>nombre</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a370ea64e9453cab45cf57647f8ce6cf9" kind="variable"><name>opcionesNumeros</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a252168ae5d3f829d9403336f3c8893a3" kind="variable"><name>timerTexto</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1af4af3149f7ab37219efac57129609402" kind="variable"><name>timerValor</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a928fafad3bb263c11f16d84935cff2d2" kind="function"><name>__init__</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1adea80094a0be9e4f5cbde0c56713d64a" kind="function"><name>clickBtnLlenar</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a3d717334d4dfec7d470cca6aca93055a" kind="function"><name>clickBtnFinalizar</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a52670b6c332989395bc5ea2e22b934a4" kind="function"><name>clickBtnAyuda</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a998eec966a54bc105599f0b0da7c1c85" kind="function"><name>stateChangedChkAyuda</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1ac8a0a4d664745d1e1d364051477cceab" kind="function"><name>stateChangedChkAlerta1</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1ac9eb37125e59154ae4a52d86dd4f950b" kind="function"><name>stateChangedChkAlerta2</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a824e2abb8fae56fb9e1e717be893afb6" kind="function"><name>obtenerCasilla</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1ad2b406eb64afec77691ea9cb948e39fe" kind="function"><name>verificarTableroLleno</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a03974f85f3e539e3b25b4c6d1c153014" kind="function"><name>creacionNumeros</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a2f0494b5316de0f36057c788ee94bedf" kind="function"><name>creacionBotones</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1ad01ebfe88f98c98f9ae79759b2e842af" kind="function"><name>cambiarNumero</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a06fd09150c43d8ed345473f78d15ae73" kind="function"><name>jugadaValida</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a2ae3b41092df8aab696ea21ce4e3ae9c" kind="function"><name>jugadaCorrecta</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1aba7ba379fbf8b42dc8ff1e2a5884c4e9" kind="function"><name>colorOriginal</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a69afa66d148684c9ff528d44335670b8" kind="function"><name>colorInvalidas</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1af769a5dcdde2c8b5a6edd70b77672960" kind="function"><name>colorIncorrectas</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a54a131b93f52ac5dbd9c3ffcb8888b88" kind="function"><name>inicializarTimer</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1afbf8637004c9fae4db79d7e2beaf57c2" kind="function"><name>actualizarTimer</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a1ccb72c504e09f04919e34418a846226" kind="function"><name>triggerAcercaDe</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a9d1f77df45624e15ebfcb58896a937fc" kind="function"><name>triggerAyuda</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1af8ad50f477151ecda2c6e76436ae00a3" kind="function"><name>triggerMejoresTiempos</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1afdfaf3e7d06aa50ec766fe212288fc29" kind="function"><name>triggerGuardarPartida</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a9895205f897e2cd4e0552827253c74f9" kind="function"><name>triggerCargarPartida</name></member>
+    <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a01b9c578d67e3b0cb0fb0836b204e2e3" kind="function"><name>tiempoGuardado</name></member>
+  </compound>
+  <compound refid="classacercade_u_i_1_1_ui___acerca_de" kind="class"><name>acercadeUI::Ui_AcercaDe</name>
+    <member refid="classacercade_u_i_1_1_ui___acerca_de_1a867506749372d38d091f6f45ac68cdf5" kind="variable"><name>label_2</name></member>
+    <member refid="classacercade_u_i_1_1_ui___acerca_de_1abb0b29b87b4861d692b65d2e6234b579" kind="variable"><name>label</name></member>
+    <member refid="classacercade_u_i_1_1_ui___acerca_de_1aefd67a324d3a0f1b22deb4dc4e4a440d" kind="function"><name>setupUi</name></member>
+    <member refid="classacercade_u_i_1_1_ui___acerca_de_1a470228c7638375668f956cd52ac985ff" kind="function"><name>retranslateUi</name></member>
+  </compound>
+  <compound refid="classayuda_u_i_1_1_ui___ayuda" kind="class"><name>ayudaUI::Ui_Ayuda</name>
+    <member refid="classayuda_u_i_1_1_ui___ayuda_1a2b56f75a292ff08c862a23b55b60525c" kind="variable"><name>label</name></member>
+    <member refid="classayuda_u_i_1_1_ui___ayuda_1afe089ef2b986a612644064f9a178c3c5" kind="variable"><name>label_2</name></member>
+    <member refid="classayuda_u_i_1_1_ui___ayuda_1ac4a0b3f55d0bd9996436e79857e8e8d9" kind="variable"><name>pushButton</name></member>
+    <member refid="classayuda_u_i_1_1_ui___ayuda_1a616863ea29f44f7f52d368e09f480753" kind="function"><name>setupUi</name></member>
+    <member refid="classayuda_u_i_1_1_ui___ayuda_1a9eff96f141f61c51614d817a9a0f16a7" kind="function"><name>retranslateUi</name></member>
+  </compound>
+  <compound refid="classsudokuui_1_1_ui___main_window" kind="class"><name>sudokuui::Ui_MainWindow</name>
+    <member refid="classsudokuui_1_1_ui___main_window_1a6282b23abd869a67f2c219780778a8c6" kind="variable"><name>centralWidget</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a6114e11c94c892dcf77dd23789f51699" kind="variable"><name>gridLayoutWidget</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a53f586e421a5620c8266427717d65c5a" kind="variable"><name>gridTablero</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1ad26c91c6900eab0caf64c40bcc65f630" kind="variable"><name>label</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1ad670263c469deb42388573cab852bbcb" kind="variable"><name>gbOpciones</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a8aa7947d3bd7e9face48a26d107f0aff" kind="variable"><name>chkAlerta1</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a6dd6f7f93cf5c4505bdfe48dc93440d1" kind="variable"><name>chkAlerta2</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a872ae8b9cd92af2bf64744c768cb7235" kind="variable"><name>chkAyuda</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1adde0a7697330b695f90441f33def153c" kind="variable"><name>chkPista</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1afe2dd318a5271ae1ea045c32cf82f931" kind="variable"><name>btnLlenar</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a6e9dc327440fb1404a0dd6ddb393ac55" kind="variable"><name>gbNumeros</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1aff24a3956daf91fb973908fb3400c886" kind="variable"><name>gridLayoutWidget_2</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a72c2a396c49ba9923f65bee3b2cff122" kind="variable"><name>gridNumeros</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1af04c8ff967d04e7b7b63fa6bc6beb462" kind="variable"><name>btnAyuda</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a905a485955cc4100e693759f088ef606" kind="variable"><name>lcdNumber</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a58e053292b250741df9883947b3681b6" kind="variable"><name>btnFinalizar</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a886be2c8e87819b286060f8a47926f5b" kind="variable"><name>layoutWidget</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a9655e75db8ffee6fce920fa812f98b4f" kind="variable"><name>horizontalLayout</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a123c28199b8cdba685b8a0022b7f8875" kind="variable"><name>lblDificultad</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1abe7885f4b93b68e82746d821d4ba9923" kind="variable"><name>cboDificultad</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a9f5b2d7c8eee38437345d5f0462470dd" kind="variable"><name>menuBar</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a819f425769527ecb41842b727c15fd1f" kind="variable"><name>menuMenu</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a24fb10bfd9502bdb77c073e738ef18e0" kind="variable"><name>menuAyuda</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a89e552c24ec54060de22f7b30664c31f" kind="variable"><name>mainToolBar</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1ac5a84bcb1c39736fbac28f62d6f3fc28" kind="variable"><name>actionNueva_partida</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a4e095dc0bbf558facc5b1e62cc325ff4" kind="variable"><name>actionGuardar_partida</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a78dd95829203c345bcc2f41743348f57" kind="variable"><name>actionCargar_partida</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1acf580ed577baa24a3052ca3784cde3d0" kind="variable"><name>actionSalir</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a727fd47e605aba698f3ccd7fdef2b559" kind="variable"><name>actionAyuda</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a2e0a25588fa107e4c61181ed80bb3a46" kind="variable"><name>actionAcerca_de</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1aece3a743957be27f6f09c6c882582958" kind="variable"><name>actionMejores_tiempos</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1af7d8582f64fe04816c4ea928b3601f9a" kind="function"><name>setupUi</name></member>
+    <member refid="classsudokuui_1_1_ui___main_window_1a757ddd14ff06b39edc0d04a4d7e10a57" kind="function"><name>retranslateUi</name></member>
+  </compound>
+  <compound refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos" kind="class"><name>mejoresTiemposUI::Ui_MejoresTiempos</name>
+    <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1aa8cd68c61a7f36c8e6cc03089279d252" kind="variable"><name>tab</name></member>
+    <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a1f9270a09ec22df65af2c88f22272d2d" kind="variable"><name>tabPrincipiante</name></member>
+    <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1abc7def506bcb43a74f16e2d3f42b44a2" kind="variable"><name>tablePrincipiante</name></member>
+    <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a5ba8a8ab05843d64b9d940d436351ce3" kind="variable"><name>tabIntermedio</name></member>
+    <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a5c7d5b9816496271ee8f575407f62074" kind="variable"><name>tableIntermedio</name></member>
+    <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a96e6b62d20314aa8135213e1b682be27" kind="variable"><name>tabAvanzado</name></member>
+    <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1ae5921b387d85a354e084cc4e631eee06" kind="variable"><name>tableAvanzado</name></member>
+    <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a83fa8701e748d74c24954570349860cd" kind="variable"><name>labelMejoresTiempos</name></member>
+    <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1ae8e938354726bd2ac50902586b157505" kind="variable"><name>pushButton</name></member>
+    <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a6bb0f6b347b6fd5c57628191ef6e454e" kind="function"><name>setupUi</name></member>
+    <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a6635519238cb6b3fa06d8251cb802204" kind="function"><name>retranslateUi</name></member>
+  </compound>
+  <compound refid="classventanas_1_1w_acerca_de" kind="class"><name>ventanas::wAcercaDe</name>
+    <member refid="classventanas_1_1w_acerca_de_1ab18d9b92c4620ef50d91072e7d17eee3" kind="function"><name>__init__</name></member>
+  </compound>
+  <compound refid="classventanas_1_1w_ayuda" kind="class"><name>ventanas::wAyuda</name>
+    <member refid="classventanas_1_1w_ayuda_1a75ddc112e68887106f7964a7788f5d90" kind="function"><name>__init__</name></member>
+  </compound>
+  <compound refid="classventanas_1_1w_mejores_tiempos" kind="class"><name>ventanas::wMejoresTiempos</name>
+    <member refid="classventanas_1_1w_mejores_tiempos_1a9144362cf6259852285fdf4b0f7ab39b" kind="function"><name>__init__</name></member>
+    <member refid="classventanas_1_1w_mejores_tiempos_1a1d1586af2cb7d6e4b16fc14b963a7b33" kind="function"><name>clickBtnSalir</name></member>
+    <member refid="classventanas_1_1w_mejores_tiempos_1a4a22501803f7b0dfef0fae412d16eddd" kind="function"><name>guardarTiempos</name></member>
+    <member refid="classventanas_1_1w_mejores_tiempos_1a913d4d800d0492c403cf5668646ee629" kind="function"><name>cargarTiempos</name></member>
+    <member refid="classventanas_1_1w_mejores_tiempos_1a7a3c86fec7473b1b05266a69bb418a9a" kind="function"><name>mostrarTiempos</name></member>
+  </compound>
+  <compound refid="namespaceacercade_u_i" kind="namespace"><name>acercadeUI</name>
+  </compound>
+  <compound refid="namespaceayuda_u_i" kind="namespace"><name>ayudaUI</name>
+  </compound>
+  <compound refid="namespace_generador" kind="namespace"><name>Generador</name>
+    <member refid="namespace_generador_1a8cbdae695491da450934c4369caf8d29" kind="variable"><name>Ta</name></member>
+  </compound>
+  <compound refid="namespacejugador" kind="namespace"><name>jugador</name>
+    <member refid="namespacejugador_1ada3eb1b740a09b709349b803b419d86e" kind="variable"><name>__author__</name></member>
+  </compound>
+  <compound refid="namespacemejores_tiempos_u_i" kind="namespace"><name>mejoresTiemposUI</name>
+  </compound>
+  <compound refid="namespacenik's_01simple_01crypt" kind="namespace"><name>nik&apos;s simple crypt</name>
+    <member refid="namespacenik's_01simple_01crypt_1a6fbc8fd8a4ff0318907418a52a6cd4f7" kind="variable"><name>__author__</name></member>
+  </compound>
+  <compound refid="namespace_nik_crypt" kind="namespace"><name>NikCrypt</name>
+    <member refid="namespace_nik_crypt_1a712c7e8aab82ca963e4d373756e2214d" kind="variable"><name>__author__</name></member>
+    <member refid="namespace_nik_crypt_1ab1be1cdff363132c4ff972e3a58d405e" kind="function"><name>nikEncrypt</name></member>
+    <member refid="namespace_nik_crypt_1a963556cc97e7c297bd363d225f08ba1e" kind="function"><name>nikDecrypt</name></member>
+  </compound>
+  <compound refid="namespace_numero" kind="namespace"><name>Numero</name>
+    <member refid="namespace_numero_1a9532b284867554352445fe666632c1cb" kind="variable"><name>__author__</name></member>
+  </compound>
+  <compound refid="namespace_py_side_1_1_qt_core" kind="namespace"><name>PySide::QtCore</name>
+  </compound>
+  <compound refid="namespace_py_side_1_1_qt_gui" kind="namespace"><name>PySide::QtGui</name>
+  </compound>
+  <compound refid="namespace_sudoku_main_window" kind="namespace"><name>SudokuMainWindow</name>
+    <member refid="namespace_sudoku_main_window_1a6ae78ac4268752c431aac0753cef7fda" kind="variable"><name>__author__</name></member>
+    <member refid="namespace_sudoku_main_window_1a9987028fc6a39b7d72c438ef465f4d5c" kind="variable"><name>timer</name></member>
+    <member refid="namespace_sudoku_main_window_1adfbc10a324850ef667e112a43d373a3f" kind="variable"><name>sudoku</name></member>
+    <member refid="namespace_sudoku_main_window_1af2c821d9cac0d9d48afe8dc47dd88796" kind="variable"><name>acercaDe</name></member>
+    <member refid="namespace_sudoku_main_window_1ad87780c011ac73ffd9418fa99e69a13c" kind="variable"><name>ayuda</name></member>
+    <member refid="namespace_sudoku_main_window_1aaaf4c59bb37372582cb7062e6792c711" kind="variable"><name>mejoresTiempos</name></member>
+  </compound>
+  <compound refid="namespacesudokuui" kind="namespace"><name>sudokuui</name>
+  </compound>
+  <compound refid="namespace_tablero" kind="namespace"><name>Tablero</name>
+    <member refid="namespace_tablero_1afdd392e1d8c2031b8cb3fe43d5469e24" kind="variable"><name>Tablero</name></member>
+  </compound>
+  <compound refid="namespaceventanas" kind="namespace"><name>ventanas</name>
+    <member refid="namespaceventanas_1aa80777d1173f2cdf2e5d6bdccd7b67df" kind="variable"><name>__author__</name></member>
+    <member refid="namespaceventanas_1a4544f8e751bea0855961d5c0c77a63be" kind="function"><name>insertarEnLista</name></member>
+  </compound>
+  <compound refid="acercade_u_i_8py" kind="file"><name>acercadeUI.py</name>
+  </compound>
+  <compound refid="ayuda_u_i_8py" kind="file"><name>ayudaUI.py</name>
+  </compound>
+  <compound refid="_generador_8py" kind="file"><name>Generador.py</name>
+  </compound>
+  <compound refid="jugador_8py" kind="file"><name>jugador.py</name>
+  </compound>
+  <compound refid="mejores_tiempos_u_i_8py" kind="file"><name>mejoresTiemposUI.py</name>
+  </compound>
+  <compound refid="nik's_01simple_01crypt_8py" kind="file"><name>nik&apos;s simple crypt.py</name>
+  </compound>
+  <compound refid="_nik_crypt_8py" kind="file"><name>NikCrypt.py</name>
+  </compound>
+  <compound refid="_numero_8py" kind="file"><name>Numero.py</name>
+  </compound>
+  <compound refid="_sudoku_main_window_8py" kind="file"><name>SudokuMainWindow.py</name>
+  </compound>
+  <compound refid="sudokuui_8py" kind="file"><name>sudokuui.py</name>
+  </compound>
+  <compound refid="_tablero_8py" kind="file"><name>Tablero.py</name>
+  </compound>
+  <compound refid="ventanas_8py" kind="file"><name>ventanas.py</name>
+  </compound>
+  <compound refid="dir_1788f8309b1a812dcb800a185471cf6c" kind="dir"><name>C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui</name>
+  </compound>
+</doxygenindex>

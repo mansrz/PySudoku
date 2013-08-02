@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="classventanas_1_1w_mejores_tiempos" kind="class" prot="public">
+    <compoundname>ventanas::wMejoresTiempos</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMainWindow</basecompoundref>
+    <basecompoundref refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos" prot="public" virt="non-virtual">mejoresTiemposUI.Ui_MejoresTiempos</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classventanas_1_1w_mejores_tiempos_1a9144362cf6259852285fdf4b0f7ab39b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def ventanas.wMejoresTiempos.__init__</definition>
+        <argsstring></argsstring>
+        <name>__init__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" line="34" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" bodystart="34" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classventanas_1_1w_mejores_tiempos_1a1d1586af2cb7d6e4b16fc14b963a7b33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def ventanas.wMejoresTiempos.clickBtnSalir</definition>
+        <argsstring></argsstring>
+        <name>clickBtnSalir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" line="47" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classventanas_1_1w_mejores_tiempos_1a4a22501803f7b0dfef0fae412d16eddd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def ventanas.wMejoresTiempos.guardarTiempos</definition>
+        <argsstring></argsstring>
+        <name>guardarTiempos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Funcion para guardar Tiempo una vez que termine el sudoku</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" line="50" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" bodystart="50" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classventanas_1_1w_mejores_tiempos_1a913d4d800d0492c403cf5668646ee629" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def ventanas.wMejoresTiempos.cargarTiempos</definition>
+        <argsstring></argsstring>
+        <name>cargarTiempos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Funcion para cargar el archivo de tiempos</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" line="71" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" bodystart="71" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classventanas_1_1w_mejores_tiempos_1a7a3c86fec7473b1b05266a69bb418a9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def ventanas.wMejoresTiempos.mostrarTiempos</definition>
+        <argsstring></argsstring>
+        <name>mostrarTiempos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Funcion que muestra los tiempos ordenados</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" line="84" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" bodystart="84" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="57">
+        <label>QMainWindow</label>
+      </node>
+      <node id="59">
+        <label>object</label>
+      </node>
+      <node id="56">
+        <label>ventanas.wMejoresTiempos</label>
+        <link refid="classventanas_1_1w_mejores_tiempos"/>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>mejoresTiemposUI.Ui_MejoresTiempos</label>
+        <link refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="61">
+        <label>QMainWindow</label>
+      </node>
+      <node id="63">
+        <label>object</label>
+      </node>
+      <node id="60">
+        <label>ventanas.wMejoresTiempos</label>
+        <link refid="classventanas_1_1w_mejores_tiempos"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>mejoresTiemposUI.Ui_MejoresTiempos</label>
+        <link refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos"/>
+        <childnode refid="63" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" line="33" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/ventanas.py" bodystart="33" bodyend="107"/>
+    <listofallmembers>
+      <member refid="classventanas_1_1w_mejores_tiempos_1a9144362cf6259852285fdf4b0f7ab39b" prot="public" virt="non-virtual"><scope>ventanas::wMejoresTiempos</scope><name>__init__</name></member>
+      <member refid="classventanas_1_1w_mejores_tiempos_1a913d4d800d0492c403cf5668646ee629" prot="public" virt="non-virtual"><scope>ventanas::wMejoresTiempos</scope><name>cargarTiempos</name></member>
+      <member refid="classventanas_1_1w_mejores_tiempos_1a1d1586af2cb7d6e4b16fc14b963a7b33" prot="public" virt="non-virtual"><scope>ventanas::wMejoresTiempos</scope><name>clickBtnSalir</name></member>
+      <member refid="classventanas_1_1w_mejores_tiempos_1a4a22501803f7b0dfef0fae412d16eddd" prot="public" virt="non-virtual"><scope>ventanas::wMejoresTiempos</scope><name>guardarTiempos</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a83fa8701e748d74c24954570349860cd" prot="public" virt="non-virtual"><scope>ventanas::wMejoresTiempos</scope><name>labelMejoresTiempos</name></member>
+      <member refid="classventanas_1_1w_mejores_tiempos_1a7a3c86fec7473b1b05266a69bb418a9a" prot="public" virt="non-virtual"><scope>ventanas::wMejoresTiempos</scope><name>mostrarTiempos</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1ae8e938354726bd2ac50902586b157505" prot="public" virt="non-virtual"><scope>ventanas::wMejoresTiempos</scope><name>pushButton</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a6635519238cb6b3fa06d8251cb802204" prot="public" virt="non-virtual"><scope>ventanas::wMejoresTiempos</scope><name>retranslateUi</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a6bb0f6b347b6fd5c57628191ef6e454e" prot="public" virt="non-virtual"><scope>ventanas::wMejoresTiempos</scope><name>setupUi</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1aa8cd68c61a7f36c8e6cc03089279d252" prot="public" virt="non-virtual"><scope>ventanas::wMejoresTiempos</scope><name>tab</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a96e6b62d20314aa8135213e1b682be27" prot="public" virt="non-virtual"><scope>ventanas::wMejoresTiempos</scope><name>tabAvanzado</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a5ba8a8ab05843d64b9d940d436351ce3" prot="public" virt="non-virtual"><scope>ventanas::wMejoresTiempos</scope><name>tabIntermedio</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1ae5921b387d85a354e084cc4e631eee06" prot="public" virt="non-virtual"><scope>ventanas::wMejoresTiempos</scope><name>tableAvanzado</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a5c7d5b9816496271ee8f575407f62074" prot="public" virt="non-virtual"><scope>ventanas::wMejoresTiempos</scope><name>tableIntermedio</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1abc7def506bcb43a74f16e2d3f42b44a2" prot="public" virt="non-virtual"><scope>ventanas::wMejoresTiempos</scope><name>tablePrincipiante</name></member>
+      <member refid="classmejores_tiempos_u_i_1_1_ui___mejores_tiempos_1a1f9270a09ec22df65af2c88f22272d2d" prot="public" virt="non-virtual"><scope>ventanas::wMejoresTiempos</scope><name>tabPrincipiante</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="acercade_u_i_8py" kind="file">
+    <compoundname>acercadeUI.py</compoundname>
+    <innerclass refid="classacercade_u_i_1_1_ui___acerca_de" prot="public">acercadeUI::Ui_AcercaDe</innerclass>
+    <innernamespace refid="namespaceacercade_u_i">acercadeUI</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceacercade_u_i" refkind="compound"><highlight class="comment">#<sp/>-*-<sp/>coding:<sp/>utf-8<sp/>-*-</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Form<sp/>implementation<sp/>generated<sp/>from<sp/>reading<sp/>ui<sp/>file<sp/>&apos;acercade.ui&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">#</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Created:<sp/>Fri<sp/>Jul<sp/>26<sp/>17:27:18<sp/>2013</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">#<sp/><sp/><sp/><sp/><sp/><sp/>by:<sp/>pyside-uic<sp/>0.2.14<sp/>running<sp/>on<sp/>PySide<sp/>1.2.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">#</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">#<sp/>WARNING!<sp/>All<sp/>changes<sp/>made<sp/>in<sp/>this<sp/>file<sp/>will<sp/>be<sp/>lost!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">##<sp/>@package<sp/>acercadeUI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">#<sp/><sp/>Este<sp/>archivo<sp/>contiene<sp/>las<sp/>Ventana<sp/>de<sp/>acerca<sp/>de</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">#</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>PySide<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>QtCore,<sp/>QtGui</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&quot;&quot;<sp/>_Clase<sp/>AcercaDe</highlight></codeline>
+<codeline lineno="15"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="16"><highlight class="stringliteral">Tiene<sp/>la<sp/>ventana<sp/>con<sp/>la<sp/>información<sp/>de<sp/>AcercaDe</highlight></codeline>
+<codeline lineno="17"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="classacercade_u_i_1_1_ui___acerca_de" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classacercade_u_i_1_1_ui___acerca_de" kindref="compound">Ui_AcercaDe</ref>(object):</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">setupUi(self,<sp/>AcercaDe):</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AcercaDe.setObjectName(</highlight><highlight class="stringliteral">&quot;AcercaDe&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AcercaDe.resize(400,<sp/>300)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classacercade_u_i_1_1_ui___acerca_de_1a867506749372d38d091f6f45ac68cdf5" kindref="member">label_2</ref><sp/>=<sp/>QtGui.QLabel(AcercaDe)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.label_2.setGeometry(QtCore.QRect(20,<sp/>40,<sp/>331,<sp/>201))</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>font<sp/>=<sp/>QtGui.QFont()</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>font.setFamily(</highlight><highlight class="stringliteral">&quot;Broadway&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>font.setPointSize(12)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.label_2.setFont(font)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.label_2.setObjectName(</highlight><highlight class="stringliteral">&quot;label_2&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classacercade_u_i_1_1_ui___acerca_de_1abb0b29b87b4861d692b65d2e6234b579" kindref="member">label</ref><sp/>=<sp/>QtGui.QLabel(AcercaDe)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.label.setGeometry(QtCore.QRect(10,<sp/>10,<sp/>351,<sp/>31))</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>font<sp/>=<sp/>QtGui.QFont()</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>font.setFamily(</highlight><highlight class="stringliteral">&quot;Broadway&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>font.setPointSize(26)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.label.setFont(font)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.label.setAlignment(QtCore.Qt.AlignCenter)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.label.setObjectName(</highlight><highlight class="stringliteral">&quot;label&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classacercade_u_i_1_1_ui___acerca_de_1a470228c7638375668f956cd52ac985ff" kindref="member">retranslateUi</ref>(AcercaDe)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QtCore.QMetaObject.connectSlotsByName(AcercaDe)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal">retranslateUi(self,<sp/>AcercaDe):</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AcercaDe.setWindowTitle(QtGui.QApplication.translate(</highlight><highlight class="stringliteral">&quot;AcercaDe&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Dialog&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,<sp/>QtGui.QApplication.UnicodeUTF8))</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.label_2.setText(QtGui.QApplication.translate(</highlight><highlight class="stringliteral">&quot;AcercaDe&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Juego<sp/>de<sp/>Sudoku<sp/>en<sp/>Python<sp/>con<sp/>Qt\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;Autores:<sp/>\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>Manuel<sp/>Suárez<sp/><sp/><sp/><sp/>\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>Veronica<sp/>Pozo\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/>Alvaro<sp/>Ortiz&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,<sp/>QtGui.QApplication.UnicodeUTF8))</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.label.setText(QtGui.QApplication.translate(</highlight><highlight class="stringliteral">&quot;AcercaDe&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;ACERCA<sp/>DE&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">,<sp/>QtGui.QApplication.UnicodeUTF8))</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/acercadeUI.py"/>
+  </compounddef>
+</doxygen>

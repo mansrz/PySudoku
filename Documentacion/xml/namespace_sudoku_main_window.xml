@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="namespace_sudoku_main_window" kind="namespace">
+    <compoundname>SudokuMainWindow</compoundname>
+    <innerclass refid="class_sudoku_main_window_1_1_sudoku_main_window" prot="public">SudokuMainWindow::SudokuMainWindow</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_sudoku_main_window_1a6ae78ac4268752c431aac0753cef7fda" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SudokuMainWindow.__author__</definition>
+        <argsstring></argsstring>
+        <name>__author__</name>
+        <initializer>= &apos;user&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="1" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_sudoku_main_window_1a9987028fc6a39b7d72c438ef465f4d5c" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple SudokuMainWindow.timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <initializer>= QTimer()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="378" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="378" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_sudoku_main_window_1adfbc10a324850ef667e112a43d373a3f" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple SudokuMainWindow.sudoku</definition>
+        <argsstring></argsstring>
+        <name>sudoku</name>
+        <initializer>= <ref refid="class_sudoku_main_window_1_1_sudoku_main_window" kindref="compound">SudokuMainWindow</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="379" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="379" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_sudoku_main_window_1af2c821d9cac0d9d48afe8dc47dd88796" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple SudokuMainWindow.acercaDe</definition>
+        <argsstring></argsstring>
+        <name>acercaDe</name>
+        <initializer>= <ref refid="classventanas_1_1w_acerca_de" kindref="compound">ventanas.wAcercaDe</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="380" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="380" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_sudoku_main_window_1ad87780c011ac73ffd9418fa99e69a13c" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple SudokuMainWindow.ayuda</definition>
+        <argsstring></argsstring>
+        <name>ayuda</name>
+        <initializer>= <ref refid="classventanas_1_1w_ayuda" kindref="compound">ventanas.wAyuda</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="381" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="381" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_sudoku_main_window_1aaaf4c59bb37372582cb7062e6792c711" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple SudokuMainWindow.mejoresTiempos</definition>
+        <argsstring></argsstring>
+        <name>mejoresTiempos</name>
+        <initializer>= <ref refid="classventanas_1_1w_mejores_tiempos" kindref="compound">ventanas.wMejoresTiempos</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="382" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Este archivo contiene la interfaz de la ventana principal. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

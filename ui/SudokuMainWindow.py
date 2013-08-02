@@ -26,6 +26,7 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
       Inicializa las variables usadas en la aplicacion e implementa las conexiones entre botones
       y la barra de menu.
     """
+
     def __init__(self, parent=None):
         super(SudokuMainWindow,self).__init__(parent)
         self.setupUi(self)
@@ -57,6 +58,10 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
 
 
     def clickBtnLlenar(self):
+        """
+        Funcion de evento para el Boton Iniciar
+        Se crea el tablero, botones, y verifica estados de demas widgets.
+        """
         self.dificultad=self.cboDificultad.currentIndex()
         generador = Generador.Generador(self.dificultad)
         for i in range(9):
@@ -80,6 +85,12 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
 
 
     def clickBtnFinalizar(self):
+        """
+        Funcion de evento para el Boton Finalizar
+        Se elimina el tablero, botones, y verifica estados de demas widgets.
+
+        :return:
+        """
         self.timer.stop()
         self.btnLlenar.setEnabled(True)
         self.btnFinalizar.setEnabled(False)
@@ -98,7 +109,12 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         self.borrarTablero()
 
 
+
     def clickBtnAyuda(self):
+        """
+        Muestra una casilla resuelta
+
+        """
         arrayInt = []
         for i in range(81):
             if self.numeros[i].valor == -1:
@@ -146,6 +162,12 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
 
 
     def verificarTableroLleno(self):
+        """
+        Verifica el tablero si esta lleno retorna True y si no
+        retorna False
+
+        :return:
+        """
         for i in range (81):
             print(str(self.numeros[i].valor))
             if self.numeros[i].valor == -1:
@@ -154,6 +176,14 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
 
 
     def creacionNumeros(self, i, valor, col, fila, visible):
+        """
+        Funcion que crea Objetos numeros, Widgets de los numeros y su signal Mapper.
+        :param i:
+        :param valor:
+        :param col:
+        :param fila:
+        :param visible:
+        """
         self.numeros.append(Numero.Numero(valor,col,fila,visible))
         self.gridTablero.addWidget(self.numeros[i],col,fila,0)
         self.sgnlMprNumero.setMapping(self.numeros[i].boton, i)
@@ -173,6 +203,10 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
 
 
     def cambiarNumero(self, n):
+        """
+        Funcion que cambia el numero en el tablero gráfico
+        :param n:
+        """
         self.colorOriginal()
         if self.casilla != -1:
             self.numeros[self.casilla].boton.setText(str(n+1))
@@ -200,6 +234,11 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
                         self.colorCambiado=True
 
     def jugadaValida(self, casilla, valor):
+        """
+        Verifica si la jugada es valida         :param casilla:
+        :param valor:
+        :return:
+        """
         for i in range (81):
             if self.numeros[casilla].cuadricula == self.numeros[i].cuadricula or \
                             self.numeros[casilla].columna == self.numeros[i].columna or \
@@ -209,6 +248,12 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
         return True
 
     def jugadaCorrecta(self,casilla):
+        """
+        Verifica si la jugada es correcta         :param casilla:
+        :param valor:
+        :return:
+        """
+
         if self.numeros[casilla].valor==self.numeros[casilla].valorCorrecto:
             return True
         return False
@@ -238,6 +283,10 @@ class SudokuMainWindow(QMainWindow,sudokuui.Ui_MainWindow):
 
 
     def actualizarTimer(self):
+        """
+        actualiza el tiempo en el widget LCD
+
+        """
         timeAct=QTime.currentTime()
         minIni=self.timeInicial.minute()
         minAct=timeAct.minute()

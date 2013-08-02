@@ -1,0 +1,683 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="class_sudoku_main_window_1_1_sudoku_main_window" kind="class" prot="public">
+    <compoundname>SudokuMainWindow::SudokuMainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMainWindow</basecompoundref>
+    <basecompoundref refid="classsudokuui_1_1_ui___main_window" prot="public" virt="non-virtual">sudokuui.Ui_MainWindow</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_sudoku_main_window_1_1_sudoku_main_window_1ac2e9cceaaf36e4d4d0ffbd646dca0fd9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SudokuMainWindow.SudokuMainWindow::numeros</definition>
+        <argsstring></argsstring>
+        <name>numeros</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="33" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_main_window_1_1_sudoku_main_window_1a012a36be9d3f9648a1c1f89649a8d259" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SudokuMainWindow.SudokuMainWindow::sgnlMprNumero</definition>
+        <argsstring></argsstring>
+        <name>sgnlMprNumero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="34" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_main_window_1_1_sudoku_main_window_1a00f4ef9be740b78d47a6c8d99a102205" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SudokuMainWindow.SudokuMainWindow::sgnlMprOpcion</definition>
+        <argsstring></argsstring>
+        <name>sgnlMprOpcion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="35" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_main_window_1_1_sudoku_main_window_1a114dac730b306137fc13474cd9eabd8c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SudokuMainWindow.SudokuMainWindow::casilla</definition>
+        <argsstring></argsstring>
+        <name>casilla</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="36" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_main_window_1_1_sudoku_main_window_1a2fd32e4e0d7e82a464ac3898ccc4637c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SudokuMainWindow.SudokuMainWindow::colorCambiado</definition>
+        <argsstring></argsstring>
+        <name>colorCambiado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="37" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_main_window_1_1_sudoku_main_window_1a645017ef826b404061c0954d702e81e1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SudokuMainWindow.SudokuMainWindow::dificultad</definition>
+        <argsstring></argsstring>
+        <name>dificultad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="38" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_main_window_1_1_sudoku_main_window_1a3b5e5c8e03833814d82f4ca1531af9c2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SudokuMainWindow.SudokuMainWindow::ayudaUsada</definition>
+        <argsstring></argsstring>
+        <name>ayudaUsada</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="39" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_main_window_1_1_sudoku_main_window_1afe8f983f779fc16f942e202865024b15" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SudokuMainWindow.SudokuMainWindow::tableroLleno</definition>
+        <argsstring></argsstring>
+        <name>tableroLleno</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="40" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_main_window_1_1_sudoku_main_window_1a549e0432a4386a67cb4ee4d3741c0835" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SudokuMainWindow.SudokuMainWindow::tableroExiste</definition>
+        <argsstring></argsstring>
+        <name>tableroExiste</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="41" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_main_window_1_1_sudoku_main_window_1ade06c7abd46ed3d4385ebf0e01b670b1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SudokuMainWindow.SudokuMainWindow::timeInicial</definition>
+        <argsstring></argsstring>
+        <name>timeInicial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="54" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_main_window_1_1_sudoku_main_window_1ace319036ada7a045ab675ff38fa8ddb1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SudokuMainWindow.SudokuMainWindow::timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="56" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_main_window_1_1_sudoku_main_window_1ae9b4ab2489626295aa20808e8ffeeeca" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SudokuMainWindow.SudokuMainWindow::nombre</definition>
+        <argsstring></argsstring>
+        <name>nombre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="103" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_main_window_1_1_sudoku_main_window_1a370ea64e9453cab45cf57647f8ce6cf9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SudokuMainWindow.SudokuMainWindow::opcionesNumeros</definition>
+        <argsstring></argsstring>
+        <name>opcionesNumeros</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="194" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_main_window_1_1_sudoku_main_window_1a252168ae5d3f829d9403336f3c8893a3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SudokuMainWindow.SudokuMainWindow::timerTexto</definition>
+        <argsstring></argsstring>
+        <name>timerTexto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="305" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sudoku_main_window_1_1_sudoku_main_window_1af4af3149f7ab37219efac57129609402" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SudokuMainWindow.SudokuMainWindow::timerValor</definition>
+        <argsstring></argsstring>
+        <name>timerValor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="306" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1a928fafad3bb263c11f16d84935cff2d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.__init__</definition>
+        <argsstring></argsstring>
+        <name>__init__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="30" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="30" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1adea80094a0be9e4f5cbde0c56713d64a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.clickBtnLlenar</definition>
+        <argsstring></argsstring>
+        <name>clickBtnLlenar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Funcion de evento para el Boton Iniciar
+Se crea el tablero, botones, y verifica estados de demas widgets.
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="60" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="60" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1a3d717334d4dfec7d470cca6aca93055a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.clickBtnFinalizar</definition>
+        <argsstring></argsstring>
+        <name>clickBtnFinalizar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Funcion de evento para el Boton Finalizar
+Se elimina el tablero, botones, y verifica estados de demas widgets.
+
+:return:
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="87" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="87" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1a52670b6c332989395bc5ea2e22b934a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.clickBtnAyuda</definition>
+        <argsstring></argsstring>
+        <name>clickBtnAyuda</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Muestra una casilla resuelta</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="113" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="113" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1a998eec966a54bc105599f0b0da7c1c85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.stateChangedChkAyuda</definition>
+        <argsstring></argsstring>
+        <name>stateChangedChkAyuda</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="130" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="130" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1ac8a0a4d664745d1e1d364051477cceab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.stateChangedChkAlerta1</definition>
+        <argsstring></argsstring>
+        <name>stateChangedChkAlerta1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="137" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="137" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1ac9eb37125e59154ae4a52d86dd4f950b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.stateChangedChkAlerta2</definition>
+        <argsstring></argsstring>
+        <name>stateChangedChkAlerta2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="147" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="147" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1a824e2abb8fae56fb9e1e717be893afb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.obtenerCasilla</definition>
+        <argsstring></argsstring>
+        <name>obtenerCasilla</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="158" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="158" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1ad2b406eb64afec77691ea9cb948e39fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.verificarTableroLleno</definition>
+        <argsstring></argsstring>
+        <name>verificarTableroLleno</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Verifica el tablero si esta lleno retorna True y si no
+retorna False
+
+:return:
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="164" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="164" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1a03974f85f3e539e3b25b4c6d1c153014" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.creacionNumeros</definition>
+        <argsstring></argsstring>
+        <name>creacionNumeros</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Funcion que crea Objetos numeros, Widgets de los numeros y su signal Mapper.
+:param i:
+:param valor:
+:param col:
+:param fila:
+:param visible:
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="178" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="178" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1a2f0494b5316de0f36057c788ee94bedf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.creacionBotones</definition>
+        <argsstring></argsstring>
+        <name>creacionBotones</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="193" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="193" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1ad01ebfe88f98c98f9ae79759b2e842af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.cambiarNumero</definition>
+        <argsstring></argsstring>
+        <name>cambiarNumero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Funcion que cambia el numero en el tablero gráfico
+:param n:
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="205" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="205" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1a06fd09150c43d8ed345473f78d15ae73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.jugadaValida</definition>
+        <argsstring></argsstring>
+        <name>jugadaValida</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Verifica si la jugada es valida         :param casilla:
+:param valor:
+:return:
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="236" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="236" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1a2ae3b41092df8aab696ea21ce4e3ae9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.jugadaCorrecta</definition>
+        <argsstring></argsstring>
+        <name>jugadaCorrecta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Verifica si la jugada es correcta         :param casilla:
+:param valor:
+:return:
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="250" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="250" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1aba7ba379fbf8b42dc8ff1e2a5884c4e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.colorOriginal</definition>
+        <argsstring></argsstring>
+        <name>colorOriginal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="261" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="261" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1a69afa66d148684c9ff528d44335670b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.colorInvalidas</definition>
+        <argsstring></argsstring>
+        <name>colorInvalidas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="268" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="268" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1af769a5dcdde2c8b5a6edd70b77672960" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.colorIncorrectas</definition>
+        <argsstring></argsstring>
+        <name>colorIncorrectas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="273" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="273" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1a54a131b93f52ac5dbd9c3ffcb8888b88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.inicializarTimer</definition>
+        <argsstring></argsstring>
+        <name>inicializarTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="279" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="279" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1afbf8637004c9fae4db79d7e2beaf57c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.actualizarTimer</definition>
+        <argsstring></argsstring>
+        <name>actualizarTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>actualiza el tiempo en el widget LCD</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="285" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="285" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1a1ccb72c504e09f04919e34418a846226" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.triggerAcercaDe</definition>
+        <argsstring></argsstring>
+        <name>triggerAcercaDe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="311" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="311" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1a9d1f77df45624e15ebfcb58896a937fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.triggerAyuda</definition>
+        <argsstring></argsstring>
+        <name>triggerAyuda</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="314" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="314" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1af8ad50f477151ecda2c6e76436ae00a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.triggerMejoresTiempos</definition>
+        <argsstring></argsstring>
+        <name>triggerMejoresTiempos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="317" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="317" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1afdfaf3e7d06aa50ec766fe212288fc29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.triggerGuardarPartida</definition>
+        <argsstring></argsstring>
+        <name>triggerGuardarPartida</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="320" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="320" bodyend="333"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1a9895205f897e2cd4e0552827253c74f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.triggerCargarPartida</definition>
+        <argsstring></argsstring>
+        <name>triggerCargarPartida</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="334" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="334" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sudoku_main_window_1_1_sudoku_main_window_1a01b9c578d67e3b0cb0fb0836b204e2e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SudokuMainWindow.SudokuMainWindow.tiempoGuardado</definition>
+        <argsstring></argsstring>
+        <name>tiempoGuardado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="356" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="356" bodyend="377"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Metodo constructor
+  Inicializa las variables usadas en la aplicacion e implementa las conexiones entre botones
+  y la barra de menu.
+</verbatim> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="12">
+        <label>SudokuMainWindow.SudokuMainWindow</label>
+        <link refid="class_sudoku_main_window_1_1_sudoku_main_window"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>QMainWindow</label>
+      </node>
+      <node id="14">
+        <label>sudokuui.Ui_MainWindow</label>
+        <link refid="classsudokuui_1_1_ui___main_window"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="16">
+        <label>SudokuMainWindow.SudokuMainWindow</label>
+        <link refid="class_sudoku_main_window_1_1_sudoku_main_window"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>QMainWindow</label>
+      </node>
+      <node id="18">
+        <label>sudokuui.Ui_MainWindow</label>
+        <link refid="classsudokuui_1_1_ui___main_window"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" line="24" column="1" bodyfile="C:/Users/ZAHIR  LUNA/Documents/GitHub/PySudoku/ui/SudokuMainWindow.py" bodystart="24" bodyend="378"/>
+    <listofallmembers>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a928fafad3bb263c11f16d84935cff2d2" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>__init__</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a2e0a25588fa107e4c61181ed80bb3a46" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>actionAcerca_de</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a727fd47e605aba698f3ccd7fdef2b559" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>actionAyuda</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a78dd95829203c345bcc2f41743348f57" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>actionCargar_partida</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a4e095dc0bbf558facc5b1e62cc325ff4" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>actionGuardar_partida</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1aece3a743957be27f6f09c6c882582958" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>actionMejores_tiempos</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1ac5a84bcb1c39736fbac28f62d6f3fc28" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>actionNueva_partida</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1acf580ed577baa24a3052ca3784cde3d0" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>actionSalir</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1afbf8637004c9fae4db79d7e2beaf57c2" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>actualizarTimer</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a3b5e5c8e03833814d82f4ca1531af9c2" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>ayudaUsada</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1af04c8ff967d04e7b7b63fa6bc6beb462" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>btnAyuda</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a58e053292b250741df9883947b3681b6" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>btnFinalizar</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1afe2dd318a5271ae1ea045c32cf82f931" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>btnLlenar</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1ad01ebfe88f98c98f9ae79759b2e842af" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>cambiarNumero</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a114dac730b306137fc13474cd9eabd8c" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>casilla</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1abe7885f4b93b68e82746d821d4ba9923" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>cboDificultad</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a6282b23abd869a67f2c219780778a8c6" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>centralWidget</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a8aa7947d3bd7e9face48a26d107f0aff" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>chkAlerta1</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a6dd6f7f93cf5c4505bdfe48dc93440d1" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>chkAlerta2</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a872ae8b9cd92af2bf64744c768cb7235" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>chkAyuda</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1adde0a7697330b695f90441f33def153c" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>chkPista</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a52670b6c332989395bc5ea2e22b934a4" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>clickBtnAyuda</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a3d717334d4dfec7d470cca6aca93055a" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>clickBtnFinalizar</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1adea80094a0be9e4f5cbde0c56713d64a" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>clickBtnLlenar</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a2fd32e4e0d7e82a464ac3898ccc4637c" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>colorCambiado</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1af769a5dcdde2c8b5a6edd70b77672960" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>colorIncorrectas</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a69afa66d148684c9ff528d44335670b8" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>colorInvalidas</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1aba7ba379fbf8b42dc8ff1e2a5884c4e9" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>colorOriginal</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a2f0494b5316de0f36057c788ee94bedf" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>creacionBotones</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a03974f85f3e539e3b25b4c6d1c153014" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>creacionNumeros</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a645017ef826b404061c0954d702e81e1" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>dificultad</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a6e9dc327440fb1404a0dd6ddb393ac55" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>gbNumeros</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1ad670263c469deb42388573cab852bbcb" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>gbOpciones</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a6114e11c94c892dcf77dd23789f51699" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>gridLayoutWidget</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1aff24a3956daf91fb973908fb3400c886" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>gridLayoutWidget_2</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a72c2a396c49ba9923f65bee3b2cff122" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>gridNumeros</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a53f586e421a5620c8266427717d65c5a" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>gridTablero</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a9655e75db8ffee6fce920fa812f98b4f" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>horizontalLayout</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a54a131b93f52ac5dbd9c3ffcb8888b88" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>inicializarTimer</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a2ae3b41092df8aab696ea21ce4e3ae9c" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>jugadaCorrecta</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a06fd09150c43d8ed345473f78d15ae73" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>jugadaValida</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1ad26c91c6900eab0caf64c40bcc65f630" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>label</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a886be2c8e87819b286060f8a47926f5b" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>layoutWidget</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a123c28199b8cdba685b8a0022b7f8875" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>lblDificultad</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a905a485955cc4100e693759f088ef606" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>lcdNumber</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a89e552c24ec54060de22f7b30664c31f" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>mainToolBar</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a24fb10bfd9502bdb77c073e738ef18e0" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>menuAyuda</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a9f5b2d7c8eee38437345d5f0462470dd" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>menuBar</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a819f425769527ecb41842b727c15fd1f" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>menuMenu</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1ae9b4ab2489626295aa20808e8ffeeeca" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>nombre</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1ac2e9cceaaf36e4d4d0ffbd646dca0fd9" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>numeros</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a824e2abb8fae56fb9e1e717be893afb6" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>obtenerCasilla</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a370ea64e9453cab45cf57647f8ce6cf9" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>opcionesNumeros</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1a757ddd14ff06b39edc0d04a4d7e10a57" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>retranslateUi</name></member>
+      <member refid="classsudokuui_1_1_ui___main_window_1af7d8582f64fe04816c4ea928b3601f9a" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>setupUi</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a012a36be9d3f9648a1c1f89649a8d259" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>sgnlMprNumero</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a00f4ef9be740b78d47a6c8d99a102205" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>sgnlMprOpcion</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1ac8a0a4d664745d1e1d364051477cceab" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>stateChangedChkAlerta1</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1ac9eb37125e59154ae4a52d86dd4f950b" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>stateChangedChkAlerta2</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a998eec966a54bc105599f0b0da7c1c85" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>stateChangedChkAyuda</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a549e0432a4386a67cb4ee4d3741c0835" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>tableroExiste</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1afe8f983f779fc16f942e202865024b15" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>tableroLleno</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a01b9c578d67e3b0cb0fb0836b204e2e3" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>tiempoGuardado</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1ade06c7abd46ed3d4385ebf0e01b670b1" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>timeInicial</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1ace319036ada7a045ab675ff38fa8ddb1" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>timer</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a252168ae5d3f829d9403336f3c8893a3" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>timerTexto</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1af4af3149f7ab37219efac57129609402" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>timerValor</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a1ccb72c504e09f04919e34418a846226" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>triggerAcercaDe</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a9d1f77df45624e15ebfcb58896a937fc" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>triggerAyuda</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1a9895205f897e2cd4e0552827253c74f9" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>triggerCargarPartida</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1afdfaf3e7d06aa50ec766fe212288fc29" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>triggerGuardarPartida</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1af8ad50f477151ecda2c6e76436ae00a3" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>triggerMejoresTiempos</name></member>
+      <member refid="class_sudoku_main_window_1_1_sudoku_main_window_1ad2b406eb64afec77691ea9cb948e39fe" prot="public" virt="non-virtual"><scope>SudokuMainWindow::SudokuMainWindow</scope><name>verificarTableroLleno</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
