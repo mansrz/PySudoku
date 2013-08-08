@@ -106,10 +106,7 @@ y se lo incluyó entre los 9 problemas del ICPC (sigla de International Collegia
 \begin{itemize}
 \item  Algoritmo implementado.
 \begin{itemize}
-	\item Se genera un tablero con numeros random hasta que este sea resolvible.
-	\item Se verifica si es resolvible.
-	\item Se trata de resolver por arreglos de posibildades de numeros en casillas.
-	\item Si no se puede resolver así, se utiliza la técnica del Backtracking. 
+	\item Se llama a backtracking hasta que gener un tablero resolvivble
 
 	\includegraphics[width=0.9\textwidth]{./imagenes/Codigo_backtrcking.png}
 
@@ -122,7 +119,7 @@ y se lo incluyó entre los 9 problemas del ICPC (sigla de International Collegia
 \item  Dificultad.
 \begin {itemize}
 	\item Se procede a quitar numeros del arreglo, y comprobar si se puede resolver y tienen única solución.
-	\item Se agregan en un pila los numeros y posiciones que fueron quitadas y se podia obtener única solución.
+	\item Se agregan en una lista, los numeros y posiciones que fueron quitadas y se podia obtener única solución.
 	\item Segun el numero de dificultad se obtienen posiciones random repetidamente tantas casillas hay, y se ve las veces 
 	que puede estar ese numero.
 
@@ -137,6 +134,7 @@ y se lo incluyó entre los 9 problemas del ICPC (sigla de International Collegia
  	\includegraphics[width=0.55\textwidth]{./imagenes/PantallaJugando.png}
 
 	\includegraphics[width=0.55\textwidth]{./imagenes/Codigo_finalizar.png}
+
 	Ademas el juego finaliza una vez que se llene todo. 
 
 \item   Puntaje (3).
